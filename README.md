@@ -1,3 +1,3 @@
 # Atencion1 Operations User Manual
 
-Atention-1 Operations User Manual Files
+This repository has the Atention-1 Operations User Manual main files: glosary, roles functions description and video links.
