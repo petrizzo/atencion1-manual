@@ -10,22 +10,24 @@
 *  **Coordinador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a tareas de gestión de servicios y atenciones dentro de la plataforma Atención-1.
 *  **Despachador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a labores de gestión de tripulaciones, operaciones con traslados de afiliados, entregas de medicamentos y otros servicios ofrecidos por Atención-1 que involucren el traslado de medicamentos, personal y/o equipos.
 *  **Director**: Rol de usuario del Atención-1, con permisos de acceso a la gestión integral de todas las operaciones de Atención-1, desde la creación de atenciones, hasta el cierre y cancelación de servicios y atenciones y la generación de reportes.
-*  Destino
-*  Diagnóstico
-*  EMD
-*  Gerente
-*  Indicaciones 
-*  Médico
-*  Medicamento
-*  OMT
-*  Organización
-*  Operador
-*  Plan
-*  Póliza
-*  Reporte
-*  Servicio
-*  Síntoma
-*  TLD
-*  Tripulación
-*  Usuario  
+*  **Destino**: Dirección en la que se prevé termine un servicio que involucre un traslado o el desplazamiento de una unidad vehicular.
+*  **Diagnóstico**: Procedimiento médico a través del cual se identifica cualquier enfermedad, sindrome o similar.
+*  **EMD**: Abreviatura de Entrega de Medicamentos Domiciliaria, que es parte de los servicios gestionados por Atención-1 y que permite el envío de medicamentos solicitados por cualquier afiliado de pólizas con estos beneficios, al domicilio que éste indique.
+*  **Gerente**: Rol de usuario del Atención-1, con permisos de acceso a la gestión de las operaciones y supervisión en el mismo. Este rol es el encargado de la solicitud y generación de reportes sobre estatus en tiempo real de las atenciones y servicios y creación de tripulación entre otros.
+*  **Indicaciones**: Conjunto de instrucciones detalladas sobre medicamentos indicados según diagnóstico, y presentadas en un récipe médico a la persona afiliada con la información necesaria para la realización del tratamiento médico indicado por el personal médico.
+*  **Médico**
+*  **Medicamento**
+*  **OMT**
+*  **Organización**
+*  **Operador**
+*  **Plan**
+*  **Póliza**
+*  **Reporte**
+*  **Servicio**
+*  **Síntoma**
+*  **TLD**
+*  **Tripulación**
+*  **Usuario**
+
+
   t_tqRYkQkvoiTAit_h4v
