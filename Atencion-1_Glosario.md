@@ -13,9 +13,9 @@
 *  **Destino**: Dirección en la que se prevé termine un servicio que involucre un traslado o el desplazamiento de una unidad vehicular.
 *  **Diagnóstico**: Procedimiento médico a través del cual se identifica cualquier enfermedad, sindrome o similar.
 *  **EMD**: Abreviatura de Entrega de Medicamentos Domiciliaria, que es parte de los servicios gestionados por Atención-1 y que permite el envío de medicamentos solicitados por cualquier afiliado de pólizas con estos beneficios, al domicilio que éste indique.
-*  **Gerente**: Rol de usuario del Atención-1, con permisos de acceso a la gestión de las operaciones y supervisión en el mismo. Este rol es el encargado de la solicitud y generación de reportes sobre estatus en tiempo real de las atenciones y servicios y creación de tripulación entre otros.
+*  **Gerente**: Rol de usuario de Atención-1, con permisos de acceso a la gestión de las operaciones y supervisión en el mismo. Este rol es el encargado de la solicitud y generación de reportes sobre estatus en tiempo real de las atenciones y servicios y creación de tripulación entre otros.
 *  **Indicaciones**: Conjunto de instrucciones detalladas sobre medicamentos indicados según diagnóstico, y presentadas en un récipe médico a la persona afiliada con la información necesaria para la realización del tratamiento médico indicado por el personal médico.
-*  **Médico**
+*  **Médico**: Rol deusuario de Atención-1, con permisos de acceso
 *  **Medicamento**
 *  **OMT**
 *  **Organización**
