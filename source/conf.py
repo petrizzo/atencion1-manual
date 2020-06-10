@@ -55,6 +55,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
+
 import sphinx_rtd_theme
 
 html_theme = 'sphinx_rtd_theme'

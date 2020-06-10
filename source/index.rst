@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Atencion-1 Manual de Usuarios's documentation!
-=========================================================
+Manual de Usuarios Atención-1
+=============================
 
 .. toctree::
    :maxdepth: 2
@@ -19,8 +19,8 @@ Welcome to Atencion-1 Manual de Usuarios's documentation!
    about.rst
 
 
-Indices and tables
-==================
+Indices y tablas
+================
 
 * :ref:`genindex`
 * :ref:`modindex`
