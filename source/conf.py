@@ -18,11 +18,12 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Atencion-1 Manual de Usuarios'
-copyright = '2020, qu4nt'
+copyright = '2020, Venemergencia'
 author = 'qu4nt'
 
 # The full version, including alpha/beta/rc tags
-release = 'june,2020'
+release = 'junio,2020'
+version = '0.1'
 
 
 # -- General configuration ---------------------------------------------------

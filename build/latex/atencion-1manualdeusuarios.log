@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.17)  9 JUN 2020 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.17)  15 JUN 2020 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,90 +854,80 @@ LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <10> not available
 ] [2
 
 ]
+<symbol_grupov_alt.png, id=50, 271.0125pt x 271.0125pt>
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 98
+.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+File: symbol_grupov_alt.png Graphic file (type png)
+<use symbol_grupov_alt.png>
+Package pdftex.def Info: symbol_grupov_alt.png  used on input line 98.
+(pdftex.def)             Requested size: 271.01183pt x 271.01183pt.
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+ [1 <./symbol_grupov_alt.png>]
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+[2
+
+]
 Cap\'{\i }tulo 1.
-[1
-
-]
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
- [2
-
-]
-Cap\'{\i }tulo 2.
 [3]
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
+LaTeX Info: Redefining \. on input line 106.
+LaTeX Info: Redefining \% on input line 106.
  [4
 
 ]
-Cap\'{\i }tulo 3.
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 109.
 [5]
-LaTeX Info: Redefining \. on input line 208.
-LaTeX Info: Redefining \% on input line 208.
- [6]
-Cap\'{\i }tulo 4.
-[7
-
-]
 LaTeX Info: Redefining \. on input line 211.
 LaTeX Info: Redefining \% on input line 211.
+ [6]
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
+ [7]
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
  [8
 
 ]
-Cap\'{\i }tulo 5.
-[9]
-LaTeX Info: Redefining \. on input line 214.
-LaTeX Info: Redefining \% on input line 214.
- [10
-
-]
-Cap\'{\i }tulo 6.
-[11]
-LaTeX Info: Redefining \. on input line 217.
-LaTeX Info: Redefining \% on input line 217.
- [12
-
-]
-Cap\'{\i }tulo 7.
-[13]
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
- [14
-
-]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 3.
 (./atencion-1manualdeusuarios.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./atencion-1manualdeusuarios.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `atencion-1manualdeusuarios.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: E6DDDB741219747C1B8FAB0F619383C5;1070.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+(rerunfilecheck)             Checksum: 30FC58E6E203BE951C401BCEC186AC18;385.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 14063 strings out of 492167
- 193861 string characters out of 6131558
- 296656 words of memory out of 5000000
- 18138 multiletter control sequences out of 15000+600000
- 43133 words of font info for 52 fonts, out of 8000000 for 9000
+ 14131 strings out of 492167
+ 194910 string characters out of 6131558
+ 297818 words of memory out of 5000000
+ 18185 multiletter control sequences out of 15000+600000
+ 50856 words of font info for 63 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 42i,11n,49p,386b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,49p,386b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helveti
 c/uhvbo8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb>
-Output written on atencion-1manualdeusuarios.pdf (19 pages, 71693 bytes).
+Output written on atencion-1manualdeusuarios.pdf (13 pages, 92841 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
