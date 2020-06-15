@@ -1,6 +1,5 @@
-*******
-Portada
-*******
+
+.. image:: ./imagenes/Qu4nt - Avatar -26.png
 
 # Atención-1
 # Manual de Usuario
