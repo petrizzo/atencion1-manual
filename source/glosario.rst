@@ -23,14 +23,11 @@ Glosario
 *  **Organización**: Entidad colectiva, de tipo Contratante, Cliente o Externo, que presta o recibe servicios de salud a través de la plataforma Atención-1.
 *  **Proveedor Externo**: Empresas de traslados y servicios médicos que sirve de apoyo en los servicios AMD y EMD cuando éstos se prestan fuera del ámbito de la Gran Caracas.
 *  **Operador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a tareas de toma y registro de atenciones y solicitudes de servicios dentro de la plataforma Atención-1.
-*  **Plan**: Características relativas a tipo de servicios disponibles
+*  **Plan**: Conjunto de servicios y características disponibles según las póliza contratada por el afiliado.
 *  **Póliza**: Número que identifica al documento que recoge las condiciones generales del seguro contratado, y las condiciones particulares así como los suplementos o apéndices emitidos para complementarla o modificarla.
-*  **Reporte**
-*  **Servicio**
-*  **Síntoma**
-*  **TLD**
-*  **Tripulación**
-*  **Usuario**
-
-
-  t_tqRYkQkvoiTAit_h4v
+*  **Reporte**: Documento digital obtenido a través del sistema Atención-1 que permite plasmar de forma resumida, a través de gráficos y tablas, información relativa a servicios, clientes y afiliados atendidos, fechas y horas más utilizadas por los afiliados al sistema, para un periodo de tiempo.
+*  **Servicio**: Prestación sanitaria que se ofrece a afiliados dentro de la plataforma Atención-1.
+*  **Síntoma**: Alteración de las condiciones normales del organismo, que permite evidenciar la presencia de una enfermedad, su determinación ayuda a establecer la naturaleza de la enfermedad.
+*  **TLD**: Abreviatura de Traslado, que es parte de los servicios gestionados por Atención-1 y que implica el desplazamiento de un vehículo de Venemergencia o de algún proveedor externo, a fin de transportar a un afiliado desde un domicilio hasta un centro asistencial.
+*  **Tripulación**: Conjunto de profesionales de la salud y logística que están involucrados en servicios ofrecidos a afiliados, y que se trasladan en un vehículo automotor con el propósito de ofrecer algún servicio de los disponibles en Atención-1.
+*  **Usuario**: Nombre genérico utilizado para designar el conjunto de roles disponibles en Atención-1 al personal de Venemergencia para ofrecer servicios médicos a través de la plataforma.
