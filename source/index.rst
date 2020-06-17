@@ -12,7 +12,6 @@ Manual de Usuarios Atención-1
    descripcion_software.rst
    roles_funciones.rst
    buenas_prácticas.rst
-   anexos.rst
    about.rst
 
 
