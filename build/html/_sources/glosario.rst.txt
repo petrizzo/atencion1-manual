@@ -1,6 +1,7 @@
-********
+.. _glosario:
+
 Glosario
-********
+========
 
 *  **Administrador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a la interfaz administrativa de la plataforma.
 *  **Afiliado**: Persona que contrata o es beneficiario de una póliza de seguros. Atención-1 maneja dos tipos de afiliados: Titular (persona a nombre de quien figura la póliza), y Beneficiario/a (pesona que se incluye en la cobertura de la póliza)
