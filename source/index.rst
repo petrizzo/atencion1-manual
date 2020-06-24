@@ -7,10 +7,11 @@ Manual de Usuarios Atención-1
    :maxdepth: 2
    :caption: Contenidos:
 
-   glosario.rst
    descripcion_software.rst
    roles_funciones.rst
    buenas_prácticas.rst
+   permisos.rst
+   glosario.rst
    about.rst
 
 
