@@ -18,7 +18,7 @@ Glosario
 *  **EMD**: Abreviatura de Entrega de Medicamentos Domiciliaria, que es parte de los servicios gestionados por Atención-1 y que permite el envío de medicamentos solicitados por cualquier afiliado de pólizas con estos beneficios, al domicilio que éste indique.
 *  **Gerente**: Rol de usuario de Atención-1, con permisos de acceso a la gestión de las operaciones y supervisión en el mismo. Este rol es el encargado de la solicitud y generación de reportes sobre estatus en tiempo real de las atenciones y servicios y creación de tripulación entre otros.
 *  **Indicaciones**: Conjunto de instrucciones detalladas sobre medicamentos indicados según diagnóstico, y presentadas en un récipe médico a la persona afiliada con la información necesaria para la realización del tratamiento médico indicado por el personal médico.
-*  **Médico**: Rol deusuario de Atención-1, con permisos de acceso
+*  **Médico**: Rol de usuario de Atención-1, con permisos de atención de un servicio OMT y creación de servicios sucesivos.
 *  **Medicamento**: Sustancia que es utilizada en la prevención o tratamiento de alguna enfermedad, bien sea eliminando sus efectos en el organismo, o mitigándolos.
 *  **OMT**: Abreviatura de Orientación Médica Telefónica, que es parte de los servicios gestionados por Atención-1 y que implica la atención telefónica de afiliados en la solución de sus consultas o derivación hacia otros servicios.
 *  **Organización**: Entidad colectiva, de tipo Contratante, Cliente o Externo, que presta o recibe servicios de salud a través de la plataforma Atención-1.
