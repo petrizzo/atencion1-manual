@@ -1,5 +1,5 @@
-Permisología según roles en Atención-1
-======================================
+Permisos según roles en Atención-1
+==================================
 
 La siguiente tabla resume los distintos permisos de creación, modificación, eliminación y consulta de atenciones, servicios, afiliados, emisión de reportes y otros dentro de Atención-1 agrupados por roles dentro del sistema.
 
