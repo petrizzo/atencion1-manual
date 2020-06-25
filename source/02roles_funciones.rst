@@ -10,9 +10,10 @@ Si quieres conocer otros conceptos de la plataforma Atención-1, te sugerimos re
    :maxdepth: 2
    :caption: Tipos de roles de usuarios en Atención-1:
 
-   operador.rst
-   medico.rst
-   despachador.rst
-   coordinador.rst
-   gerente.rst
-   director.rst
+   01operador.rst
+   02medico.rst
+   03despachador.rst
+   04coordinador.rst
+   05asistente.rst
+   06gerente.rst
+   07director.rst
