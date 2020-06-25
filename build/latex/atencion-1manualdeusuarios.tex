@@ -76,8 +76,8 @@
 
 
 \title{Atencion\sphinxhyphen{}1 Manual de Usuarios}
-\date{15 de junio de 2020}
-\release{june,2020}
+\date{25 de junio de 2020}
+\release{junio,2020}
 \author{qu4nt}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Versión}
@@ -100,20 +100,874 @@
 
 
 
-\chapter{v. 0.1}
-\label{\detokenize{index:v-0-1}}
+\chapter{Descripción de Atención\sphinxhyphen{}1}
+\label{\detokenize{01descripcion_software:descripcion-de-atencion-1}}\label{\detokenize{01descripcion_software::doc}}
+Atención\sphinxhyphen{}1 es una aplicación web del Grupo Venemergencia que tiene como finalidad gestionar los siguientes servicios de atención y emergencias médicas: Orientación Médica Telefónica (OMT), Atención Médica Domiciliaria (AMD), Traslados en Ambulancia, entre otros.
 
-\chapter{Junio, 2020}
-\label{\detokenize{index:junio-2020}}
+La aplicación permite el registro de contacto y datos personales del paciente, los servicios requeridos de cada atención y su seguimiento, lo que ayudará a generar los datos necesarios para la creación de informes estadísticos.
 
-\section{qu4nt}
-\label{\detokenize{index:qu4nt}}
+La solicitud del servicio comienza a partir del primer contacto del paciente, ya sea por medio de una llamada telefónica u otro canal establecido. Para que dicho paciente pueda gozar de este servicio debe estar afiliado a un plan de póliza de atención médica.
 
-\subsection{Introducción}
-\label{\detokenize{introduccion:introduccion}}\label{\detokenize{introduccion::doc}}
+Por medio de un operador se crea la atención y verifican los datos del paciente para luego comunicarse con el médico correspondiente que sería el responsable de proporcionar el tratamiento a partir de los síntomas y observaciones. El tratamiento comprende récipe, indicaciones y la orden de exámenes médicos. También se brindan servicios externos de atención que incluyen atención médica domiciliaria, entrega de medicamentos y servicios de traslado, pero estos servicios dependen, una vez más, del plan de póliza del paciente. Por ello, la organización de la tripulación comprendida por los médicos, paramédicos y choferes deben estar organizados para el cumplimiento de sus guardias las cuales se encuentran bajo la responsabilidad del despachador.
 
-\subsection{Glosario}
-\label{\detokenize{glosario:glosario}}\label{\detokenize{glosario::doc}}\begin{itemize}
+Grupo Venemergencia ofrece distintos servicios de atención médica como traslados, consultas a domicilio, despacho de medicamentos, entre otros, cuya información será manejada en su totalidad a través de la aplicación Atención\sphinxhyphen{}1.
+
+
+\chapter{Funciones y roles en Atención\sphinxhyphen{}1}
+\label{\detokenize{02roles_funciones:funciones-y-roles-en-atencion-1}}\label{\detokenize{02roles_funciones::doc}}
+Atención\sphinxhyphen{}1 organiza su funcionamiento a través de cinco roles de usuarios principales. Un \sphinxstylestrong{rol} es el conjunto de permisos y atribuciones con los que cuenta un usuario del sistema y que le permite al usuario que cuenta con él, realizar determinadas funciones dentro de la plataforma.
+
+Si quieres conocer otros conceptos de la plataforma Atención\sphinxhyphen{}1, te sugerimos revisar este {\hyperref[\detokenize{05glosario:glosario}]{\sphinxcrossref{\DUrole{std,std-ref}{Glosario}}}} que hemos preparado.
+
+
+\section{Operador/a}
+\label{\detokenize{01operador:operador-a}}\label{\detokenize{01operador::doc}}
+El Operador es la persona que atiende la llamada telefónica y agrega la información del afiliado y su solicitud en la plataforma Atención\sphinxhyphen{}1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención\sphinxhyphen{}1, puedes revisar este {\hyperref[\detokenize{05glosario:glosario}]{\sphinxcrossref{\DUrole{std,std-ref}{Glosario}}}} que hemos preparado.
+
+Para ingresar a la plataforma como Operador, debemos escribir en la barra de dirección de nuestro navegador: \sphinxurl{https://atencion1.venedigital.com}. Una vez allí ingresaremos nuestro usuario y contraseña para ingresar a la plataforma.
+
+\noindent\sphinxincludegraphics{{PantallaInicialAtencion1}.png}
+
+Una vez dentro de la plataforma, vemos el panel de atenciones abiertas, en progreso y por cerrar. Para crear una nueva \sphinxstylestrong{atención} pinchamos en el círculo de color verde con un signo «+» en su interior.
+
+
+\section{Medico/a}
+\label{\detokenize{02medico:medico-a}}\label{\detokenize{02medico::doc}}
+
+\section{Despachador/a}
+\label{\detokenize{03despachador:despachador-a}}\label{\detokenize{03despachador::doc}}
+
+\section{Coordinador/a}
+\label{\detokenize{04coordinador:coordinador-a}}\label{\detokenize{04coordinador::doc}}
+
+\section{Asistente}
+\label{\detokenize{05asistente:asistente}}\label{\detokenize{05asistente::doc}}
+
+\section{Gerente}
+\label{\detokenize{06gerente:gerente}}\label{\detokenize{06gerente::doc}}
+
+\section{Director/a}
+\label{\detokenize{07director:director-a}}\label{\detokenize{07director::doc}}
+
+\chapter{Buenas prácticas}
+\label{\detokenize{03buenas_pr_xe1cticas:buenas-practicas}}\label{\detokenize{03buenas_pr_xe1cticas::doc}}
+
+\chapter{Permisos según roles en Atención\sphinxhyphen{}1}
+\label{\detokenize{04permisos:permisos-segun-roles-en-atencion-1}}\label{\detokenize{04permisos::doc}}
+La siguiente tabla resume los distintos permisos de creación, modificación, eliminación y consulta de atenciones, servicios, afiliados, emisión de reportes y otros dentro de Atención\sphinxhyphen{}1 agrupados por roles dentro del sistema.
+
+
+\begin{savenotes}\sphinxatlongtablestart\begin{longtable}[c]{|*{11}{\X{1}{11}|}}
+\hline
+\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily 
+Roles
+&\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily \\
+\hline\sphinxstyletheadfamily 
+N
+&\sphinxstyletheadfamily 
+Acciones
+&\sphinxstyletheadfamily 
+Operador
+&\sphinxstyletheadfamily 
+Despachador
+&\sphinxstyletheadfamily 
+Médico
+&\sphinxstyletheadfamily 
+Coordinador
+&\sphinxstyletheadfamily 
+Asistente
+&\sphinxstyletheadfamily 
+Gerente
+&\sphinxstyletheadfamily 
+Director
+&\sphinxstyletheadfamily 
+Admin
+&\sphinxstyletheadfamily \\
+\hline
+\endfirsthead
+
+\multicolumn{11}{c}%
+{\makebox[0pt]{\sphinxtablecontinued{\tablename\ \thetable{} \textendash{} proviene de la página anterior}}}\\
+\hline
+\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily 
+Roles
+&\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily &\sphinxstyletheadfamily \\
+\hline\sphinxstyletheadfamily 
+N
+&\sphinxstyletheadfamily 
+Acciones
+&\sphinxstyletheadfamily 
+Operador
+&\sphinxstyletheadfamily 
+Despachador
+&\sphinxstyletheadfamily 
+Médico
+&\sphinxstyletheadfamily 
+Coordinador
+&\sphinxstyletheadfamily 
+Asistente
+&\sphinxstyletheadfamily 
+Gerente
+&\sphinxstyletheadfamily 
+Director
+&\sphinxstyletheadfamily 
+Admin
+&\sphinxstyletheadfamily \\
+\hline
+\endhead
+
+\hline
+\multicolumn{11}{r}{\makebox[0pt][r]{\sphinxtablecontinued{continué en la próxima página}}}\\
+\endfoot
+
+\endlastfoot
+
+1
+&
+Visualizar listados de atenciones
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+2
+&
+Visualizar detalles de atenciones
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+3
+&
+Crear nueva atención
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+4
+&
+Editar información general de una atención
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+5
+&
+Editar datos personales de un afiliado
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)(*)
+&\\
+\hline
+6
+&
+Editar pólizas de un afiliado
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)(*)
+&\\
+\hline
+7
+&
+Editar historial de atenciones de un afiliado
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)(*)
+&\\
+\hline
+8
+&
+Visualizar listado de servicios asociados a una atención
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+9
+&
+Crear un nuevo servicio
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+10
+&
+Visualizar detalles de un servicio
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+11
+&
+Editar información general de un servicio
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+12
+&
+Editar detalles médicos (diagnósticos y solicitudes) de un servicio OMT
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+13
+&
+Editar detalles médicos (diagnósticos y solicitudes) y operativos (tripulación y ruta) de un servicio AMD
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+14
+&
+Editar detalles médicos (diagnósticos) y operativos (tripulación y ruta) de un servicio Traslado
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+15
+&
+Editar detalles operativos (tripulación y ruta, nota de despacho) de un servicio EMD
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+\\
+\hline
+16
+&
+Visualizar el flujo de trabajo asociado a servicios
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+17
+&
+Editar el flujo de trabajo asociado a un servicio OMT
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+18
+&
+Editar el flujo de trabajo asociado a un servicio AMD/Traslado/EMD
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+19
+&
+Crear un servicio sucesivo
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+20
+&
+Cerrar un servicio
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+21
+&
+Cancelar un servicio OMT
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+22
+&
+Cancelar un servicio AMD/Traslado/EMD
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+23
+&
+Visualizar listado de afiliados
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&\\
+\hline
+24
+&
+Buscar afiliado
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+25
+&
+Crear nuevo afiliado
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+26
+&
+Editar afiliado
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)(*)
+&\\
+\hline
+27
+&
+Editar perfiles de usuario
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)(*)
+&\\
+\hline
+28
+&
+Asignar roles
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&\\
+\hline
+29
+&
+Crear tripulaciones
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+30
+&
+Visualizar tripulaciones
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&\\
+\hline
+31
+&
+Editar/eliminar tripulaciones
+&
+✗
+&
+\(\checkmark\)
+&
+✗
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)(*)
+&\\
+\hline
+32
+&
+Generar reportes
+&
+✗
+&
+✗
+&
+✗
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&\\
+\hline
+33
+&
+Imprimir o generar PDF de ticket de datos de servicios
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&\\
+\hline
+34
+&
+Imprimir o generar PDF de ticket de nota de despacho de medicamentos
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&\\
+\hline
+35
+&
+Imprimir o generar PDF de ticket de tripulaciones
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+\(\checkmark\)
+&
+✗
+&\\
+\hline&\begin{itemize}
+\item {} 
+Solo bajo la autorización de Director.
+
+\end{itemize}
+&&&&&&&&&\\
+\hline
+\end{longtable}\sphinxatlongtableend\end{savenotes}
+
+
+\chapter{Glosario}
+\label{\detokenize{05glosario:glosario}}\label{\detokenize{05glosario:id1}}\label{\detokenize{05glosario::doc}}\begin{itemize}
 \item {} 
 \sphinxstylestrong{Administrador}: Rol de usuario del Sistema Atención\sphinxhyphen{}1, con permisos de acceso a la interfaz administrativa de la plataforma.
 
@@ -160,7 +1014,7 @@
 \sphinxstylestrong{Indicaciones}: Conjunto de instrucciones detalladas sobre medicamentos indicados según diagnóstico, y presentadas en un récipe médico a la persona afiliada con la información necesaria para la realización del tratamiento médico indicado por el personal médico.
 
 \item {} 
-\sphinxstylestrong{Médico}: Rol deusuario de Atención\sphinxhyphen{}1, con permisos de acceso
+\sphinxstylestrong{Médico}: Rol de usuario de Atención\sphinxhyphen{}1, con permisos de atención de un servicio OMT y creación de servicios sucesivos.
 
 \item {} 
 \sphinxstylestrong{Medicamento}: Sustancia que es utilizada en la prevención o tratamiento de alguna enfermedad, bien sea eliminando sus efectos en el organismo, o mitigándolos.
@@ -178,47 +1032,34 @@
 \sphinxstylestrong{Operador}: Rol de usuario del Sistema Atención\sphinxhyphen{}1, con permisos de acceso a tareas de toma y registro de atenciones y solicitudes de servicios dentro de la plataforma Atención\sphinxhyphen{}1.
 
 \item {} 
-\sphinxstylestrong{Plan}: Características relativas a tipo de servicios disponibles
+\sphinxstylestrong{Plan}: Conjunto de servicios y características disponibles según las póliza contratada por el afiliado.
 
 \item {} 
 \sphinxstylestrong{Póliza}: Número que identifica al documento que recoge las condiciones generales del seguro contratado, y las condiciones particulares así como los suplementos o apéndices emitidos para complementarla o modificarla.
 
 \item {} 
-\sphinxstylestrong{Reporte}
+\sphinxstylestrong{Reporte}: Documento digital obtenido a través del sistema Atención\sphinxhyphen{}1 que permite plasmar de forma resumida, a través de gráficos y tablas, información relativa a servicios, clientes y afiliados atendidos, fechas y horas más utilizadas por los afiliados al sistema, para un periodo de tiempo.
 
 \item {} 
-\sphinxstylestrong{Servicio}
+\sphinxstylestrong{Servicio}: Prestación sanitaria que se ofrece a afiliados dentro de la plataforma Atención\sphinxhyphen{}1.
 
 \item {} 
-\sphinxstylestrong{Síntoma}
+\sphinxstylestrong{Síntoma}: Alteración de las condiciones normales del organismo, que permite evidenciar la presencia de una enfermedad, su determinación ayuda a establecer la naturaleza de la enfermedad.
 
 \item {} 
-\sphinxstylestrong{TLD}
+\sphinxstylestrong{TLD}: Abreviatura de Traslado, que es parte de los servicios gestionados por Atención\sphinxhyphen{}1 y que implica el desplazamiento de un vehículo de Venemergencia o de algún proveedor externo, a fin de transportar a un afiliado desde un domicilio hasta un centro asistencial.
 
 \item {} 
-\sphinxstylestrong{Tripulación}
+\sphinxstylestrong{Tripulación}: Conjunto de profesionales de la salud y logística que están involucrados en servicios ofrecidos a afiliados, y que se trasladan en un vehículo automotor con el propósito de ofrecer algún servicio de los disponibles en Atención\sphinxhyphen{}1.
 
 \item {} 
-\sphinxstylestrong{Usuario}
+\sphinxstylestrong{Usuario}: Nombre genérico utilizado para designar el conjunto de roles disponibles en Atención\sphinxhyphen{}1 al personal de Venemergencia para ofrecer servicios médicos a través de la plataforma.
 
 \end{itemize}
-\begin{quote}
-
-t\_tqRYkQkvoiTAit\_h4v
-\end{quote}
 
 
-\subsection{Descripción de Atención\sphinxhyphen{}1}
-\label{\detokenize{descripcion_software:descripcion-de-atencion-1}}\label{\detokenize{descripcion_software::doc}}
-
-\subsection{Funciones y roles en Atención\sphinxhyphen{}1}
-\label{\detokenize{roles_funciones:funciones-y-roles-en-atencion-1}}\label{\detokenize{roles_funciones::doc}}
-
-\subsection{Buenas prácticas}
-\label{\detokenize{buenas_pr_xe1cticas:buenas-practicas}}\label{\detokenize{buenas_pr_xe1cticas::doc}}
-
-\subsection{Acerca de Atención\sphinxhyphen{}1}
-\label{\detokenize{about:acerca-de-atencion-1}}\label{\detokenize{about::doc}}
+\chapter{Acerca de Atención\sphinxhyphen{}1}
+\label{\detokenize{06about:acerca-de-atencion-1}}\label{\detokenize{06about::doc}}
 
 \chapter{Indices y tablas}
 \label{\detokenize{index:indices-y-tablas}}\begin{itemize}

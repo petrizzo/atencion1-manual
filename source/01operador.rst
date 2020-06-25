@@ -8,3 +8,5 @@ Para ingresar a la plataforma como Operador, debemos escribir en la barra de dir
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
 
+Una vez dentro de la plataforma, vemos el panel de atenciones abiertas, en progreso y por cerrar. Para crear una nueva **atención** pinchamos en el círculo de color verde con un signo "+" en su interior.
+
