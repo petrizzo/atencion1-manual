@@ -17,15 +17,15 @@ Glosario
 *  **Diagnóstico**: Procedimiento médico a través del cual se identifica cualquier enfermedad, sindrome o similar.
 *  **EMD**: Abreviatura de Entrega de Medicamentos Domiciliaria, que es parte de los servicios gestionados por Atención-1 y que permite el envío de medicamentos solicitados por cualquier afiliado de pólizas con estos beneficios, al domicilio que éste indique. Este tipo de entregas tiene, además, varias características, por ejemplo, **Entrega de inventario críticos** cuando incluye medicamentos de uso hospitalario, **Entrega de inventario agudo** cuando se trata de un tratamiento asignado durante un tiempo de entre 7 y 14 días por patología diagnosticada, finalmente se incluye en este servicio **Entrega de equipos médicos** cuando incluye algún tipo de suministros.
 *  **Gerente**: Rol de usuario de Atención-1, con permisos de acceso a la gestión de las operaciones y supervisión en el mismo. Este rol es el encargado de la solicitud y generación de reportes sobre estatus en tiempo real de las atenciones y servicios y creación de tripulación entre otros.
-*  **PHD**: Abreviatura de Plan de Hospitalización Domiciliaria, que es un servicio que incluye la hospitalización del paciente en su domicilio.
 *  **Indicaciones**: Conjunto de instrucciones detalladas sobre medicamentos indicados según diagnóstico, y presentadas en un récipe médico a la persona afiliada con la información necesaria para la realización del tratamiento médico indicado por el personal médico.
 *  **Médico**: Rol de usuario de Atención-1, con permisos de atención de un servicio OMT y creación de servicios sucesivos.
 *  **Medicamento**: Sustancia que es utilizada en la prevención o tratamiento de alguna enfermedad, bien sea eliminando sus efectos en el organismo, o mitigándolos.
 *  **OMT**: Abreviatura de Orientación Médica Telefónica, que es parte de los servicios gestionados por Atención-1 y que implica la atención telefónica de afiliados en la solución de sus consultas o derivación hacia otros servicios.
-*  **Organización**: Entidad colectiva, de tipo Contratante, Cliente o Externo, que presta o recibe servicios de salud a través de la plataforma Atención-1.
-*  **Proveedor Externo**: Empresas de traslados y servicios médicos que sirve de apoyo en los servicios AMD y EMD cuando éstos se prestan fuera del ámbito de la Gran Caracas.
 *  **Operador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a tareas de toma y registro de atenciones y solicitudes de servicios dentro de la plataforma Atención-1.
+*  **Organización**: Entidad colectiva, de tipo Contratante, Cliente o Externo, que presta o recibe servicios de salud a través de la plataforma Atención-1.
+*  **PHD**: Abreviatura de Plan de Hospitalización Domiciliaria, que es un servicio que incluye la hospitalización del paciente en su domicilio.
 *  **Plan**: Conjunto de servicios y características disponibles según las póliza contratada por el afiliado.
+*  **Proveedor Externo**: Empresas de traslados y servicios médicos que sirve de apoyo en los servicios AMD y EMD cuando éstos se prestan fuera del ámbito de la Gran Caracas.
 *  **Póliza**: Número que identifica al documento que recoge las condiciones generales del seguro contratado, y las condiciones particulares así como los suplementos o apéndices emitidos para complementarla o modificarla.
 *  **Reporte**: Documento digital obtenido a través del sistema Atención-1 que permite plasmar de forma resumida, a través de gráficos y tablas, información relativa a servicios, clientes y afiliados atendidos, fechas y horas más utilizadas por los afiliados al sistema, para un periodo de tiempo.
 *  **Servicio**: Prestación sanitaria que se ofrece a afiliados dentro de la plataforma Atención-1.
