@@ -6,7 +6,7 @@ Glosario
 *  **Administrador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a la interfaz administrativa de la plataforma.
 *  **Afiliado**: Persona que contrata o es beneficiario de una póliza de seguros. Atención-1 maneja dos tipos de afiliados: Titular (persona a nombre de quien figura la póliza), y Beneficiario/a (pesona que se incluye en la cobertura de la póliza)
 *  **AMD**:Abreviatura de Atención Médica Domiciliaria, que es uno de los servicios gestionados por Atención-1 a través del cual un afiliado recibe servicios sanitarios a través de un médico en un lugar distinto de un centro médico. Un servicio AMD puede involucrar la realización de **Exámenes de laboratorio**.
-*  **Atención**: Conjunto de servicios involucrados en una solución médica ofrecida a afiliados de las organizaciones aliadas de Atención-1.
+*  **Atención**: Conjunto de servicios involucrados en una solución médica ofrecida a afiliados de las organizaciones aliadas de Atención-1. Las atenciones tienen tres estatus: *En espera* aquellas que ya fueron creadas y tienen servicios que esperan ser tomadas por algún profesional dentro de la plataforma, *En progreso*, aquellas cuyos servicios ya fueron tomadas y están desarrollándose, *Por cerrar* que se refiere a atenciones con servicios cancelados o concluidos y que esperan verificaciones por el equipo de gerencia de la organización para su cierre.
 *  **Base de datos**: Estructura digital que permite el registro, almacenamiento, acceso, modificación y eliminación de información y datos.
 *  **Cliente**: Organizaciones, públicas o privadas, que prestan sus servicios de atención médica a través de Atención-1.
 *  **Contratante**: Organización o persona que adquiere una póliza a través de cualquiera de las organizaciones aliadas de Atención-1.
@@ -23,7 +23,7 @@ Glosario
 *  **OMT**: Abreviatura de Orientación Médica Telefónica, que es parte de los servicios gestionados por Atención-1 y que implica la atención telefónica de afiliados en la solución de sus consultas o derivación hacia otros servicios.
 *  **Operador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a tareas de toma y registro de atenciones y solicitudes de servicios dentro de la plataforma Atención-1.
 *  **Organización**: Entidad colectiva, de tipo Contratante, Cliente o Externo, que presta o recibe servicios de salud a través de la plataforma Atención-1.
-*  **PHD**: Abreviatura de Plan de Hospitalización Domiciliaria, que es un servicio que incluye la hospitalización del paciente en su domicilio a través, por ejemplo, del suministro supervisado a domicilio de tratamientos médicos.
+*  **PHD**: Abreviatura de Plan de Hospitalización Domiciliaria, que es un servicio que incluye la hospitalización del paciente a través, por ejemplo, del suministro supervisado a domicilio de tratamientos médicos.
 *  **Plan**: Conjunto de servicios y características disponibles según las póliza contratada por el afiliado.
 *  **Proveedor Externo**: Empresas de traslados y servicios médicos que sirve de apoyo en los servicios AMD y EMD cuando éstos se prestan fuera del ámbito de la Gran Caracas.
 *  **Póliza**: Número que identifica al documento que recoge las condiciones generales del seguro contratado, y las condiciones particulares así como los suplementos o apéndices emitidos para complementarla o modificarla.
