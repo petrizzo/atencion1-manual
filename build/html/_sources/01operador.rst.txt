@@ -8,7 +8,7 @@ Para ingresar a la plataforma como Operador, debemos escribir en la barra de dir
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
 
-al ingresar a la plataforma, vemos el panel de atenciones en espera, en progreso y por cerrar. 
+Al ingresar a la plataforma, vemos el panel de atenciones en espera, en progreso y por cerrar. 
 
 .. image:: ../images/Operador/PanelGeneralOperador.png
 
