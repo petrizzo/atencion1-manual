@@ -1,6 +1,6 @@
 
-Funciones y roles en Atención-1
-===============================
+Roles en Atención-1
+===================
 
 Atención-1 organiza su funcionamiento a través de cinco roles de usuarios principales. Un **rol** es el conjunto de permisos y atribuciones con los que cuenta un usuario del sistema y que le permite al usuario que cuenta con él, realizar determinadas funciones dentro de la plataforma.
 

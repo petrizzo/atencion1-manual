@@ -1,6 +1,6 @@
 
-Funciones y roles en Atención-1
-===============================
+Funciones en Atención-1
+=======================
 
 Atención-1 organiza su funcionamiento a través de distintas funciones que pueden hacer sus usuarios. Una **función** es cualquier tarea que puede cumplirse dentro del sistema.
 
