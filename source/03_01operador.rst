@@ -6,7 +6,7 @@ El Operador es la persona que atiende la llamada telefónica y agrega la informa
 
 Para ingresar a la plataforma como Operador, debemos escribir en la barra de dirección de nuestro navegador: https://atencion1.venedigital.com. Una vez allí ingresaremos nuestro usuario y contraseña para ingresar a la plataforma. Allí veremos en la barra inferior información acerca de Atención-1, un enlace con ayuda que contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de desarrollo.
 
-.. image:: ../images/PantallaInicialAtencion1.png
+.. image:: ../images/Operador/PantallaInicialAtencion1.png
 
 Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o afiliados de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
 
@@ -15,7 +15,9 @@ Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso 
 #. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
 #. Atenciones por cerrar. 
 
-.. image:: ../images/.png
+.. image:: ../images/Operador/OperadorPanelAtencionesGeneral1.png
+
+.. image:: ../images/Operador/OperadorPanelAtencionesGeneral2.png
 
 En la parte superior podemos saber cómo se encuentra o cuál es la condición de cada servicio por medio de un color determinado:
 
