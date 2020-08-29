@@ -58,3 +58,7 @@ Tipos de funciones que los usuarios de Atención-1 pueden realizar:
      nota de despacho de medicamentos y tripulaciones
 
    - Enviar correo electrónico con el resumen del servicio solicitado
+
+  La ejecución de estas tareas se encuentran restringidas a los roles de
+  cada usuario en Atención-1, puedes obtener esta información en el
+  apartado de :ref:`roles`.
