@@ -4,14 +4,20 @@ Operador/a
 El Operador es la persona que atiende la llamada telefónica y agrega la información del afiliado y su solicitud en la plataforma Atención-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
 
-Para ingresar a la plataforma como Operador, debemos escribir en la barra de dirección de nuestro navegador: https://atencion1.venedigital.com. Una vez allí ingresaremos nuestro usuario y contraseña para ingresar a la plataforma. Allí veremos en la barra inferior información acerca de Atención-1, un enlace con ayuda que contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de desarrollo.
+Para ingresar a la plataforma como Operador, debemos escribir en la
+barra de dirección de nuestro navegador:
+https://atencion1.venedigital.com. Una vez allí veremos en la barra
+inferior información acerca de Atención-1, un enlace con ayuda que
+contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un
+correo electrónico con el que se podrá contactar al equipo de
+desarrollo.
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
 
-Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o afiliados de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
+Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o beneficiarios de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
 
 #. Atenciones en espera.
-#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o MD programados.
+#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o AMD programados.
 #. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
 #. Atenciones por cerrar. 
 
@@ -26,7 +32,7 @@ En la parte superior podemos saber cómo se encuentra o cuál es la condición d
 #. El color azul es un servicio completado.
 #. El color gris oscuro indica un servicio cerrado.
 #. El color gris claro indica un servicio cancelado.
-#. El color rojo con que incluye una advertencia con un signo de admiración indica un servicio retrasado.
+#. El color rojo que incluye una advertencia con un signo de admiración indica un servicio retrasado.
 
 Al atender una llamada, lo primero que debemos hacer es proceder a crear una **atención**. Para crear una nueva **atención**: 
 
