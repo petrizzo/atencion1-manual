@@ -3,7 +3,7 @@
 Glosario
 ========
 
-*  **Administrador**: Rol de usuario del Sistema Atención-1, con permisos de acceso a la interfaz administrativa de la plataforma.
+*  **Administrador**: Rol de usuario del Sistema Atención-1 con permisos de acceso a la interfaz administrativa de la plataforma.
 *  **Afiliado**: Persona que contrata o es beneficiario de una póliza de seguros. Atención-1 maneja dos tipos de afiliados: Titular (persona a nombre de quien figura la póliza), y Beneficiario/a (pesona que se incluye en la cobertura de la póliza).
 *  **Alfa**: Código utilizado en las *Tripulaciones* para designar a un vehículo de tipo *Ambulancia* para desplazarse y prestar determinado servicio.
 *  **AMD**:Abreviatura de Atención Médica Domiciliaria, que es uno de los servicios gestionados por Atención-1 por medio del cual un afiliado recibe servicios sanitarios a través de un médico en un lugar distinto de un centro médico. Un servicio AMD puede involucrar la realización de **Exámenes de laboratorio**.
