@@ -4,12 +4,9 @@ Operador/a
 El Operador es la persona que atiende la llamada telefónica y agrega la información del afiliado y su solicitud en la plataforma Atención-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
 
-Para ingresar a la plataforma como Operador, debemos escribir en la
-barra de dirección de nuestro navegador:
-https://atencion1.venedigital.com. Una vez allí veremos en la barra
-inferior información acerca de Atención-1, un enlace con ayuda que
-contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un
-correo electrónico con el que se podrá contactar al equipo de
+Para ingresar a la plataforma como Operador, debemos escribir en la barra de dirección de nuestro navegador:
+https://atencion1.venedigital.com. Una vez allí veremos en la barra inferior información acerca de Atención-1, un enlace con ayuda que
+contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de
 desarrollo.
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
