@@ -17,7 +17,7 @@ Glosario
 
 **Bravo**: Código utilizado en las *Tripulaciones* para designar a un vehículo de tipo *Carro* para desplazarse y prestar determinado servicio.
 
-**CIE-10**: acrónimo de la Clasificación Internacional de Enfermedades 10º edición, la cual determina la clasificación y codificación de las enfermedades y una amplia variedad de signos, síntomas y causas externas de daños y/o enfermedad. Este estándar internacional está implementado en Atención-1 para agilizar y facilitar los procesos de selección de síntomas y generación de diagnósticos de los afiliados al momento de requerir un servicio disponible en Atención-1. 
+**CIE-10**: Acrónimo de la Clasificación Internacional de Enfermedades 10º edición, la cual determina la clasificación y codificación de las enfermedades y una amplia variedad de signos, síntomas y causas externas de daños y/o enfermedad. Este estándar internacional está implementado en Atención-1 para agilizar y facilitar los procesos de selección de síntomas y generación de diagnósticos de los afiliados al momento de requerir un servicio disponible en Atención-1. 
 
 **Cliente**: Organizaciones, públicas o privadas, que prestan sus servicios de atención médica a través de Atención-1.
 
