@@ -13,7 +13,8 @@ Manual de Usuarios Atención-1
    04buenas_prácticas.rst
    05permisos.rst
    06glosario.rst
-   07about.rst
+   07FAQ.rst
+   08about.rst
 
 
 Indices y tablas

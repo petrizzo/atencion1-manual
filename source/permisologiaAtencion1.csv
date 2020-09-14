@@ -1,0 +1,47 @@
+N,Acciones,Operador,Despachador,Médico,Coordinador,Asistente,Gerente,Director,Admin
+1,Visualizar listados de atenciones,✓,✓,✓,✓,✓,✓,✓,✓
+2,Visualizar detalles de atenciones,✓,✓,✓,✓,✓,✓,✓,✓
+3,Crear nueva atención,✓,✗,✗,✓,✗,✓,✓,✓(*)
+4,Editar información general de una atención (teléfonos),✓,✓,✓,✓,✗,✓,✓,✓(*)
+5,Editar datos personales de un afiliado (email),✓,✓,✓,✓,✗,✓,✓,✓(*)
+6,Editar pólizas de un afiliado,✗,✗,✗,✗,✗,✗,✗,✓(*)
+7,Editar historial de atenciones de un afiliado,✗,✗,✗,✗,✗,✗,✗,✓(*)
+8,Visualizar listado de servicios asociados a una atención,✓,✓,✓,✓,✓,✓,✓,✓
+9,Crear un nuevo servicio,✓,✓,✓,✓,✗,✓,✓,✓(*)
+10,Visualizar detalles de un servicio (OMT/AMD/TLD/EMD/PHD/LAB),✓,✓,✓,✓,✓,✓,✓,✓
+11,Editar información general de un servicio (OMT/AMD/TLD/EMD/PHD/LAB),✓,✓,✓,✓,✗,✓,✓,✓(*)
+12,Editar detalles médicos (panel diagnósticos y panel solicitudes) de un servicio OMT,✗,✗,✓,✗,✗,✗,✓,✓(*)
+13,Editar detalles médicos (panel diagnósticos y solicitudes) de un servicio AMD,✗,✓,✓,✗,✗,✗,✓,✓(*)
+14,Editar detalles operativos (tripulación y ruta) de un servicio AMD,✗,✓,✗,✗,✗,✗,✓,✓(*)
+15,Editar detalles operativos (panel Resultados) de un servicio AMD con laboratorio incluido,✓,✓,✓,✓,✓,✓,✓,✗
+16,Editar detalles médicos (panel diagnósticos) de un servicio Traslado,✗,✓,✓,✗,✗,✗,✓,✓(*)
+17,Editar detalles operativos (panel tripulación y ruta) de un servicio Traslado,✗,✓,✗,✗,✗,✗,✓,✓(*)
+18,Editar detalles operativos (panel tripulación y ruta) de un servicio EMD,✗,✓,✗,✗,✗,✗,✓,✓(*)
+19,Editar detalles operativos (panel tripulación y ruta) de un servicio LAB,✗,✓,✗,✗,✗,✗,✓,✓(*)
+20,Editar detalles médicos (panel diagnósticos) de un servicio EMD,✗,✓,✓,✗,✗,✗,✓,✓(*)
+21,Editar detalles(panel nota de despacho) de un servicio EMD,✓,✓,✓,✗,✗,✗,✓,✓(*)
+22,Editar detalles operativos (panel Resultados) de un servicio LAB,✓,✓,✓,✓,✓,✓,✓,✗
+23,Visualizar el flujo de trabajo asociado a servicios,✓,✓,✓,✓,✓,✓,✓,✓
+24,Editar el flujo de trabajo asociado a un servicio OMT,✗,✗,✓,✗,✗,✗,✓,✓(*)
+25,Editar el flujo de trabajo asociado a un servicio AMD/Traslado/EMD,✗,✓,✗,✗,✗,✗,✓,✓(*)
+26,Crear un servicio sucesivo,✓,✓,✓,✓,✗,✓,✓,✓(*)
+27,Cerrar un servicio,✗,✗,✗,✓,✗,✓,✓,✓(*)
+28,Cancelar un servicio OMT,✓,✓,✓,✓,✗,✓,✓,✓(*)
+29,Cancelar un servicio AMD/Traslado/EMD/PHD,✓,✓,✓,✓,✗,✓,✓,✓(*)
+30,Crear un nuevo servicio PHD,✓,✓,✓,✓,✗,✓,✓,✓(*)
+31,Editar detalles operativos (tripulación y ruta) de un servicio PHD,✗,✓,✗,✗,✗,✗,✓,✓(*)
+32,Editar detalles médicos (panel diagnósticos) de un servicio PHD,✗,✓,✓,✗,✗,✗,✓,✓(*)
+33,Consultar afiliados a través de la plataforma,✗,✗,✗,✓,✓,✓,✓,✗
+34,Visualizar listado de afiliados,✗,✗,✗,✗,✗,✗,✗,✓
+35,Buscar afiliado,✓,✗,✗,✓,✗,✓,✓,✓
+36,Crear nuevo afiliado,✓,✗,✗,✓,✗,✓,✓,✓(*)
+37,Editar afiliado,✗,✗,✗,✗,✗,✗,✗,✓(*)
+38,Editar perfiles de usuario,✗,✗,✗,✗,✗,✗,✗,✓(*)
+39,Asignar roles,✗,✗,✗,✗,✗,✗,✗,✓(*)
+40,Crear tripulaciones,✗,✓,✗,✗,✗,✗,✓,✓(*)
+41,Visualizar tripulaciones,✗,✓,✗,✓,✓,✓,✓,✓
+42,Editar/eliminar tripulaciones,✗,✓,✗,✗,✗,✗,✓,✓(*)
+43,Generar reportes,✗,✗,✗,✓,✓,✓,✓,✗
+44,Imprimir o generar PDF de ticket de datos de servicios,✗,✓,✗,✓,✓,✓,✓,✗
+45,Imprimir o generar PDF de ticket de nota de despacho de medicamentos,✓,✓,✓,✓,✗,✓,✓,✗
+46,Imprimir o generar PDF de ticket de tripulaciones,✗,✓,✗,✓,✓,✓,✓,✗

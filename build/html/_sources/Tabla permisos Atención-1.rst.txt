@@ -1,0 +1,23 @@
+Tabla permisos Atención-1
+=========================
+
+.. list-table:: Permisología Atención-1
+   :widths: 10 10 10 10 10 10 10 10 10 10
+   :header-rows: 1
+
+   * - Num
+     - Acciones
+     - Operador
+     - Despachador
+     - Médico
+     - Coordinador
+     - Asistente
+     - Gerente
+     - Director
+     - Admin
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
