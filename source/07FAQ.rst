@@ -44,13 +44,26 @@ En caso de que el afiliado haya contratado directamente su póliza de seguros, d
 
 Al momento de seleccionar a un afiliado (luego de su búsqueda) Atención-1 muestra datos sobre sus planes y pólizas. Si observas que el plan de su póliza no incluye el servicio solicitado, puedes agregarle una póliza Autofinanciada con plan *Retail*, donde el afiliado podrá pagar por servicios adicionales distintos a los que le suministra su póliza.
 
+*  **¿Cuáles datos son necesarios para agregar nuevos afiliados?**
+
+Para incluir un nuevo afiliado, deberás asegurarte de introducir correctamente su nombre, apellido, género, fecha de nacimiento, compañía aseguradora, plan de la póliza, contratante y el nombre de la persona o instancia que autoriza esa inclusión.
+
+*  **¿Cuáles datos son necesarios para crear atenciones?**
+
+Una atención puede ser creada sólo cuando se completan todos los datos solicitados. Una vez realizada la consulta de los datos de afiliado, Atención-1 toma datos básicos de allí, a esos datos debe agregarse, al menos un número de teléfono del afiliado para proceder a la creación de la atención. Esto se observa cuando, al incluir y validar el número ingresado, se activa el botón *Crear* en la esquina inferior derecha.
+
 *  **¿Qué debo hacer si no se despliegan las tripulaciones disponibles durante una guardia?**
 
-Corresponde al *Despachador* agregar las tripulaciones al inicio del día. En caso de no desplegarse esta información se requiere que sea agregada por el rol correspondiente.
+Corresponde al *Despachador* agregar las tripulaciones al inicio del día. En caso de no desplegarse esta información se requiere que sea agregada por el rol correspondiente, asegurándose que el turno esté asignado de forma que abarque el horario en que se requiere.
 
 *  **¿Qué debo hacer para incluir una entrega de equipos médicos?**
 
 La entrega de equipos médicos se maneja a través de los servicios tipo EMD. En este caso, una vez introducido el equipo a entregar al afiliado, el sistema pedirá que se establezca la fecha y hora en que se retirará.
+
+*  **¿Atencion-1 permite acceder a información de servicios previos de los afiliados?**
+
+El sistema permite mostrar, en el detalle de la atención, el histórico de atenciones y servicios anteriores. Esta información puede ser consultada, ingresando a la atención y desplegando la pestaña *Histórico de atenciones* ubicada en la sección izquierda debajo de la pestaña de los datos de afiliado.
+Otra forma de realizar esta consulta es utilizando el módulo de *Consulta de afiliados* desde los roles de *Coordinador*, *Asistente*, *Gerente* o *Director*.
 
 *  **¿Qué datos son necesarios para el cierre de servicios completados?**
 
@@ -61,19 +74,6 @@ Según el tipo de servicio, aquellos tengan estatus completado requerirán algun
 #. Un servicio EMD requiere diagnóstico y nota de despacho completa para su cierre.
 #. Un servicio LAB requiere resultados para ser cerrado.
 
-*  **¿Cuáles datos son necesarios para agregar nuevos afiliados?**
-
-Para incluir un nuevo afiliado, deberás asegurarte de introducir correctamente su nombre, apellido, género, fecha de nacimiento, compañía aseguradora, plan de la póliza, contratante y el nombre de la persona o instancia que autoriza esa inclusión.
-
-*  **¿Cuáles datos son necesarios para crear atenciones?**
-
-Una atención puede ser creada sólo cuando se completan todos los datos solicitados. Una vez realizada la consulta de los datos de afiliado, Atención-1 toma datos básicos de allí, a esos datos debe agregarse, al menos un número de teléfono del afiliado para proceder a la creación de la atención. Esto se observa cuando, al incluir y validar el número ingresado, se activa el botón *Crear* en la esquina inferior derecha.
-
-*  **¿Atencion-1 permite acceder a información de servicios previos de los afiliados?**
-
-El sistema permite mostrar, en el detalle de la atención, el histórico de atenciones y servicios anteriores. Esta información puede ser consultada, ingresando a la atención y desplegando la pestaña *Histórico de atenciones* ubicada en la sección izquierda debajo de la pestaña de los datos de afiliado.
-Otra forma de realizar esta consulta es utilizando el módulo de *Consulta de afiliados* desde los roles de *Coordinador*, *Asistente*, *Gerente* o *Director*.
-
 *  **¿Cómo notifico de un fallo en la aplicación?**
 
-Se ha generado un formulario para reporte de fallos, que está disponible desde el siguiente [enlace: http://form.jotform.com/202515798622662]
+Se ha generado un formulario para reporte de fallos, que está disponible desde el siguiente `enlace <http://form.jotform.com/202515798622662>`_
