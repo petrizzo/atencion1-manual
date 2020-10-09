@@ -14,7 +14,7 @@ desarrollo.
 Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o beneficiarios de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
 
 #. Atenciones en espera.
-#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o AMD programados.
+#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o servicios AMD/LAB/TLD/EMD programados.
 #. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
 #. Atenciones por cerrar. 
 
