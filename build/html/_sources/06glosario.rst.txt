@@ -5,13 +5,15 @@ Glosario
 
 **Administrador**: Rol de usuario del Sistema Atención-1 con permisos de acceso a la interfaz administrativa de la plataforma.
 
-**Afiliado**: Persona que contrata o es beneficiario de una póliza de seguros. Atención-1 maneja dos tipos de afiliados: Titular (persona a nombre de quien figura la póliza), y Beneficiario/a (pesona que se incluye en la cobertura de la póliza).
+**Afiliado**: Persona que contrata o es beneficiario de una póliza de seguros. Atención-1 maneja dos tipos de afiliados: Titular (persona a nombre de quien figura la póliza), y Beneficiario/a (persona que se incluye en la cobertura de la póliza).
 
 **Alfa**: Código utilizado en las *Tripulaciones* para designar a un vehículo de tipo *Ambulancia* para desplazarse y prestar determinado servicio.
 
 **AMD**:Abreviatura de Atención Médica Domiciliaria, que es uno de los servicios gestionados por Atención-1 por medio del cual un afiliado recibe servicios sanitarios a través de un médico en un lugar distinto de un centro médico. Un servicio AMD puede involucrar la realización de **Exámenes de laboratorio**.
 
-**Atención**: Conjunto de servicios involucrados en una solución médica ofrecida a afiliados de las organizaciones aliadas de Atención-1. Las atenciones tienen tres estatus: *En espera* son aquellas que ya fueron creadas y tienen servicios que esperan ser tomados por algún profesional dentro de la plataforma, *En progreso*, son aquellas cuyos servicios ya fueron tomados y están desarrollándose, *Por cerrar* que se refiere a atenciones con servicios cancelados o concluidos y que esperan verificaciones por el equipo de gerencia de la organización para su cierre.
+**Asistente**: Rol de usuario de Atención-1 con permisos de visualización a la gestión de las operaciones. Este rol es el encargado de apoyar la gerencia en la necesidad de atender solicitudes y generación de reportes y tickets sobre estatus en tiempo real de las atenciones y servicios, creación de tripulación, entre otros.
+
+**Atención**: Conjunto de servicios involucrados en una solución médica ofrecida a afiliados de las organizaciones aliadas de Venemergencia. Las atenciones tienen tres estatus: *En espera* son aquellas que ya fueron creadas y tienen servicios que esperan ser tomados por algún profesional dentro de la plataforma, *En progreso*, son aquellas cuyos servicios ya fueron tomados y están desarrollándose, *Por cerrar* que se refiere a atenciones con servicios cancelados o concluidos y que esperan verificaciones por el equipo de gerencia de la organización para su cierre.
 
 **Base de datos**: Estructura digital que permite el registro, almacenamiento, acceso, modificación y eliminación de información y datos.
 
@@ -19,7 +21,7 @@ Glosario
 
 **CIE-10**: Acrónimo de la Clasificación Internacional de Enfermedades 10º edición, la cual determina la clasificación y codificación de las enfermedades y una amplia variedad de signos, síntomas y causas externas de daños y/o enfermedad. Este estándar internacional está implementado en Atención-1 para agilizar y facilitar los procesos de selección de síntomas y generación de diagnósticos de los afiliados al momento de requerir un servicio disponible en Atención-1. 
 
-**Cliente**: Organizaciones, públicas o privadas, que prestan sus servicios de atención médica a través de Atención-1.
+**Cliente**: Organizaciones, públicas o privadas, que mediante el diseño de planes, prestan sus servicios de atención médica a través de Atención-1.
 
 **Contratante**: Organización o persona que adquiere una póliza a través de cualquiera de las organizaciones aliadas de Atención-1.
 
@@ -29,7 +31,7 @@ Glosario
 
 **Despachador**: Rol de usuario del Sistema Atención-1 con permisos de acceso a labores de gestión de tripulaciones, operaciones con traslados de afiliados, entregas de medicamentos y otros servicios ofrecidos por Atención-1 que involucren el traslado de medicamentos, personal y/o equipos.
 
-**Director**: Rol de usuario del Atención-1 con permisos de acceso a la gestión integral de todas las operaciones de Atención-1, desde la creación de atenciones hasta el cierre y cancelación de servicios y atenciones y la generación de reportes.
+**Director**: Rol de usuario del Atención-1 con permisos de acceso a la gestión integral de todas las operaciones de Atención-1, desde la creación de atenciones hasta el cierre y cancelación de servicios y atenciones, la generación de reportes, la creación y edición de tripulaciones asi como también la visualización de información de afiliados.
 
 **Destino**: Dirección en la que se prevé termine un servicio que involucre un traslado o el desplazamiento de una unidad vehicular.
 
@@ -57,11 +59,11 @@ Glosario
 
 **PHD**: Abreviatura de Plan de Hospitalización Domiciliaria. Es un servicio que incluye la hospitalización del paciente a través, por ejemplo, del suministro supervisado a domicilio de tratamientos médicos.
 
-**Plan**: Conjunto de servicios y características disponibles según las póliza contratada por el afiliado.
+**Plan**: Conjunto de servicios y características ofrecidas por Clientes, disponibles según las póliza contratada por el afiliado.
 
 **Proveedor Externo**: Empresas de traslados y servicios médicos que sirve de apoyo en los servicios AMD y EMD cuando éstos se prestan fuera del ámbito de la Gran Caracas.
 
-**Póliza**: Número que identifica al documento que recoge las condiciones generales del seguro contratado, y las condiciones particulares así como los suplementos o apéndices emitidos para complementarla o modificarla.
+**Póliza**: Código que identifica al documento que recoge las condiciones generales del seguro contratado, y las condiciones particulares así como los suplementos o apéndices emitidos para complementarla o modificarla.
 
 **Reporte**: Documento digital obtenido a través del sistema Atención-1 que permite plasmar de forma resumida, a través de gráficos y tablas, información relativa a servicios, clientes y afiliados atendidos, fechas y horas más utilizadas por los afiliados al sistema para un periodo de tiempo.
 
