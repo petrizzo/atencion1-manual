@@ -91,11 +91,16 @@
 <li class="toctree-l1"><a class="reference internal" href="02funciones.html">Funciones en Atención-1</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="03roles.html">Roles en Atención-1</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="03_01operador.html">Operador/a</a></li>
-<li class="toctree-l2"><a class="reference internal" href="03_01operador.html#crear-afiliado-nuevo">Crear Afiliado Nuevo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_02medico.html">Medico/a</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_03despachador.html">Despachador/a</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_04coordinador.html">Coordinador/a</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Asistente</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Asistente</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#generar-ticket-de-servicio">Generar Ticket de Servicio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generar-ticket-de-tripulacion">Generar Ticket de Tripulación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generar-reportes">Generar Reportes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#visualizar-afiliados">Visualizar Afiliados</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="03_06gerente.html">Gerente</a></li>
 <li class="toctree-l2"><a class="reference internal" href="03_07director.html">Director/a</a></li>
 </ul>
@@ -188,15 +193,44 @@ desarrollo.</p>
 </ol>
 <img alt="_images/AsistentePanelAtencionesGeneral1.png" src="_images/AsistentePanelAtencionesGeneral1.png" />
 <img alt="_images/AsistentePanelAtencionesGeneral2.png" src="_images/AsistentePanelAtencionesGeneral2.png" />
-<p>Para visualizar la información de una atención, en el extremo derecho del listado de atenciones haces clic sobre el ícono en la linea contentiva de la atención a revisar, el cursor sobre el ícono despliega el mensaje Mostrar.</p>
+<p>Para visualizar la información del listado de <strong>Atenciones</strong>, en el extremo derecho del listado de atenciones haces clic sobre el ícono en la linea contentiva de la atención a revisar, el cursor sobre el ícono despliega el mensaje Mostrar.</p>
 <p>Una vez seleccionada la atención, aparecen dos secciones en columnas de páneles:</p>
 <img alt="_images/AsistentePanelesAtencionesServicios.png" src="_images/AsistentePanelesAtencionesServicios.png" />
 <p>La sección del lado izquierdo contiene en paneles los datos importantes de la atención: panel de información general de la atención, panel de datos relevantes del afiliado atendido, panel de información general de las pólizas asociadas al afiliado, panel del historial de atenciones y el panel de documentos adjuntos solicitados para los procesos propios de cada servicio de la atención.</p>
 <p>La sección del lado derecho muestra la información referente a los servicios contenidos en la atención. Cada servicio se muestra, con los acrónimos de sus nombres, en pestañas sobre las que haces clic y despliegan en paneles la información de cada servicio:</p>
 <img alt="_images/AsistentePanelesServicios.png" src="_images/AsistentePanelesServicios.png" />
 <p>La cantidad y tipo de paneles se muestran según el servicio: panel de información general del servicio, panel de tripulación y rutas, panel de diagnóstico, panel de generación de nota de despacho, entre otros.</p>
-<p>Todos los paneles (de atención o de servicios) se abren y se cierran al hacer clic sobre el borde superior de cada compartimiento.</p>
-<p>Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y sus servicios, mientras que para obtener el documento que agrupa la información de cada servicio, el ticket de servicio, justo debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con un ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.</p>
+<p>Todos los paneles (de atención o de servicios) se abren y se cierran al hacer clic sobre el borde superior de cada compartimiento, donde se encuentra el título del pánel.</p>
+<div class="section" id="generar-ticket-de-servicio">
+<h2>Generar Ticket de Servicio<a class="headerlink" href="#generar-ticket-de-servicio" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y su contenido en servicios. Mientras que para obtener el documento que contiene la información de cada servicio, el ticket de servicio, debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con el ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.</p>
+<p>Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de «hamburguesa» dispuesto en el rincón superior izquierdo ya descrito. En dicho menú se tienen los siguientes items:</p>
+<img alt="_images/AsistenteMenuItems.png" src="_images/AsistenteMenuItems.png" />
+</div>
+<div class="section" id="generar-ticket-de-tripulacion">
+<h2>Generar Ticket de Tripulación<a class="headerlink" href="#generar-ticket-de-tripulacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al hacer clic en el menú al item <strong>Tripulaciones</strong> puedes visualizar el listado de tripulaciones activas. Dispones de un campo de búsquedas en la parte superior derecha del listado para localizar una tripulación en específico.</p>
+<img alt="_images/AsistenteListadoTripulaciones.png" src="_images/AsistenteListadoTripulaciones.png" />
+<p>Cuando haces clic sobre cualquier fila del listado, se despliega un diálogo con los Detalles de Tripulación donde encuentras toda la información que engloba una tripulación conformada.</p>
+<img alt="_images/AsistenteDetallesTripulaciones.png" src="_images/AsistenteDetallesTripulaciones.png" />
+<p>Esta información la puedes imprimir haciendo clic en el ícono de impresora en la esquina inferior derecha del diálogo.</p>
+</div>
+<div class="section" id="generar-reportes">
+<h2>Generar Reportes<a class="headerlink" href="#generar-reportes" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En el item <strong>Reportes</strong> del menú se muestra la bandeja de generación de reportes para atenciones y servicios. En los campos de búsqueda se puede filtrar por fecha de inicio y fin de creación de la atención y/o servicio así también como por Cliente.</p>
+<img alt="_images/AsistenteBandejaReportes.png" src="_images/AsistenteBandejaReportes.png" />
+<p>Se dispone de dos botones, uno para mostrar los datos en un listado en la parte inferior de la pantalla</p>
+<img alt="_images/AsistenteMostrarReportes.png" src="_images/AsistenteMostrarReportes.png" />
+<p>y otro botón para generar un archivo .xlsx con los datos.</p>
+<img alt="_images/AsistenteGenerarReportes.png" src="_images/AsistenteGenerarReportes.png" />
+</div>
+<div class="section" id="visualizar-afiliados">
+<h2>Visualizar Afiliados<a class="headerlink" href="#visualizar-afiliados" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Finalmente, el item <strong>Afiliados</strong> del menú permite hacer búsquedas por cédula, nombre y/o apellido de afiliados. Cuándo realizas una búsqueda, se muestran los afiliados que coincidan con los datos buscados en un listado.</p>
+<img alt="_images/AsistenteListadoAfiliados.png" src="_images/AsistenteListadoAfiliados.png" />
+<p>Para visualizar la información de cada afiliado, haces clic en el combo desplegable al extremo derecho de la fila que deseas ver. De cada afiliado puedes obtener sus datos personales, información sobre pólizas e historial de atenciones.</p>
+<img alt="_images/AsistenteDetalleAfiliado.png" src="_images/AsistenteDetalleAfiliado.png" />
+</div>
 </div>
 
 
