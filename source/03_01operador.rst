@@ -35,7 +35,7 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 
 #. Hacemos click en el círculo de color verde con un signo "+" en su interior.
 #. A continuación en el recuadro que contiene el símbolo de la lupa, introducimos la cédula o el nombre de la persona que solicita ser atendida. Atención-1 permite realizar búsquedas con número de cédula o nombre, parcial o completo, de la persona afiliada.
-#. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`Crear Afiliado Nuevo`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
+#. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado` . En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
 
 .. image:: ../images/Operador/crear_atención.Operador.png
 
@@ -82,7 +82,7 @@ Operador. Cancelar Servicio
 
 Para que un usuario operador pueda cancelar un servicio primero debe ingresar a un servicio de cualquier atención. Por ejemplo, podemos ingresar para editar una atención que se trate de un traslado y cuente únicamente con un servicio. Ahí encontraremos el botón para cancelar el servicio. Al pulsarlo se nos desplegará una ventana en la cual es obligatorio indicar el motivo por el cual estamos cancelando dicho servicio. Entre las opciones que nos ofrece el sistema podemos seleccionar carga por error, y esto supone un servicio que fue creado dos veces, se quería crear otro servicio o cualquier otro motivo que haya derivado en un error por parte del operador. Después de confirmar podemos observar que el servicio se ha cancelado de manera exitosa. También podemos ver que en el panel de atenciones esta atención ha pasado al estatus por cerrar , lo que indica que debe ser cerrada por parte del usuario coordinador. Lo podemos confirmar también a través del número de la atención, el nombre de la persona y el color que indica que la atención fue cancelada. 
 
-.. _Crear Afiliado Nuevo:
+.. _crear-afiliado: 
 Crear Afiliado Nuevo
 --------------------
 
