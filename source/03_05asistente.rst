@@ -21,7 +21,7 @@ Para ingresar debes indicar el nombre y contraseña del usuario, en este caso As
 
 .. image:: ../images/Asistente/AsistentePanelAtencionesGeneral2.png
 
-Para visualizar la información de una atención, en el extremo derecho del listado de atenciones haces clic sobre el ícono en la linea contentiva de la atención a revisar, el cursor sobre el ícono despliega el mensaje Mostrar.
+Para visualizar la información del listado de **Atenciones**, en el extremo derecho del listado de atenciones haces clic sobre el ícono en la linea contentiva de la atención a revisar, el cursor sobre el ícono despliega el mensaje Mostrar.
 
 Una vez seleccionada la atención, aparecen dos secciones en columnas de páneles:
 
@@ -35,6 +35,40 @@ La sección del lado derecho muestra la información referente a los servicios c
 
 La cantidad y tipo de paneles se muestran según el servicio: panel de información general del servicio, panel de tripulación y rutas, panel de diagnóstico, panel de generación de nota de despacho, entre otros.
 
-Todos los paneles (de atención o de servicios) se abren y se cierran al hacer clic sobre el borde superior de cada compartimiento.
+Todos los paneles (de atención o de servicios) se abren y se cierran al hacer clic sobre el borde superior de cada compartimiento, donde se encuentra el título del pánel.
 
-Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y sus servicios, mientras que para obtener el documento que agrupa la información de cada servicio, el ticket de servicio, justo debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con un ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.
+Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y su contenido en servicios. Mientras que para obtener el documento que contiene la información de cada servicio, el ticket de servicio, debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con el ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.
+
+Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón superior izquierdo. En dicho menú se tienen los siguientes items:
+
+.. image:: ../images/Asistente/AsistenteMenuItems.png
+
+Al hacer clic en el menú al item **Tripulaciones** puedes visualizar el listado de tripulaciones activas. Dispones de un campo de búsquedas en la parte superior derecha del listado para localizar una tripulación en específico. 
+
+.. image:: ../images/Asistente/AsistenteListadoTripulaciones.png
+
+Cuando haces clic sobre cualquier fila del listado, se despliega un diálogo con los Detalles de Tripulación donde encuentras toda la información que engloba una tripulación conformada. 
+
+.. image:: ../images/Asistente/AsistenteDetallesTripulaciones.png
+
+Esta información la puedes imprimir haciendo clic en el ícono de impresora en la esquina inferior derecha del diálogo.
+
+En el item **Reportes** del menú se muestra la bandeja de generación de reportes para atenciones y servicios. En los campos de búsqueda se puede filtrar por fecha de inicio y fin de creación de la atención y/o servicio así también como por Cliente.
+
+.. image:: ../images/Asistente/AsistenteBandejaReportes.png
+
+Se dispone de dos botones, uno para mostrar los datos en un listado en la parte inferior de la pantalla 
+
+.. image:: ../images/Asistente/AsistenteMostrarReportes.png
+
+y otro botón para generar un archivo .xlsx con los datos.
+
+.. image:: ../images/Asistente/AsistenteGenerarReportes.png
+
+Finalmente, el item **Afiliados** del menú permite hacer búsquedas por cédula, nombre y/o apellido de afiliados. Cuándo realizas una búsqueda, se muestran los afiliados que coincidan con los datos buscados en un listado. 
+
+.. image:: ../images/Asistente/AsistenteListadoAfiliados.png
+
+Para visualizar la información de cada afiliado, haces clic en el combo desplegable al extremo derecho de la fila que deseas ver. De cada afiliado puedes obtener sus datos personales, información sobre pólizas e historial de atenciones. 
+
+.. image:: ../images/Asistente/AsistenteDetalleAfiliado.png
