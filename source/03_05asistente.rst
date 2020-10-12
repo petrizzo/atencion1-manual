@@ -37,11 +37,17 @@ La cantidad y tipo de paneles se muestran según el servicio: panel de informaci
 
 Todos los paneles (de atención o de servicios) se abren y se cierran al hacer clic sobre el borde superior de cada compartimiento, donde se encuentra el título del pánel.
 
+Generar Ticket de Servicio
+--------------------------
+
 Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y su contenido en servicios. Mientras que para obtener el documento que contiene la información de cada servicio, el ticket de servicio, debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con el ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.
 
 Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón superior izquierdo. En dicho menú se tienen los siguientes items:
 
 .. image:: ../images/Asistente/AsistenteMenuItems.png
+
+Generar Ticket de Tripulación
+-----------------------------
 
 Al hacer clic en el menú al item **Tripulaciones** puedes visualizar el listado de tripulaciones activas. Dispones de un campo de búsquedas en la parte superior derecha del listado para localizar una tripulación en específico. 
 
@@ -52,6 +58,9 @@ Cuando haces clic sobre cualquier fila del listado, se despliega un diálogo con
 .. image:: ../images/Asistente/AsistenteDetallesTripulaciones.png
 
 Esta información la puedes imprimir haciendo clic en el ícono de impresora en la esquina inferior derecha del diálogo.
+
+Generar Reportes
+----------------
 
 En el item **Reportes** del menú se muestra la bandeja de generación de reportes para atenciones y servicios. En los campos de búsqueda se puede filtrar por fecha de inicio y fin de creación de la atención y/o servicio así también como por Cliente.
 
@@ -64,6 +73,9 @@ Se dispone de dos botones, uno para mostrar los datos en un listado en la parte 
 y otro botón para generar un archivo .xlsx con los datos.
 
 .. image:: ../images/Asistente/AsistenteGenerarReportes.png
+
+Visualizar Afiliados
+--------------------
 
 Finalmente, el item **Afiliados** del menú permite hacer búsquedas por cédula, nombre y/o apellido de afiliados. Cuándo realizas una búsqueda, se muestran los afiliados que coincidan con los datos buscados en un listado. 
 
