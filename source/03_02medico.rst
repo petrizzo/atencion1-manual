@@ -1,6 +1,22 @@
 Medico/a
 ========
 
+El Médico es la persona que tiene las competencias legales y cognitivas para realizar la atención médica desde la plataforma de Atención-1que apoya a la gerencia en su gestión para obtener cualquier información concerniente a las atenciones, servicios, afiliados y/o tripulaciones de Atencion-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
+
+Para ingresar a la plataforma como Médico, debes escribir en la barra de dirección del navegador:
+https://atencion1.venedigital.com. Una vez allí ves en la barra inferior información acerca de Atención-1, un enlace con ayuda que
+contendrá un manual, una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de
+desarrollo.
+
+Previamente, el personal encargado de la administración del sistema Atención-1 es el encargado de crearte el usuario con el rol de Médico para poder ingresar al sistema.
+
+Para ingresar debes indicar el nombre y contraseña del usuario. Una vez en la plataforma, puedes ver en la parte superior derecha, el acceso a los datos del perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú donde puedes acceder más fácilmente al panel de atenciones.En la parte central, se muestran las atenciones en cuatro secciones:
+
+#. Atenciones en espera.
+#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o servicios AMD/LAB/TLD/EMD programados.
+#. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
+#. Atenciones por cerrar.
+
 Médico. Panel de Atenciones
 Vamos a ingresar a la plataforma con un usuario de tipo médico. Una vez que ingresamos a la plataforma podemos visualizar el panel de atenciones donde tenemos 4 secciones. La primera es el conjunto de atenciones que están en espera. En segundo lugar se encuentran aquellas programadas que se refieren a los PHD o cualquier otro servicio que esté programado. Luego tenemos las que están en progreso, es decir, las que cuentan con servicios que están siendo atendidos. Y por último, las que se encuentran pendientes por cerrar.
 Otros elementos que podemos conseguir en el panel de atenciones son los estatus de atenciones que se nos indican a través de la leyenda en la parte superior de la ventana. Cada color indica un estatus en particular. Por ejemplo: color verde para servicio en proceso y color azul para servicio completado. Del mismo modo, en la parte superior derecha tenemos el botón donde podemos acceder a la información de nuestro perfil y donde podemos cerrar sesión. En la parte superior izquierda, está el menú de hamburguesa donde podemos acceder más rápidamente al menú de atenciones. Por último, en la parte inferior encontramos algunos enlaces referidos a la plataforma. 
