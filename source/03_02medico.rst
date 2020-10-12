@@ -1,7 +1,7 @@
 Medico/a
 ========
 
-El Médico es la persona que tiene las competencias legales y cognitivas para realizar la atención médica desde la plataforma de Atención-1que apoya a la gerencia en su gestión para obtener cualquier información concerniente a las atenciones, servicios, afiliados y/o tripulaciones de Atencion-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
+El Médico es la persona que tiene las competencias legales y cognitivas para realizar la atención médica desde la plataforma de Atención-1que apoya a la gerencia en su gestión para obtener cualquier información concerniente a las atenciones, servicios, afiliados y/o tripulaciones de Atención-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
 Para ingresar a la plataforma como Médico, debes escribir en la barra de dirección del navegador:
 https://atencion1.venedigital.com. Una vez allí ves en la barra inferior información acerca de Atención-1, un enlace con ayuda que

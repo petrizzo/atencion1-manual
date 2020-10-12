@@ -60,7 +60,7 @@ Corresponde al *Despachador* agregar las tripulaciones al inicio del día. En ca
 
 La entrega de equipos médicos se maneja a través de los servicios tipo EMD. En este caso, una vez introducido el equipo a entregar al afiliado, el sistema pedirá que se establezca la fecha y hora en que se retirará.
 
-*  **¿Atencion-1 permite acceder a información de servicios previos de los afiliados?**
+*  **¿Atención-1 permite acceder a información de servicios previos de los afiliados?**
 
 El sistema permite mostrar, en el detalle de la atención, el histórico de atenciones y servicios anteriores. Esta información puede ser consultada, ingresando a la atención y desplegando la pestaña *Histórico de atenciones* ubicada en la sección izquierda debajo de la pestaña de los datos de afiliado.
 Otra forma de realizar esta consulta es utilizando el módulo de *Consulta de afiliados* desde los roles de *Coordinador*, *Asistente*, *Gerente* o *Director*.
