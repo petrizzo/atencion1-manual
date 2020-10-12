@@ -10,7 +10,7 @@ desarrollo.
 
 Previamente, el personal encargado de la administración del sistema Atencion-1 es el encargado de crearte el usuario con el rol de Asistente para poder ingresar al sistema.
 
-Para ingresar debes indicar el nombre y contraseña del usuario, en este caso Asistente. Una vez dentro de la plataforma, puedes apreciar en la parte superior derecha, el acceso a los datos del perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú donde puedes acceder más fácilmente al panel de atenciones, tripulaciones, afiliados y generación de reportes. Y en la parte central, se muestra el panel de atenciones dividido en cuatro secciones:
+Para ingresar debes indicar el nombre y contraseña del usuario, en este caso Asistente. Una vez dentro de la plataforma, puedes apreciar en la parte superior derecha, el acceso a los datos del perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú de "hamburguesa," donde puedes acceder más fácilmente al panel de atenciones, tripulaciones, afiliados y generación de reportes. Y en la parte central, se muestra el panel de atenciones dividido en cuatro secciones:
 
 #. Atenciones en espera.
 #. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o servicios AMD/LAB/TLD/EMD programados.
@@ -42,7 +42,7 @@ Generar Ticket de Servicio
 
 Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y su contenido en servicios. Mientras que para obtener el documento que contiene la información de cada servicio, el ticket de servicio, debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con el ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.
 
-Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón superior izquierdo. En dicho menú se tienen los siguientes items:
+Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón superior izquierdo ya descrito. En dicho menú se tienen los siguientes items:
 
 .. image:: ../images/Asistente/AsistenteMenuItems.png
 
