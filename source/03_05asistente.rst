@@ -3,14 +3,14 @@ Asistente
 
 El Asistente es la persona que apoya a la gerencia en su gestión para obtener cualquier información concerniente a las atenciones, servicios, afiliados y/o tripulaciones de Atencion-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
-Para ingresar a la plataforma como Asistente, debemos escribir en la barra de dirección de nuestro navegador:
-https://atencion1.venedigital.com. Una vez allí veremos en la barra inferior información acerca de Atención-1, un enlace con ayuda que
-contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de
+Para ingresar a la plataforma como Asistente, debes escribir en la barra de dirección del navegador:
+https://atencion1.venedigital.com. Una vez allí ves en la barra inferior información acerca de Atención-1, un enlace con ayuda que
+contendrá un manual, una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de
 desarrollo.
 
 Previamente, el personal encargado de la administración del sistema Atencion-1 es el encargado de crearte el usuario con el rol de Asistente para poder ingresar al sistema.
 
-Para ingresar debes indicar el nombre y contraseña del usuario, en este caso Asistente. Una vez dentro de la plataforma, puedes apreciar en la parte superior derecha, el acceso a los datos del perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú donde puedes acceder más fácilmente al panel de atenciones, tripulaciones, afiliados y generación de reportes. Y en la parte central, se muestra el panel de atenciones dividido en cuatro secciones:
+Para ingresar debes indicar el nombre y contraseña del usuario, en este caso Asistente. Una vez dentro de la plataforma, puedes apreciar en la parte superior derecha, el acceso a los datos del perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú de "hamburguesa," donde puedes acceder más fácilmente al panel de atenciones, tripulaciones, afiliados y generación de reportes. Y en la parte central, se muestra el panel de atenciones dividido en cuatro secciones:
 
 #. Atenciones en espera.
 #. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o servicios AMD/LAB/TLD/EMD programados.
@@ -37,11 +37,17 @@ La cantidad y tipo de paneles se muestran según el servicio: panel de informaci
 
 Todos los paneles (de atención o de servicios) se abren y se cierran al hacer clic sobre el borde superior de cada compartimiento, donde se encuentra el título del pánel.
 
+Generar Ticket de Servicio
+--------------------------
+
 Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos los datos y detalles de una atención y su contenido en servicios. Mientras que para obtener el documento que contiene la información de cada servicio, el ticket de servicio, debajo de las pestañas con los acrónimos de los servicios se encuentra el primer panel con el ícono de una impresora, al cual haces clic para generar el .pdf con toda la información al día del servicio seleccionado.
 
-Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón superior izquierdo. En dicho menú se tienen los siguientes items:
+Hasta acá se describen las posibilidades de acción de un Asistente dentro de Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón superior izquierdo ya descrito. En dicho menú se tienen los siguientes items:
 
 .. image:: ../images/Asistente/AsistenteMenuItems.png
+
+Generar Ticket de Tripulación
+-----------------------------
 
 Al hacer clic en el menú al item **Tripulaciones** puedes visualizar el listado de tripulaciones activas. Dispones de un campo de búsquedas en la parte superior derecha del listado para localizar una tripulación en específico. 
 
@@ -52,6 +58,9 @@ Cuando haces clic sobre cualquier fila del listado, se despliega un diálogo con
 .. image:: ../images/Asistente/AsistenteDetallesTripulaciones.png
 
 Esta información la puedes imprimir haciendo clic en el ícono de impresora en la esquina inferior derecha del diálogo.
+
+Generar Reportes
+----------------
 
 En el item **Reportes** del menú se muestra la bandeja de generación de reportes para atenciones y servicios. En los campos de búsqueda se puede filtrar por fecha de inicio y fin de creación de la atención y/o servicio así también como por Cliente.
 
@@ -64,6 +73,9 @@ Se dispone de dos botones, uno para mostrar los datos en un listado en la parte 
 y otro botón para generar un archivo .xlsx con los datos.
 
 .. image:: ../images/Asistente/AsistenteGenerarReportes.png
+
+Visualizar Afiliados
+--------------------
 
 Finalmente, el item **Afiliados** del menú permite hacer búsquedas por cédula, nombre y/o apellido de afiliados. Cuándo realizas una búsqueda, se muestran los afiliados que coincidan con los datos buscados en un listado. 
 
