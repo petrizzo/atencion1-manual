@@ -3,9 +3,9 @@ Asistente
 
 El Asistente es la persona que apoya a la gerencia en su gestión para obtener cualquier información concerniente a las atenciones, servicios, afiliados y/o tripulaciones de Atencion-1. Recuerda que si quieres conocer los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
-Para ingresar a la plataforma como Asistente, debemos escribir en la barra de dirección de nuestro navegador:
-https://atencion1.venedigital.com. Una vez allí veremos en la barra inferior información acerca de Atención-1, un enlace con ayuda que
-contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de
+Para ingresar a la plataforma como Asistente, debes escribir en la barra de dirección del navegador:
+https://atencion1.venedigital.com. Una vez allí ves en la barra inferior información acerca de Atención-1, un enlace con ayuda que
+contendrá un manual, una guía de Preguntas Frecuentes y enlace a un correo electrónico con el que se podrá contactar al equipo de
 desarrollo.
 
 Previamente, el personal encargado de la administración del sistema Atencion-1 es el encargado de crearte el usuario con el rol de Asistente para poder ingresar al sistema.
