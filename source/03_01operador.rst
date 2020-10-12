@@ -85,7 +85,7 @@ Para que un usuario operador pueda cancelar un servicio primero debe ingresar a 
 Crear Afiliado Nuevo
 --------------------
 
-Atención-1 liberó la versión 0.6 en septiembre del 2020. En esta versión el ingreso de nuevos afiliados no registrados se hace a través de una consulta realizada en forma simultánea con el Validador. Detallamos a continuación cómo utilizar este método de de ingreso de nuevos afiliados.
+Atención-1 liberó su versión 0.6 en septiembre del 2020. En esta versión el ingreso de nuevos afiliados no registrados se hace a través de una consulta realizada en forma simultánea con el Validador. Detallamos a continuación cómo utilizar este método de de ingreso de nuevos afiliados.
 
 Ingreso de un Afiliado Titular con información del Validador
 

@@ -3,17 +3,6 @@ Coordinador/a
 
 
 
-Detalles sobre el cierre de un servicio:
-1) Si el servicio (de cualquier tipo) está En Progreso o Cerrado.
-2) Si el servicio OMT no tiene Diagnóstico. Nota: los servicios OMT Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
-3) Si el servicio AMD no tiene Diagnóstico o no tiene Resultados (en caso de que incluya exámenes de laboratorio). Nota: los servicios AMD Cancelados, Abiertos y Retrasados no requieren Diagnóstico ni Resultados.
-4) Si el servicio TLD no tiene Diagnóstico. Nota: los servicios TLD Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
-5) Si el servicio EMD no tiene Diagnóstico o no tiene Nota de Despacho o tiene Nota de Despacho incompleta (sin productos). Nota: los servicios EMD Cancelados, Abiertos y Retrasados no requieren Diagnóstico ni Nota de Despacho.
-6) Si el servicio PHD no tiene Diagnóstico. Nota: los servicios PHD Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
-7) Si el servicio LAB no tiene Resultados. Nota: los servicios LAB Cancelados, Abiertos y Retrasados no requieren Resultados.
-
-
-
 Coordinador. Panel de atenciones
 Vamos a ingresar ahora como un usuario Coordinador. 
 
@@ -39,7 +28,8 @@ Una de las funciones más importantes que hace el rol del Coordinador es verific
 Cerrar un servicio recordemos que es un procedimiento distinto al de Cancelar servicio (cancelar servicio ocurre en el desarrollo del servicio, lo puede hacer cualquier usuario). 
 Sin embargo, Cerrar servicio tiene que ver exclusivamente con verificar que esté todo en orden con respecto a la prestación de ese servicio y, por tanto, ya pueda darse como concluido como servicio o conjunto de servicios. 
 
-Para Cerrar un servicio el Coordinador debe desplazarse hasta la sección del Panel de atenciones que indica Por cerrar y allí seleccionar el servicio que va a cerrar. Resulta importante para cerrar un servicio o un conjunto de servicios, que esté como Completado o Cancelado, pero no puede estar Retrasado, En espera o En progreso. En estos casos lo que aplica es primero Cancelar el servicio y una vez que se haya cancelado si se puede cerrar. 
+Para cerrar un servicio, el Coordinador debe ubicarlo en el listado de
+atenciones Por cerrar y seleccionar la atención que contiene ese servicio.
 
 Como ejemplo:
 Tomamos cualquier servicio, hacemos clic en el botón Por cerrar y se nos despliega una pestaña en la que nos muestra el detalle tanto de la atención como del servicio. 
@@ -52,8 +42,37 @@ En el panel del lado derecho, en este caso, está activado el botón Cerrar serv
 
 Antes de cerrar un servicio es necesario verificar que exista un Diagnóstico y Resultados en el caso de ser un AMD con pruebas de laboratorio, de lo contrario no se encuentra habilitado el botón de Cerrar Servicio.ojo
   
-Podemos revisar cualquier detalle que queramos del servicio pero, si simplemente pulsamos en el botón Cerrar servicio, aparece una ventana pequeña que trae información de que el servicio fue Cancelado e indica el motivo de la cancelación. También permite seleccionar si las causas de que el servicio se cancelara son imputables a Venemergencia o no. Si se hace clic sobre el switch indica que las causas son imputables, de lo contrario indica que no lo son. Como en este caso el motivo es Carga por Error, no es imputable. Podemos plasmar algún comentario que se desee y luego hacemos clic en CONFIRMAR y así el servicio está cerrado exitosamente.
+Al hacer clic en el botón Cerrar Servicio, se despliega una ventana de diálogo
+donde el Coordinador debe indicar el motivo de cierre del servicio (Completado/
+Ingresado por Error/Cancelado) y plasmar un comentario (opcional). Si se
+selecciona como motivo de cierre Cancelado, aparecerá un texto de ayuda
+señalando el motivo de cancelación y el Coordinador debe indicar si la causa de
+cancelación del servicio es imputable a Venemergencia o no (si el switch está
+activado indica que la causa es imputable). En el caso en que se haya confirmado
+el envío de correo de resumen en el momento de creación del servicio, en esta
+ventana de diálogo también se presentará una alerta informando si el correo de
+resumen será enviado al afiliado o si el Coordinador debe asignar un correo
+electrónico para el envío antes de cerrar el servicio. Si hace clic en el botón
+Confirmar sin haber asignado el correo electrónico, el servicio se cerrará
+exitosamente pero el correo no será enviado.
 
-Una vez que el servicio está cerrado, podemos dirigirnos a cualquier otro servicio de los que están listados Por cerrar, donde verificamos que el servicio anterior ya no aparece allí, pero si queremos repetir el procedimiento con otro servicio simplemente hacemos lo mismo: lo seleccionamos, verificamos que no falte alguna información y procedemos a cerrarlo.
+Detalles sobre el cierre de un servicio:
+
+El botón Cerrar Servicio estará habilitado si el servicio tiene estatus Abierto
+o Retrasado (ya que pudo haber sido ingresado por error) o si el servicio ha
+sido previamente completado o cancelado (siempre y cuando cumpla con todas las
+condiciones para el cierre). Estas condiciones varían según el tipo de servicio.
+
+Un servicio no puede ser cerrado si se cumple lo siguiente:
+
+1) Si el servicio (de cualquier tipo) está En Progreso o Cerrado.
+2) Si el servicio OMT no tiene Diagnóstico. Nota: los servicios OMT Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
+3) Si el servicio AMD no tiene Diagnóstico o no tiene Resultados (en caso de que incluya exámenes de laboratorio). Nota: los servicios AMD Cancelados, Abiertos y Retrasados no requieren Diagnóstico ni Resultados.
+4) Si el servicio TLD no tiene Diagnóstico. Nota: los servicios TLD Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
+5) Si el servicio EMD no tiene Diagnóstico o no tiene Nota de Despacho o tiene Nota de Despacho incompleta (sin productos). Nota: los servicios EMD Cancelados, Abiertos y Retrasados no requieren Diagnóstico ni Nota de Despacho.
+6) Si el servicio PHD no tiene Diagnóstico. Nota: los servicios PHD Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
+7) Si el servicio LAB no tiene Resultados. Nota: los servicios LAB Cancelados, Abiertos y Retrasados no requieren Resultados.
+
+Una vez cerrado el servicio, el Coordinador podrá verificar que la atención que lo contiene ya no se encuentra en el listado de atenciones Por cerrar (a menos que contenga otro servicio completado o cancelado). Si queremos repetir el procedimiento con otro servicio simplemente hacemos lo mismo: lo seleccionamos, verificamos que no falte alguna información y procedemos a cerrarlo.
 
 Con esto hemos cerrado un servicio.
