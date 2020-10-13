@@ -35,7 +35,7 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 
 #. Hacemos click en el círculo de color verde con un signo "+" en su interior.
 #. A continuación en el recuadro que contiene el símbolo de la lupa, introducimos la cédula o el nombre de la persona que solicita ser atendida. Atención-1 permite realizar búsquedas con número de cédula o nombre, parcial o completo, de la persona afiliada.
-#. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`<crear-afiliado>` . En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
+#. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado` . En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
 
 .. image:: ../images/Operador/crear_atención.Operador.png
 
