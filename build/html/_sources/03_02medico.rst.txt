@@ -28,8 +28,8 @@ Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, d
 
 Otros elementos que podemos conseguir en el panel de atenciones son los estatus de atenciones que se nos indican a través de la leyenda en la parte superior de la ventana. Cada color indica un estatus en particular del servicio dentro de la atención.
 
-Atender un OMT
---------------
+Atender un servicio OMT
+-----------------------
 
 Como usuario con rol de Médico, debes atender aquellas atenciones que tengan servicio de OMT creado. Por lo que, primeramente, debes acceder a revisar el panel de atenciones En espera y ubicar en el listado aquella atención cuya columna de Servicios tenga en color amarillo un servicio OMT (el color amarillo indica que el servicio tiene status abierto, es decir, no atendido).
 
@@ -41,27 +41,66 @@ Este paso te conduce a ver la información de la atención seleccionada, donde a
 
 .. image:: ../images/Médico/MedicoAtencionOMT.png
 
+En la columna derecha puedes ver los datos de servicios, donde aparecen en pestañas los servicios asociados a la atención con los acrónimos de sus nombres, que en este caso la pestaña a ubicar es OMT. 
+Al momento de tomar la llamada del afiliado, inicias el servicio marcando en el botón Paso 1 completado, que registra la fecha y hora del inicio de la llamada. Esta acción va a producir el cambio de Estado del servicio, pasando de En espera (amarillo) a En progreso (verde).
+
+.. image:: ../images/Médico/MedicoInicioOMT.png
+
+.. image:: ../images/Médico/MedicoProgresoOMT.png
+
+Mientras se desarrolla la llamada, según los datos que vayas recibiendo del afiliado, tienes disponible los paneles para reunir toda la información que necesitas para ejecutar el servicio. En el primer panel, Información de servicio, veras tu nombre en el campo Atendido por, ya que automáticamente se registra quien atiende el servicio. En el campo de Comentarios puedes para agregar cualquier información u observaciones del servicio.
+
+.. image:: ../images/Médico/MedicoInformacionServicio.png
+
+El panel de Diagnósticos es el espacio para establecer el cuadro de síntomas y el diagnóstico del afiliado durante el servicio. Para ello dispones de campos de filtrado automático para Síntomas y Diagnóstico para que aparezca el término mientras lo escribes.  Estos campos contienen registros de síntomas y diagnósticos según el estándar internacional de la CIE-10. En caso de que la búsqueda del término deseado no coincida con los listados, igualmente puedes escribirlo en los campos Otros síntomas y Otros diagnósticos.
+
+.. image:: ../images/Médico/MedicoDiagnosticoServicio.png
+
+En el último panel de datos del servicio, Solicitudes, agregas el récipe e indicaciones, ingresas de ser necesario la solicitud de la realización de exámenes paraclínicos, alguna observación por tomar en cuenta y recomendaciones. 
+
+.. image:: ../images/Médico/MedicoSolicitudes.png
+
+Para los campos donde deben agregarse distintos items, como en Récipe e Indicaciones, te sugerimos que enumeres el medicamento a recetar y su indicación correspondiente tenga el mismo número.
+
+.. image:: ../images/Médico/MedicoRecipesIndicaciones.png
+
 En la columna izquierda aparecen los datos de la Atención, estructurada en: panel de información general de la atención, panel de datos relevantes del afiliado atendido, panel de información general de las pólizas asociadas al afiliado, panel del historial de atenciones y el panel de documentos adjuntos solicitados para los procesos propios de cada servicio de la atención.
 En el primer panel llamado Información de Atención tienes la opción de agregar alguna observación relevante ocurrida durante la atención, así como también cualquier número telefónico de contacto no agregado que sea necesario para la ejecución de la atención.
 
 .. image:: ../images/Médico/MedicoInformaciónAtencion.png
 
-Luego, en el siguiente panel de datos de la atención llamado Afiliado, también se ofrece la opción de agregar o editar información referente al afiliado: fecha de nacimiento, sexo, número de teléfonos del afiliado y correo electrónico. El campo correo electrónico es necesario agregarlo para enviar toda la información, indicaciones, recomendaciones, entre otros, sean enviadas al afiliado al culminar el servicio OMT prestado.
+Luego, en el siguiente panel de datos de la atención llamado Afiliado, también se ofrece la opción de agregar o editar información referente al afiliado: fecha de nacimiento, sexo, número de teléfonos del afiliado y correo electrónico. El campo correo electrónico es necesario agregarlo para que toda la información, indicaciones, recomendaciones, entre otros, sean enviadas al afiliado al culminar el servicio OMT prestado.
 
-image:: ../images/Médico/MedicoAfiliadoAtencion.png
+.. image:: ../images/Médico/MedicoAfiliadoAtencion.png
 
-Los paneles de Pólizas e Historial de atenciones son un recurso informativo, mientras que el último panel, Documentos adjuntos tiene como finalidad incluir los documentos que Venemergencia necesita para generar ciertos servicios, como PHD y EMD. 
+Los paneles de Pólizas e Historial de atenciones son un recurso informativo, mientras que el último panel, Documentos adjuntos tiene como finalidad incluir los documentos que Venemergencia necesita para procesar la solicitud de ciertos servicios, como PHD y EMD. 
 
-En la columna derecha puedes ver los datos de servicios, donde aparecen en pestañas los servicios asociados a la atención con los acrónimos de sus nombres, que en este caso la pestaña a ubicar es OMT. 
-Cuando nosotros tomamos la llamada podemos marcar el paso 1 como paso completado. Al movernos verticalmente en el panel, veremos la información del servicio como cuando fue creado, quién lo creó y quién lo está atendiendo en este momento donde se desplegará nuestro nombre de usuario como médico, por supuesto. También podemos incorporar en la información algún comentario adicional que sintamos pertinente como, por ejemplo, si fueron adjuntados archivos de informes médicos anteriores. Esta información la guardamos para después desplegar un poco para abajo y ver los diagnósticos. 
-Pensemos que esta persona hace la llamada por un dolor de cuello según la información que da el servicio y la atención y nos está entregando un informe anterior. Esto nos puede ayudar a indagar a través del afiliado cuáles son sus síntomas. En este caso podríamos escribir que la persona tiene rigidez en el cuello, y al introducir el síntoma aparecerán en lista una serie de aquellos que se encuentran registrados en el sistema según el estándar internacional de la CIE-10, por lo que puede suceder que algún síntoma que insertemos no se encuentre registrado dentro del sistema. De no encontrar el síntoma en la base de datos, debemos registrarlo en la casilla de al lado que indica otros síntomas. Entonces, podríamos insertar como síntoma rigidez en el cuello y en la casilla de síntoma podríamos insertar dolor de cabeza, por ejemplo. Puede que al indicar un síntoma éste aparezca con un asterisco, lo que quiere decir que en la sección cuestionario de triaje nos aparece preseleccionado un diagnóstico que en este caso sería cefalea. Luego de seleccionar el diagnóstico, se desplegarán algunas preguntas obligatorias y preguntas opcionales. Por medio de estas preguntas podemos descartar cualquier signo de alarma, por lo que es necesario hacerlas una por una al afiliado. Puede ser el caso que seleccionemos la opción, según continuamos con el mismo ejemplo, en que la persona sienta un dolor superior a 7 en una escala del 1 al 10 y el programa nos indique que se requiere una atención urgente necesitando un servicio AMD o traslado. Si desplegamos un poco más encontraremos al final algunas recomendaciones y signos de alarma que podemos darle al paciente. También podemos incluir en las solicitudes algún tipo de medicamento como ibuprofeno en la sección del récipe, y en la casilla de las indicaciones por cuánto tiempo lo deberá tomar. Guardamos la información y le hacemos saber a la persona que hemos terminado el servicio OMT y marcamos el paso 2 completado. Con esto hemos finalizado la atención de un OMT. Sin embargo a esta persona, por requerir evaluación urgente a través de un AMD o traslado, podríamos generar un servicio sucesivo en este momento. 
+Signos de alarma
+----------------
 
+Al momento de agregar el diagnóstico o conjunto de diagnósticos del afiliado, si el o los términos tienen un asterisco, automáticamente se despliega un campo de selección llamado Motivo Principal de Llamada, donde debes elegir un diagnóstico principal.
 
-Médico. Crear Servicio Sucesivo
+.. image:: ../images/Médico/MedicoSignosAlarma.png
 
-A continuación veremos los pasos a seguir para crear un servicio sucesivo a partir de un OMT. En este caso tomaremos un OMT que está en retraso de una atención anterior, completamos el primer paso, verificamos que entre los comentarios, por ejemplo, la persona tiene un fuerte dolor de estómago con evacuaciones. En la sección de diagnósticos, comenzamos a indagar a través de la persona los síntomas para concluir que su diagnóstico es diarrea. Al ser una diarrea, el síntoma aparecerá con un asterisco y nos va a trasladar a las preguntas de triaje, ya que debemos consultar con la persona algunos aspectos del síntoma por medio de preguntas obligatorias y preguntas opcionales para validar si requiere una atención domiciliaria, por ejemplo. Supongamos que al realizarle las preguntas a esta persona, descubrimos que ha tenido más de diez evacuaciones en las últimas 24 horas y ha utilizado medicamento para la diarrea sin tener algún efecto. En este caso, como lo hemos marcado a través de las preguntas de triaje, el sistema mostrará que la persona requiere una atención domiciliaria. Entonces, le haremos saber al paciente que es necesario que reciba una atención domiciliaria y completamos el paso 2. A continuación nosotros podemos generar un servicio sucesivo. 
+Al seleccionar el motivo principal de llamada, se mostrará un listado de preguntas de triaje, recomendaciones generales y signos de alarma. 
+
+.. image:: ../images/Médico/MedicoPreguntas.png
+
+.. image:: ../images/Médico/MedicoRecomendaciones.png
+
+Las preguntas son cerradas (de respuestas sin ambigüedades, si o no) que debes realizarle al afiliado. Las respuestas son afirmativas si se hace clic sobre la caja de selección que contiene la pregunta. En caso de que alguna de las preguntas obligatorias sea afirmativa, se genera el aviso: Evaluación urgente. AMD o Traslado. 
+
+.. image:: ../images/Médico/MedicoEvaluacionUrgente.png
+
+A partir de esta sugerencia, según el grado de complejidad, puedes generar el servicio adicional al afiliado que creas que sea conveniente mediante la creación de un Servicio Sucesivo.
+
+Crear Servicio Sucesivo
+-----------------------
+
+A continuación veremos los pasos a seguir para crear un servicio sucesivo a partir de un OMT.  de estómago con evacuaciones. En la sección de diagnósticos, comenzamos a indagar a través de la persona los síntomas para concluir que su diagnóstico es diarrea. Al ser una diarrea, el síntoma aparecerá con un asterisco y nos va a trasladar a las preguntas de triaje, ya que debemos consultar con la persona algunos aspectos del síntoma por medio de preguntas obligatorias y preguntas opcionales para validar si requiere una atención domiciliaria, por ejemplo. Supongamos que al realizarle las preguntas a esta persona, descubrimos que ha tenido más de diez evacuaciones en las últimas 24 horas y ha utilizado medicamento para la diarrea sin tener algún efecto. En este caso, como lo hemos marcado a través de las preguntas de triaje, el sistema mostrará que la persona requiere una atención domiciliaria. Entonces, le haremos saber al paciente que es necesario que reciba una atención domiciliaria y completamos el paso 2. A continuación nosotros podemos generar un servicio sucesivo. 
 El primer paso para crear este servicio es pulsar el botón de servicio sucesivo y podemos seleccionar, como parte del mismo ejemplo, que vamos a solicitar un servicio AMD-Retail. Como el contacto telefónico continúa, debemos preguntarle a la persona su dirección a ver si se encuentra en el mismo domicilio que tiene el sistema. En algunos casos los pacientes se encuentran en domicilio de familiares o en otro domicilio, por lo que siempre debemos verificar la dirección al prestar este tipo de servicio. Una vez asignada la dirección procedemos a crear el servicio pero, como en este caso se trata de una diarrea, incluimos pruebas de laboratorio y así quienes presten el servicio sabrán que deben contar con kit para realizar dichas pruebas. Con todos estos pasos hemos logrado completar exitosamente este servicio.   
 
-Médico. Cancelar Servicio
+Cancelar Servicio
+-----------------
 
 A continuación vamos a cancelar un servicio que un operador ha creado por error o por cualquier otro motivo por el que amerite ser cancelado. Supongamos que deseamos cancelar un servicio OMT, por lo que hacemos clic en el botón de atender. Cuando se nos despliega la información marcamos el paso 1 como completado si la persona ya no está al teléfono o perdimos el contacto. Después hacemos clic en cancelar servicio  e indicamos el motivo por el que estamos cancelando dicho servicio. Como el médico perdió contacto con la persona o se perdió la llamada, podemos usar la opción cancelado por el paciente y confirmamos la opción. Al hacerlo, notaremos que en la pantalla ya se muestra que el servicio ha sido cancelado. De todas formas, podemos confirmar que en Atenciones este servicio en particular, esa atención, ya no se encuentra en espera sino que se encuentra en las atenciones por cerrar que quedará pendiente para que el coordinador la cierre.  
