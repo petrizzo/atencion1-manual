@@ -75,6 +75,8 @@ Luego, en el siguiente panel de datos de la atención llamado Afiliado, también
 
 Los paneles de Pólizas e Historial de atenciones son un recurso informativo, mientras que el último panel, Documentos adjuntos tiene como finalidad incluir los documentos que Venemergencia necesita para procesar la solicitud de ciertos servicios, como PHD y EMD. 
 
+.. image:: ../images/Médico/MedicoPanelInfo.png
+
 Signos de alarma
 ----------------
 
