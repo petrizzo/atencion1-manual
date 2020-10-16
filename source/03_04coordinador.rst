@@ -3,62 +3,151 @@ Coordinador/a
 
 
 
-Coordinador. Panel de atenciones
-Vamos a ingresar ahora como un usuario Coordinador. 
+El Coordinador es la persona responsable de la verificación del cumplimiento de
+las actividades operativas en la prestación de los servicios. Tiene permisos de
+acceso a tareas de gestión de servicios y atenciones dentro de la plataforma
+Atención-1. Recuerda que si quieres conocer los conceptos utilizados en la
+plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
-Este usuario tiene, básicamente, las mismas secciones que el resto de los usuarios. Al entrar al Panel de atenciones tiene cuatro secciones:
+Para poder ingresar a Atención-1 como Coordinador, el personal encargado de la
+administración del sistema debe, previamente, crear el usuario y asignarle el
+rol de Coordinador.
 
-Atenciones En espera
-Atenciones Próximas programadas
-Atenciones En progreso
-Atenciones Por cerrar
+Para acceder a la plataforma, debes escribir en la barra de dirección del
+navegador: https://atencion1.venedigital.com. Una vez allí podrás visualizar en
+la barra inferior un conjunto de enlaces, a través de los cuales podrás obtener
+información acerca de Atención-1, tener acceso a un manual de ayuda y a una
+guía de Preguntas Frecuentes, contactar al equipo de desarrollo vía correo
+electrónico y reportar fallos/sugerencias.
 
-Igualmente en la parte superior derecha tiene información acerca de su perfil y en la esquina superior izquierda tiene un menú donde puede:
+Para ingresar debes indicar el nombre de usuario y contraseña. Una vez dentro
+de la plataforma, como usuario Coordinador, desde la parte superior derecha
+puedes tener acceso a los datos del perfil de usuario y cerrar la sesión. En
+la esquina superior izquierda se despliega el menú de "hamburguesa", desde el
+cual puedes navegar fácilmente a los paneles de **Atenciones**, **Tripulaciones**,
+**Reportes** y **Afiliados**. En la parte central se encuentra el panel de atenciones,
+dividido en cuatro secciones:
 
- Acceder rápidamente a las Atenciones.
-Consultar las tripulaciones.
-Generar reportes, de la misma manera como se generan los reportes desde la cuenta de Asistente.
-Consultar afiliados, igualmente como lo hace el Asistente.
+#. Atenciones **En espera**: atenciones abiertas sin servicios o con al menos un servicio abierto o retrasado.
+#. Atenciones **Próximas programadas**: atenciones abiertas con al menos un servicio programado dentro de las próximas 24 horas (incluye PHDs y servicios AMD/LAB/TLD/EMD programados).
+#. Atenciones **En progreso**: atenciones abiertas con al menos un servicio que actualmente está siendo atendido.
+#. Atenciones **Por cerrar**: atenciones abiertas que contienen al menos un servicio completado o cancelado (por cerrar).
 
-Con respecto a las atenciones, hay una función detallada posteriormente que es la de Cerrar Atenciones. La cual se hace directamente escogiendo la atención que se quiera cerrar de la sección Por Cerrar del Panel de Atenciones.
-Coordinador. Cerrar servicio
+.. image:: ../images/Coordinador/PanelAtencionesGeneral.jpg
 
-Una de las funciones más importantes que hace el rol del Coordinador es verificar que todo esté en orden antes de cerrar los servicios. 
+Para visualizar los detalles de una atención en particular, haces clic sobre el
+botón de "Abrir", ubicado en la parte derecha de la fila
+correspondiente. Al posicionar el cursor sobre el ícono aparecerá el mensaje
+"Revisar" o "Cerrar", según la sección en que se encuentre. Serás
+redireccionado a la página de detalles de la atención seleccionada.
 
-Cerrar un servicio recordemos que es un procedimiento distinto al de Cancelar servicio (cancelar servicio ocurre en el desarrollo del servicio, lo puede hacer cualquier usuario). 
-Sin embargo, Cerrar servicio tiene que ver exclusivamente con verificar que esté todo en orden con respecto a la prestación de ese servicio y, por tanto, ya pueda darse como concluido como servicio o conjunto de servicios. 
+.. image:: ../images/Coordinador/DetallesAtención.jpg
 
-Para cerrar un servicio, el Coordinador debe ubicarlo en el listado de
-atenciones Por cerrar y seleccionar la atención que contiene ese servicio.
+En esta página podrás visualizar dos secciones. La sección lateral izquierda contiene cinco
+paneles con los datos importantes de la atención: el panel de información general
+de la atención, el panel de datos relevantes del afiliado atendido, el panel de
+información general de las pólizas asociadas al afiliado, el panel del historial
+de atenciones del afiliado y el panel de documentos adjuntos solicitados para
+los procesos propios de cada servicio de la atención. La sección lateral
+derecha presenta la información referente a los servicios contenidos en la
+atención. Los servicios se muestran, con los acrónimos de sus nombres, en
+pestañas. Al hacer clic sobre cada pestaña se despliega la información del
+servicio, distribuida en paneles. Esta información varía según el tipo de
+servicio.
 
-Como ejemplo:
-Tomamos cualquier servicio, hacemos clic en el botón Por cerrar y se nos despliega una pestaña en la que nos muestra el detalle tanto de la atención como del servicio. 
+Todos los paneles (de atenciones y servicios) se expanden y se reducen al hacer
+clic sobre la cabecera del mismo (donde se encuentra el título).
 
-En el panel del lado izquierdo se nos muestra información de la atención: la hora, fecha, quién la tomó y algún detalle adicional que se haya añadido. Cuenta también con información del afiliado, en este caso se indica con una señal de alerta que a este afiliado le hace falta el correo electrónico. Introducir el correo electrónico es importante porque, al cierre del servicio la información sobre el servicio prestado (el detalle) se envía por correo electrónico al afiliado. Agregamos un correo electrónico, en la parte inferior de la información de Correos electrónicos se indica la forma en la que se debe escribir, que se debe pulsar Enter y una vez pulsado verificamos que se active la casilla GUARDAR y que el correo electrónico se ha guardado correctamente (cosa que nos damos cuenta porque desaparece la advertencia de que debe agregarse correo electrónico). 
+Gestionar Atenciones y Servicios
+--------------------------------
 
-En esta sección también podemos ver el historial de atenciones (atenciones anteriores del afiliado) y se pueden adjuntar algunos documentos que se deseen.
+En lo referente a la gestión de atenciones y servicios, como usuario
+Coordinador tienes permisos para crear nuevas atenciones, crear nuevos
+servicios, visualizar todos los detalles de una atención y de un servicio e
+imprimir el ticket del servicio, las solicitudes (récipes y recomendaciones) y
+las notas de despacho. En cuanto a los permisos de edición, como Coordinador
+puedes:
 
-En el panel del lado derecho, en este caso, está activado el botón Cerrar servicio.
+* Editar datos de un afiliado (fecha de nacimiento, género, teléfonos y
+  correos electrónicos) y adjuntar archivos (resultados de laboratorio,
+  indicaciones, récipes e informes médicos), en los paneles **Afiliado** y **Documentos
+  Adjuntos**, respectivamente, de la sección lateral izquierda correspondiente a
+  detalles de una atención.
+* Editar los comentarios y el motivo de servicio, en el panel **Información de
+  Servicio**.
+* Editar la ruta en el panel **Tripulación y Ruta**.
+* Editar la nota de despacho, en el panel **Nota de Despacho**.
+* Adjuntar resultados de laboratorio, en el panel **Resultados**.
+* Cancelar y cerrar servicios, en el panel del flujo de trabajo.
 
-Antes de cerrar un servicio es necesario verificar que exista un Diagnóstico y Resultados en el caso de ser un AMD con pruebas de laboratorio, de lo contrario no se encuentra habilitado el botón de Cerrar Servicio.ojo
-  
-Al hacer clic en el botón Cerrar Servicio, se despliega una ventana de diálogo
-donde el Coordinador debe indicar el motivo de cierre del servicio (Completado/
-Ingresado por Error/Cancelado) y plasmar un comentario (opcional). Si se
-selecciona como motivo de cierre Cancelado, aparecerá un texto de ayuda
-señalando el motivo de cancelación y el Coordinador debe indicar si la causa de
-cancelación del servicio es imputable a Venemergencia o no (si el switch está
-activado indica que la causa es imputable). En el caso en que se haya confirmado
-el envío de correo de resumen en el momento de creación del servicio, en esta
+Una de las funciones más importantes que ejecuta el rol de Coordinador en
+Atención-1 es cerrar un servicio. Es importante destacar las diferencias entre
+**cancelar** y **cerrar** un servicio. La **cancelación** de un servicio es opcional y
+puede ocurrir en cualquier momento del desarrollo del mismo, mientras que el
+**cierre** de un servicio es obligatorio y debe hacerse al darse por concluido, ya
+sea porque fue ingresado por error, por haber sido completado o cancelado. Por
+otra parte, la **cancelación** de un servicio puede ser ejecutada por cualquier
+usuario (a excepción del rol Asistente), mientras que el **cierre** de servicio es
+responsabilidad exclusivamente del usuario Coordinador. Los roles Gerente y
+Director también tienen permisos para cerrar servicios en caso de que se
+amerite. Puedes consultar los permisos atribuidos por roles de usuario para el
+manejo de Atención-1 en la sección :ref:`permisos`.
+
+El encargado de cerrar el servicio debe verificar previamente que esté
+todo en orden con respecto a la prestación de ese servicio y que no falte
+alguna información relevante. Una vez cerrado el servicio, no puede volver a
+abrirse. Cuando todos los servicios contenidos en una atención han sido
+cerrados, la atención se cerrará automáticamente.
+
+Para cerrar un servicio, como Coordinador, debes ubicarlo en el listado de
+atenciones **Por cerrar** y seleccionar la atención que contiene ese servicio.
+
+Al hacer clic en el botón "Cerrar Servicio", se despliega una ventana de diálogo
+donde debes indicar el motivo de cierre del servicio (Completado/Ingresado por Error/Cancelado)
+y añadir un comentario (opcional).
+
+.. image:: ../images/Coordinador/DiálogoCerrarServicio.jpg
+
+Si seleccionas como motivo de cierre **Cancelado**, aparecerá un texto de ayuda
+señalando el motivo de cancelación y debes indicar si la causa de
+cancelación del servicio es imputable a Venemergencia o no (si el *switch* está
+activado indica que la causa es imputable).
+
+.. image:: ../images/Coordinador/DiálogoCerrarServicioCancelado.jpg
+
+En caso de que el servicio haya sido completado y se haya confirmado
+el envío de correo de resumen en el momento de creación del mismo, en la
 ventana de diálogo también se presentará una alerta informando si el correo de
-resumen será enviado al afiliado o si el Coordinador debe asignar un correo
-electrónico para el envío antes de cerrar el servicio. Si hace clic en el botón
-Confirmar sin haber asignado el correo electrónico, el servicio se cerrará
+resumen será enviado al afiliado o si debes asignar un correo
+electrónico para el envío antes de cerrar el servicio. Si haces clic en el botón
+"Confirmar" sin haber asignado el correo electrónico, el servicio se cerrará
 exitosamente pero el correo no será enviado.
 
-Detalles sobre el cierre de un servicio:
+.. image:: ../images/Coordinador/DiálogoCerrarServicioSinCorreo.jpg
 
-El botón Cerrar Servicio estará habilitado si el servicio tiene estatus Abierto
+Recuerda que como Coordinador podrás agregar o editar el correo electrónico de
+un afiliado en el panel **Afiliado** de la sección lateral izquierda
+correspondiente a detalles de una atención. El ícono de alerta que aparece en
+la cabecera de este panel indica que debes añadir al menos un correo.
+
+.. image:: ../images/Coordinador/EdiciónAfiliadoSinCorreo.jpg
+
+Para agregar un correo electrónico asociado al afiliado, debes escribir el
+correo en el campo Correos electrónicos y presionar *Enter* para su validación.
+Para editarlo, haz doble clic sobre la píldora que lo contiene. Puedes asociar
+varios correos electrónicos a un afiliado. Al finalizar, haz clic en el botón "Guardar".
+
+Una vez asociado al menos un correo electrónico al afiliado, podrás notar que
+el ícono de alerta en la cabecera del panel **Afiliado** desaparecerá y que
+cambiará el mensaje de la ventana de diálogo. Recuerda que solamente se enviará el
+correo electrónico de resumen si el servicio efectivamente ha sido completado.
+
+.. image:: ../images/Coordinador/DiálogoCerrarServicioConCorreo.jpg
+
+Detalles sobre el cierre de un servicio
+***************************************
+
+El botón "Cerrar Servicio" estará habilitado si el servicio tiene estatus Abierto
 o Retrasado (ya que pudo haber sido ingresado por error) o si el servicio ha
 sido previamente completado o cancelado (siempre y cuando cumpla con todas las
 condiciones para el cierre). Estas condiciones varían según el tipo de servicio.
@@ -66,13 +155,73 @@ condiciones para el cierre). Estas condiciones varían según el tipo de servici
 Un servicio no puede ser cerrado si se cumple lo siguiente:
 
 1) Si el servicio (de cualquier tipo) está En Progreso o Cerrado.
-2) Si el servicio OMT no tiene Diagnóstico. Nota: los servicios OMT Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
-3) Si el servicio AMD no tiene Diagnóstico o no tiene Resultados (en caso de que incluya exámenes de laboratorio). Nota: los servicios AMD Cancelados, Abiertos y Retrasados no requieren Diagnóstico ni Resultados.
-4) Si el servicio TLD no tiene Diagnóstico. Nota: los servicios TLD Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
-5) Si el servicio EMD no tiene Diagnóstico o no tiene Nota de Despacho o tiene Nota de Despacho incompleta (sin productos). Nota: los servicios EMD Cancelados, Abiertos y Retrasados no requieren Diagnóstico ni Nota de Despacho.
-6) Si el servicio PHD no tiene Diagnóstico. Nota: los servicios PHD Cancelados, Abiertos y Retrasados no requieren Diagnóstico.
-7) Si el servicio LAB no tiene Resultados. Nota: los servicios LAB Cancelados, Abiertos y Retrasados no requieren Resultados.
+2) Si el servicio OMT no tiene Diagnóstico.
+3) Si el servicio AMD no tiene Diagnóstico o no tiene Resultados (en caso de que incluya exámenes de laboratorio).
+4) Si el servicio TLD no tiene Diagnóstico.
+5) Si el servicio EMD no tiene Diagnóstico o no tiene Nota de Despacho o tiene Nota de Despacho incompleta (sin productos).
+6) Si el servicio PHD no tiene Diagnóstico.
+7) Si el servicio LAB no tiene Resultados.
 
-Una vez cerrado el servicio, el Coordinador podrá verificar que la atención que lo contiene ya no se encuentra en el listado de atenciones Por cerrar (a menos que contenga otro servicio completado o cancelado). Si queremos repetir el procedimiento con otro servicio simplemente hacemos lo mismo: lo seleccionamos, verificamos que no falte alguna información y procedemos a cerrarlo.
+Nota: los servicios con estatus Cancelado, Abierto o Retrasado no requieren
+Diagnóstico, Nota de Despacho ni Resultados.
 
-Con esto hemos cerrado un servicio.
+Una vez cerrado el servicio, podrás verificar que la atención que lo contiene
+ya no se encuentra en el listado de atenciones Por cerrar (a menos que contenga
+otro servicio completado o cancelado). Si deseas cerrar otro servicio,
+simplemente debes repetir el procedimiento.
+
+
+Consultar Tripulaciones
+-----------------------
+
+Si haces clic en el item **Tripulaciones** del menú lateral izquierdo, podrás
+visualizar el listado de tripulaciones activas (del día). Dispones de un campo
+de búsquedas en la parte superior derecha del listado para localizar una
+tripulación en específico.
+
+.. image:: ../images/Coordinador/ListadoTripulaciones.jpg
+
+Al hacer clic sobre una fila del listado, se despliega una ventana de diálogo
+con todos los detalles de la tripulación seleccionada. 
+
+.. image:: ../images/Coordinador/DetallesTripulación.jpg
+
+Podrás imprimir esta información haciendo clic en el ícono de "impresora",
+ubicado en la esquina inferior derecha de la ventana de diálogo.
+
+
+Generar Reportes
+----------------
+
+Si haces clic en el item **Reportes** del menú lateral izquierdo, tendrás acceso
+al panel de generación de reportes para atenciones y servicios. Para generar un reporte
+debes establecer un rango de fecha de creación de las atenciones/servicios. También podrás
+filtrar cada reporte por **Cliente** (opcional).
+
+.. image:: ../images/Coordinador/FiltrosReporte.jpg
+ 
+Al hacer clic en el botón "Mostrar", podrás visualizar los datos en forma tabular en la parte inferior de la página.
+
+.. image:: ../images/Coordinador/MostrarReporte.jpg
+
+El botón "Generar" te permitirá obtener un archivo .xlsx con los datos.
+
+.. image:: ../images/Coordinador/GenerarReporte.jpg
+
+
+Consultar Afiliados
+---------------------
+
+Si haces clic en el item **Afiliados** del menú lateral izquierdo, podrás
+consultar información de los afiliados, haciendo búsquedas por cédula, nombre
+y/o apellido. Los resultados de la búsqueda se despliegan en un listado de paneles.
+
+.. image:: ../images/Coordinador/ListadoAfiliados.jpg
+
+En la cabecera de cada panel, podrás visualizar datos relevantes del afiliado,
+tales como: nombre, apellido, cédula de identidad, fecha de nacimiento, edad,
+sexo y estatus (activo/inactivo). Para obtener más información (teléfonos,
+correos electrónicos, direcciones, pólizas e historial de atenciones), debes
+hacer clic sobre el ícono de "expansión" en la parte derecha de la cabecera.
+
+.. image:: ../images/Coordinador/DetallesAfiliado.jpg
