@@ -1,3 +1,5 @@
+.. _permisos:
+
 Permisos según roles en Atención-1
 ==================================
 
