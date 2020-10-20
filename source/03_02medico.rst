@@ -17,9 +17,9 @@ Panel de Atenciones
 
 Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, distribuida en cuatro secciones:
 
-.. image:: ../images/Operador/OperadorPanelAtencionesGeneral1.png
+.. image:: ../images/Médico/MedicoPanelAtencionesGeneral1.png
 
-.. image:: ../images/Operador/OperadorPanelAtencionesGeneral2.png
+.. image:: ../images/Médico/MedicoPanelAtencionesGeneral2.png
 
 #. Atenciones en espera: en esta sección se encuentran las atenciones recién creadas, si tienen un ícono parpadeante al extremo izquierdo es por que ya tienen un retraso en ser atendidas.
 #. Atenciones próximas programadas: en esta sección se encuentran las atenciones con servicios PHD o servicios AMD/LAB/TLD/EMD programados.
@@ -42,9 +42,11 @@ Este paso te conduce a ver la información de la atención seleccionada, donde a
 .. image:: ../images/Médico/MedicoAtencionOMT.png
 
 En la columna derecha puedes ver los datos de servicios, donde aparecen en pestañas los servicios asociados a la atención con los acrónimos de sus nombres, que en este caso la pestaña a ubicar es OMT. 
-Al momento de tomar la llamada del afiliado, inicias el servicio marcando en el botón Paso 1 completado, que registra la fecha y hora del inicio de la llamada. Esta acción va a producir el cambio de Estado del servicio, pasando de En espera (amarillo) a En progreso (verde).
+Al momento de tomar la llamada del afiliado, inicias el servicio marcando en el botón Paso 1 Completado, que registra la fecha y hora del inicio de la llamada. Esta acción va a producir el cambio de Estado del servicio, pasando de En espera (amarillo) a En progreso (verde).
 
 .. image:: ../images/Médico/MedicoInicioOMT.png
+
+Observa el ícono sobre el acrónimo del servicio en la pestaña del mismo.
 
 .. image:: ../images/Médico/MedicoProgresoOMT.png
 
@@ -94,20 +96,34 @@ Las preguntas son cerradas (de respuestas sin ambigüedades, si o no) que debes 
 
 .. image:: ../images/Médico/MedicoEvaluacionUrgente.png
 
-A partir de esta sugerencia, según el grado de complejidad, puedes generar el servicio adicional al afiliado que creas que sea conveniente mediante la creación de un Servicio Sucesivo.
+A partir de esta sugerencia, según el grado de complejidad, puedes generar el servicio adicional al afiliado que creas conveniente mediante la creación de un Servicio Sucesivo.
 
 Crear Servicio Sucesivo
 -----------------------
+Primeramente, debes hacer clic en el botón Servicio Sucesivo de color verde que se encuentra justo debajo de la pestaña del servicio donde te encuentras.
 
-A continuación veremos los pasos a seguir para crear un servicio sucesivo a partir de un OMT.  de estómago con evacuaciones. En la sección de diagnósticos, comenzamos a indagar a través de la persona los síntomas para concluir que su diagnóstico es diarrea. Al ser una diarrea, el síntoma aparecerá con un asterisco y nos va a trasladar a las preguntas de triaje, ya que debemos consultar con la persona algunos aspectos del síntoma por medio de preguntas obligatorias y preguntas opcionales para validar si requiere una atención domiciliaria, por ejemplo. Supongamos que al realizarle las preguntas a esta persona, descubrimos que ha tenido más de diez evacuaciones en las últimas 24 horas y ha utilizado medicamento para la diarrea sin tener algún efecto. En este caso, como lo hemos marcado a través de las preguntas de triaje, el sistema mostrará que la persona requiere una atención domiciliaria. Entonces, le haremos saber al paciente que es necesario que reciba una atención domiciliaria y completamos el paso 2. A continuación nosotros podemos generar un servicio sucesivo. 
-El primer paso para crear este servicio es pulsar el botón de servicio sucesivo y podemos seleccionar, como parte del mismo ejemplo, que vamos a solicitar un servicio AMD-Retail. Como el contacto telefónico continúa, debemos preguntarle a la persona su dirección a ver si se encuentra en el mismo domicilio que tiene el sistema. En algunos casos los pacientes se encuentran en domicilio de familiares o en otro domicilio, por lo que siempre debemos verificar la dirección al prestar este tipo de servicio. Una vez asignada la dirección procedemos a crear el servicio pero, como en este caso se trata de una diarrea, incluimos pruebas de laboratorio y así quienes presten el servicio sabrán que deben contar con kit para realizar dichas pruebas. Con todos estos pasos hemos logrado completar exitosamente este servicio.   
+.. image:: ../images/Médico/MedicoSucesivo.png
+
+Esta acción despliega un diálogo donde eliges en un campo de selección el tipo de servicio a crear, según los servicios que el afiliado tenga disponibles por la cobertura de sus planes.
+
+.. image:: ../images/Médico/MedicoSucesivoDesplegado.png
+
+Luego de elegir el servicio, haces clic en el botón Crear, que convertirá el diálogo en un formulario según el tipo de servicio, cuyos campos tienes la opción de llenar o no (según la emergencia), para luego hacer clic en el botón Crear.
+Una vez realizados los pasos anteriores, se mostrará la pestaña abierta del servicio recién creado para ser ejecutado a la brevedad.
 
 Completar Servicio
 ------------------
+Una vez que todos los paneles (Información de servicio, Diagnósticos y Solicitudes) contengan la información necesario y que la llamada se haya llevado a cabo, se complet el servicio haciendo clic en el botón Paso 2 Completado para registrar la hora y fecha de culminación de llamada. Al completar este paso, el estatus del servicio cambia a Completado (azul).
 
-Completar el flujo de trabajo para marcar el cierre de la llamada.
+.. image:: ../images/Médico/MedicoCompletado.png
 
 Cancelar Servicio
 -----------------
 
-A continuación vamos a cancelar un servicio que un operador ha creado por error o por cualquier otro motivo por el que amerite ser cancelado. Supongamos que deseamos cancelar un servicio OMT, por lo que hacemos clic en el botón de atender. Cuando se nos despliega la información marcamos el paso 1 como completado si la persona ya no está al teléfono o perdimos el contacto. Después hacemos clic en cancelar servicio  e indicamos el motivo por el que estamos cancelando dicho servicio. Como el médico perdió contacto con la persona o se perdió la llamada, podemos usar la opción cancelado por el paciente y confirmamos la opción. Al hacerlo, notaremos que en la pantalla ya se muestra que el servicio ha sido cancelado. De todas formas, podemos confirmar que en Atenciones este servicio en particular, esa atención, ya no se encuentra en espera sino que se encuentra en las atenciones por cerrar que quedará pendiente para que el coordinador la cierre.  
+En caso de error de creación de servicio o por cualquier circunstancia que no pueda llevarse a cabo el servicio OMT, el servicio puede cancelarse al hacer clic en el botón rojo Cancelar Servicio. 
+
+.. image:: ../images/Médico/MedicoSucesivo.png
+
+Esta acción despliega un diálogo que muestra un campo de selección múltiple llamado Motivo de cancelación, una ves elijas el motivo, haces clic en Confirmar.
+
+.. image:: ../images/Médico/MedicoMotivoCancelacion.png
