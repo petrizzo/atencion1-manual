@@ -7,14 +7,14 @@ Manual de Usuarios Atención-1
    :maxdepth: 2
    :caption: Contenidos:
 
-   01descripcion_software.rst
-   02funciones.rst
-   03roles.rst
-   04buenas_prácticas.rst
-   05permisos.rst
-   06glosario.rst
-   07FAQ.rst
-   08about.rst
+   01descripcion_software
+   02funciones
+   03roles
+   04buenas_prácticas
+   05permisos
+   06glosario
+   07FAQ
+   08about
 
 
 Indices y tablas
