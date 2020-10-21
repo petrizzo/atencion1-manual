@@ -68,8 +68,8 @@ imprimir el ticket del servicio, las solicitudes (récipes y recomendaciones) y
 las notas de despacho. En cuanto a los permisos de edición, como Coordinador
 puedes:
 
-* Editar datos de un afiliado (fecha de nacimiento, género, teléfonos y
-  correos electrónicos) y adjuntar archivos (resultados de laboratorio,
+* Editar datos de un afiliado (nombre, apellido, fecha de nacimiento, género,
+  teléfonos y correos electrónicos) y adjuntar archivos (resultados de laboratorio,
   indicaciones, récipes e informes médicos), en los paneles **Afiliado** y **Documentos
   Adjuntos**, respectivamente, de la sección lateral izquierda correspondiente a
   detalles de una atención.
