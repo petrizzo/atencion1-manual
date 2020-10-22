@@ -45,7 +45,7 @@ Atender un servicio OMT
 
 Como usuario con rol de Médico, debes atender aquellas atenciones que tengan 
 servicio de OMT creado. Por lo que, primeramente, debes acceder a revisar el 
-panel de atenciones **En espera** y ubicar en el listado aquella atención cuya 
+panel de atenciones En espera y ubicar en el listado aquella atención cuya 
 columna de Servicios tenga en color amarillo un servicio OMT (el color amarillo 
 indica que el servicio tiene status abierto, es decir, no atendido).
 
@@ -66,8 +66,8 @@ pestañas los servicios asociados a la atención con los acrónimos de sus nombr
 que en este caso la pestaña a ubicar es OMT. 
 Al momento de tomar la llamada del afiliado, inicias el servicio marcando 
 en el botón **Paso 1 Completado**, que registra la fecha y hora del inicio de la llamada. 
-Esta acción va a producir el cambio de estado del servicio, pasando de **En espera**
-(amarillo) a **En progreso** (verde).
+Esta acción va a producir el cambio de estado del servicio, pasando de En espera
+(amarillo) a En progreso (verde).
 
 .. image:: ../images/Médico/MedicoInicioOMT.png
 
@@ -134,8 +134,6 @@ servicios, como PHD y EMD.
 
 .. image:: ../images/Médico/MedicoPanelInfo.png
 
- 
-
 .. image:: ../images/Médico/MedicoPanelInfoDoc.png
 
 Signos de alarma
@@ -190,7 +188,7 @@ Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y
 contengan la información necesario y que la llamada se haya llevado a cabo, se completa 
 el servicio haciendo clic en el botón **Paso 2 Completado** para registrar la hora y fecha 
 de culminación de llamada. Al completar este paso, el estatus del servicio cambia a 
-**Completado** (azul).
+Completado (azul).
 
 .. image:: ../images/Médico/MedicoCompletado.png
 

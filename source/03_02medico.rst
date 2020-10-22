@@ -134,8 +134,6 @@ servicios, como PHD y EMD.
 
 .. image:: ../images/Médico/MedicoPanelInfo.png
 
- 
-
 .. image:: ../images/Médico/MedicoPanelInfoDoc.png
 
 Signos de alarma
