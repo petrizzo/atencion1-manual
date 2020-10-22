@@ -69,20 +69,20 @@ html_theme_path = ['_themes']
 # html_static_path = ['_static']
 
 # If false, no module index is generated.
-#
-html_domain_indices = True
+# 
+# html_domain_indices = True
 
 # If false, no index is generated.
 #
-html_use_index = True
+# html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
 #
-html_split_index = False
+# html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
 #
-html_show_sourcelink = True
+# html_show_sourcelink = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -98,14 +98,14 @@ html_show_sourcelink = True
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr', 'zh'
 #
-html_search_language = 'es'
+# html_search_language = 'es'
 
 # A dictionary with options for the search language support, empty by default.
 # 'ja' uses this config value.
 # 'zh' user can custom change `jieba` dictionary path.
-html_search_options = {
-    'type': 'mecab',
-    'dic_enc': 'utf-8',
-    'dict': '/path/to/mecab.dic',
-    'lib': '/path/to/libmecab.so',
-}
+# html_search_options = {
+#     'type': 'mecab',
+#     'dic_enc': 'utf-8',
+#     'dict': '/path/to/mecab.dic',
+#     'lib': '/path/to/libmecab.so',
+# }
