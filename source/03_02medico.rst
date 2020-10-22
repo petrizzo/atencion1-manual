@@ -28,9 +28,7 @@ Panel de Atenciones
 Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, 
 distribuida en cuatro secciones:
 
-.. image:: ../images/Médico/MedicoPanelAtencionesGeneral1.png
-
-.. image:: ../images/Médico/MedicoPanelAtencionesGeneral2.png
+.. image:: ../images/Médico/MedicoPanelAtencionesGeneral.png
 
 #. Atenciones **En espera**: atenciones abiertas sin servicios o con al menos un servicio abierto o retrasado.
 #. Atenciones **Próximas programadas**: atenciones abiertas con al menos un servicio programado dentro de las próximas 24 horas (incluye PHDs y servicios AMD/LAB/TLD/EMD programados).
@@ -58,7 +56,7 @@ el mensaje Atender.
 .. image:: ../images/Médico/MedicoAtenderAtencionOMT.png
 
 Este paso te conduce a ver la información de la atención seleccionada, donde 
-aparecen dos secciones en columnas de páneles: la sección de datos de la **atención** 
+aparecen dos secciones en columnas de páneles: la sección de datos de la atención 
 y la sección de los datos de **servicios**.
 
 .. image:: ../images/Médico/MedicoAtencionOMT.png
@@ -108,7 +106,7 @@ indicación correspondiente tenga el mismo número.
 
 .. image:: ../images/Médico/MedicoRecipesIndicaciones.png
 
-En la columna izquierda aparecen los datos de la **atención**, estructurada en: 
+En la columna izquierda aparecen los datos de la atención, estructurada en: 
 panel de información general de la atención, panel de datos relevantes del 
 afiliado atendido, panel de información general de las pólizas asociadas al 
 afiliado, panel del historial de atenciones y el panel de documentos adjuntos 
@@ -118,7 +116,7 @@ alguna observación relevante ocurrida durante la atención, así como también
 cualquier número telefónico de contacto no agregado que sea necesario para la 
 ejecución de la atención.
 
-.. image:: ../images/Médico/MedicoInformaciónAtencion.png
+.. image:: ../images/Médico/MedicoInformacionAtencion.png
 
 Luego, en el siguiente panel de datos de la atención llamado **Afiliado**, 
 también se ofrece la opción de agregar o editar información referente al afiliado: 
@@ -135,6 +133,10 @@ los documentos que Venemergencia necesita para procesar la solicitud de ciertos
 servicios, como PHD y EMD. 
 
 .. image:: ../images/Médico/MedicoPanelInfo.png
+
+ 
+
+.. image:: ../images/Médico/MedicoPanelInfoDoc.png
 
 Signos de alarma
 ----------------

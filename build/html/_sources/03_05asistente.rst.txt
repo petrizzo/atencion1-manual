@@ -26,14 +26,12 @@ lado superior izquierdo el menú de "hamburguesa," donde puedes acceder más
 fácilmente al panel de atenciones, tripulaciones, afiliados y generación de reportes. 
 Y en la parte central, se muestra el panel de atenciones dividido en cuatro secciones:
 
-#. Atenciones en espera.
-#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o servicios AMD/LAB/TLD/EMD programados.
-#. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
-#. Atenciones por cerrar. 
+#. Atenciones **En espera**: atenciones abiertas sin servicios o con al menos un servicio abierto o retrasado.
+#. Atenciones **Próximas programadas**: atenciones abiertas con al menos un servicio programado dentro de las próximas 24 horas (incluye PHDs y servicios AMD/LAB/TLD/EMD programados).
+#. Atenciones **En progreso**: atenciones abiertas con al menos un servicio que actualmente está siendo atendido.
+#. Atenciones **Por cerrar**: atenciones abiertas que contienen al menos un servicio completado o cancelado (por cerrar).
 
-.. image:: ../images/Asistente/AsistentePanelAtencionesGeneral1.png
-
-.. image:: ../images/Asistente/AsistentePanelAtencionesGeneral2.png
+.. image:: ../images/Asistente/AsistentePanelAtencionesGeneral.png
 
 Para visualizar la información del listado de **Atenciones**, en el extremo 
 derecho del listado de atenciones haces clic sobre el ícono en la linea contentiva 
@@ -108,7 +106,10 @@ de inicio y fin de creación de la atención y/o servicio así también como por
 .. image:: ../images/Asistente/AsistenteBandejaReportes.png
 
 Se dispone de dos botones, uno para mostrar los datos en un listado en la 
-parte inferior de la pantalla 
+parte inferior de la pantalla. Dependiendo de la cantidad de registros que 
+tenga el reporte, mayos a 10 registros, se despliega una paginación. Además se 
+cuenta con un campo de búsqueda en la parte superior derecha para ubicar con 
+facilidad cualquier dato.
 
 .. image:: ../images/Asistente/AsistenteMostrarReportes.png
 

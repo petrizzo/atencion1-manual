@@ -28,14 +28,12 @@ Panel de Atenciones
 Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, 
 distribuida en cuatro secciones:
 
-.. image:: ../images/Médico/MedicoPanelAtencionesGeneral1.png
+.. image:: ../images/Médico/MedicoPanelAtencionesGeneral.png
 
-.. image:: ../images/Médico/MedicoPanelAtencionesGeneral2.png
-
-#. Atenciones en espera: en esta sección se encuentran las atenciones recién creadas, si tienen un ícono parpadeante al extremo izquierdo es por que ya tienen un retraso en ser atendidas.
-#. Atenciones próximas programadas: en esta sección se encuentran las atenciones con servicios PHD o servicios AMD/LAB/TLD/EMD programados.
-#. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
-#. Atenciones por cerrar: sección con atenciones a la espera de ser cerradas ya que algún o todos los servicios fueron completados o cancelados.
+#. Atenciones **En espera**: atenciones abiertas sin servicios o con al menos un servicio abierto o retrasado.
+#. Atenciones **Próximas programadas**: atenciones abiertas con al menos un servicio programado dentro de las próximas 24 horas (incluye PHDs y servicios AMD/LAB/TLD/EMD programados).
+#. Atenciones **En progreso**: atenciones abiertas con al menos un servicio que actualmente está siendo atendido.
+#. Atenciones **Por cerrar**: atenciones abiertas que contienen al menos un servicio completado o cancelado (por cerrar).
 
 Otros elementos que podemos conseguir en el panel de atenciones son los estatus 
 de atenciones que se nos indican a través de la leyenda en la parte superior de 
@@ -47,7 +45,7 @@ Atender un servicio OMT
 
 Como usuario con rol de Médico, debes atender aquellas atenciones que tengan 
 servicio de OMT creado. Por lo que, primeramente, debes acceder a revisar el 
-panel de atenciones En espera y ubicar en el listado aquella atención cuya 
+panel de atenciones **En espera** y ubicar en el listado aquella atención cuya 
 columna de Servicios tenga en color amarillo un servicio OMT (el color amarillo 
 indica que el servicio tiene status abierto, es decir, no atendido).
 
@@ -59,17 +57,17 @@ el mensaje Atender.
 
 Este paso te conduce a ver la información de la atención seleccionada, donde 
 aparecen dos secciones en columnas de páneles: la sección de datos de la atención 
-y la sección de los datos de servicios.
+y la sección de los datos de **servicios**.
 
 .. image:: ../images/Médico/MedicoAtencionOMT.png
 
-En la columna derecha puedes ver los datos de servicios, donde aparecen en 
+En la columna derecha puedes ver los datos de **servicios**, donde aparecen en 
 pestañas los servicios asociados a la atención con los acrónimos de sus nombres, 
 que en este caso la pestaña a ubicar es OMT. 
 Al momento de tomar la llamada del afiliado, inicias el servicio marcando 
-en el botón Paso 1 Completado, que registra la fecha y hora del inicio de la llamada. 
-Esta acción va a producir el cambio de Estado del servicio, pasando de En espera 
-(amarillo) a En progreso (verde).
+en el botón **Paso 1 Completado**, que registra la fecha y hora del inicio de la llamada. 
+Esta acción va a producir el cambio de estado del servicio, pasando de **En espera**
+(amarillo) a **En progreso** (verde).
 
 .. image:: ../images/Médico/MedicoInicioOMT.png
 
@@ -80,68 +78,72 @@ Observa el ícono sobre el acrónimo del servicio en la pestaña del mismo.
 Mientras se desarrolla la llamada, según los datos que vayas recibiendo del 
 afiliado, tienes disponible los paneles para reunir toda la información que 
 necesitas para ejecutar el servicio. En el primer panel, Información de servicio, 
-veras tu nombre en el campo Atendido por, ya que automáticamente se registra 
-quien atiende el servicio. En el campo de Comentarios puedes para agregar 
+veras tu nombre en el campo **Atendido por**, ya que automáticamente se registra 
+quien atiende el servicio. En el campo de **Comentarios** puedes para agregar 
 cualquier información u observaciones del servicio.
 
 .. image:: ../images/Médico/MedicoInformacionServicio.png
 
-El panel de Diagnósticos es el espacio para establecer el cuadro de síntomas 
+El panel de **Diagnósticos** es el espacio para establecer el cuadro de síntomas 
 y el diagnóstico del afiliado durante el servicio. Para ello dispones de 
-campos de filtrado automático para Síntomas y Diagnóstico para que aparezca 
+campos de filtrado automático para **Síntomas** y **Diagnóstico** para que aparezca 
 el término mientras lo escribes.  Estos campos contienen registros de síntomas 
 y diagnósticos según el estándar internacional de la CIE-10. En caso de que la 
 búsqueda del término deseado no coincida con los listados, igualmente puedes 
-escribirlo en los campos Otros síntomas y Otros diagnósticos.
+escribirlo en los campos **Otros síntomas** y **Otros diagnósticos**.
 
 .. image:: ../images/Médico/MedicoDiagnosticoServicio.png
 
-En el último panel de datos del servicio, Solicitudes, agregas el récipe e 
+En el último panel de datos del servicio, **Solicitudes**, agregas el récipe e 
 indicaciones, ingresas de ser necesario la solicitud de la realización de 
 exámenes paraclínicos, alguna observación por tomar en cuenta y recomendaciones. 
 
 .. image:: ../images/Médico/MedicoSolicitudes.png
 
-Para los campos donde deben agregarse distintos items, como en Récipe e 
-Indicaciones, te sugerimos que enumeres el medicamento a recetar y su 
+Para los campos donde deben agregarse distintos items, como en **Récipe** e 
+**Indicaciones**, te sugerimos que enumeres el medicamento a recetar y su 
 indicación correspondiente tenga el mismo número.
 
 .. image:: ../images/Médico/MedicoRecipesIndicaciones.png
 
-En la columna izquierda aparecen los datos de la Atención, estructurada en: 
+En la columna izquierda aparecen los datos de la atención, estructurada en: 
 panel de información general de la atención, panel de datos relevantes del 
 afiliado atendido, panel de información general de las pólizas asociadas al 
 afiliado, panel del historial de atenciones y el panel de documentos adjuntos 
 solicitados para los procesos propios de cada servicio de la atención.
-En el primer panel llamado Información de Atención tienes la opción de agregar 
+En el primer panel llamado **Información de Atención** tienes la opción de agregar 
 alguna observación relevante ocurrida durante la atención, así como también 
 cualquier número telefónico de contacto no agregado que sea necesario para la 
 ejecución de la atención.
 
-.. image:: ../images/Médico/MedicoInformaciónAtencion.png
+.. image:: ../images/Médico/MedicoInformacionAtencion.png
 
-Luego, en el siguiente panel de datos de la atención llamado Afiliado, 
+Luego, en el siguiente panel de datos de la atención llamado **Afiliado**, 
 también se ofrece la opción de agregar o editar información referente al afiliado: 
-fecha de nacimiento, sexo, número de teléfonos del afiliado y correo electrónico. 
+nombre, apellido, fecha de nacimiento, sexo, número de teléfonos del afiliado y correo electrónico. 
 El campo correo electrónico es necesario agregarlo para que toda la información, 
-indicaciones, recomendaciones, entre otros, sean enviadas al afiliado al culminar 
+indicaciones, recomendaciones, entre otros, sean enviadas al afiliado al completar 
 el servicio OMT prestado.
 
 .. image:: ../images/Médico/MedicoAfiliadoAtencion.png
 
-Los paneles de Pólizas e Historial de atenciones son un recurso informativo, 
-mientras que el último panel, Documentos adjuntos tiene como finalidad incluir 
+Los paneles de **Pólizas** e **Historial de atenciones** son un recurso informativo, 
+mientras que el último panel, **Documentos adjuntos** tiene como finalidad incluir 
 los documentos que Venemergencia necesita para procesar la solicitud de ciertos 
 servicios, como PHD y EMD. 
 
 .. image:: ../images/Médico/MedicoPanelInfo.png
 
+ 
+
+.. image:: ../images/Médico/MedicoPanelInfoDoc.png
+
 Signos de alarma
 ----------------
 
 Al momento de agregar el diagnóstico o conjunto de diagnósticos del afiliado, 
-si el o los términos tienen un asterisco, automáticamente se despliega un campo 
-de selección llamado Motivo Principal de Llamada, donde debes elegir un diagnóstico principal.
+si el o los términos tienen un asterisco (*), automáticamente se despliega un campo 
+de selección llamado **Motivo Principal de Llamada**, donde debes elegir un diagnóstico principal.
 
 .. image:: ../images/Médico/MedicoSignosAlarma.png
 
@@ -155,17 +157,17 @@ de triaje, recomendaciones generales y signos de alarma.
 Las preguntas son cerradas (de respuestas sin ambigüedades, si o no) que debes 
 realizarle al afiliado. Las respuestas son afirmativas si se hace clic sobre la 
 caja de selección que contiene la pregunta. En caso de que alguna de las preguntas 
-obligatorias sea afirmativa, se genera el aviso: Evaluación urgente. AMD o Traslado. 
+obligatorias sea afirmativa, se genera el aviso: **Evaluación urgente. AMD o Traslado**. 
 
 .. image:: ../images/Médico/MedicoEvaluacionUrgente.png
 
 A partir de esta sugerencia, según el grado de complejidad, puedes generar el 
 servicio adicional al afiliado que creas conveniente mediante la creación de un 
-Servicio Sucesivo.
+**Servicio Sucesivo**.
 
 Crear Servicio Sucesivo
 -----------------------
-Primeramente, debes hacer clic en el botón Servicio Sucesivo de color verde que 
+Primeramente, debes hacer clic en el botón **Servicio Sucesivo** de color verde que 
 se encuentra justo debajo de la pestaña del servicio donde te encuentras.
 
 .. image:: ../images/Médico/MedicoSucesivo.png
@@ -176,19 +178,19 @@ la cobertura de sus planes.
 
 .. image:: ../images/Médico/MedicoSucesivoDesplegado.png
 
-Luego de elegir el servicio, haces clic en el botón Crear, que convertirá el 
+Luego de elegir el servicio, haces clic en el botón **Crear**, que convertirá el 
 diálogo en un formulario según el tipo de servicio, cuyos campos tienes la opción 
-de llenar o no (según la emergencia), para luego hacer clic en el botón Crear.
+de llenar o no (según la emergencia), para luego hacer clic en el botón **Crear**.
 Una vez realizados los pasos anteriores, se mostrará la pestaña abierta del servicio 
 recién creado para ser ejecutado a la brevedad.
 
 Completar Servicio
 ------------------
-Una vez que todos los paneles (Información de servicio, Diagnósticos y Solicitudes) 
+Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y **Solicitudes**) 
 contengan la información necesario y que la llamada se haya llevado a cabo, se completa 
-el servicio haciendo clic en el botón Paso 2 Completado para registrar la hora y fecha 
+el servicio haciendo clic en el botón **Paso 2 Completado** para registrar la hora y fecha 
 de culminación de llamada. Al completar este paso, el estatus del servicio cambia a 
-Completado (azul).
+**Completado** (azul).
 
 .. image:: ../images/Médico/MedicoCompletado.png
 
