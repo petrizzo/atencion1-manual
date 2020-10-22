@@ -1,4 +1,4 @@
-Medico/a
+Médico/a
 ========
 
 El Médico es la persona que tiene las competencias y licencias para realizar la 

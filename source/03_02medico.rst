@@ -1,4 +1,4 @@
-Medico/a
+Médico/a
 ========
 
 El Médico es la persona que tiene las competencias y licencias para realizar la 
@@ -32,10 +32,10 @@ distribuida en cuatro secciones:
 
 .. image:: ../images/Médico/MedicoPanelAtencionesGeneral2.png
 
-#. Atenciones en espera: en esta sección se encuentran las atenciones recién creadas, si tienen un ícono parpadeante al extremo izquierdo es por que ya tienen un retraso en ser atendidas.
-#. Atenciones próximas programadas: en esta sección se encuentran las atenciones con servicios PHD o servicios AMD/LAB/TLD/EMD programados.
-#. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
-#. Atenciones por cerrar: sección con atenciones a la espera de ser cerradas ya que algún o todos los servicios fueron completados o cancelados.
+#. Atenciones **En espera**: atenciones abiertas sin servicios o con al menos un servicio abierto o retrasado.
+#. Atenciones **Próximas programadas**: atenciones abiertas con al menos un servicio programado dentro de las próximas 24 horas (incluye PHDs y servicios AMD/LAB/TLD/EMD programados).
+#. Atenciones **En progreso**: atenciones abiertas con al menos un servicio que actualmente está siendo atendido.
+#. Atenciones **Por cerrar**: atenciones abiertas que contienen al menos un servicio completado o cancelado (por cerrar).
 
 Otros elementos que podemos conseguir en el panel de atenciones son los estatus 
 de atenciones que se nos indican a través de la leyenda en la parte superior de 
