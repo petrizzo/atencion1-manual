@@ -10,6 +10,7 @@ contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo el
 desarrollo.
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
+    :width: 700
 
 Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o beneficiarios de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
 
@@ -19,8 +20,10 @@ Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso 
 #. Atenciones por cerrar. 
 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral1.png
+    :width: 700
 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral2.png
+    :width: 700
 
 En la parte superior podemos saber cómo se encuentra o cuál es la condición de cada servicio por medio de un color determinado:
 
@@ -41,6 +44,7 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 #. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
 
 .. image:: ../images/Operador/crear_atención.Operador.png
+    :width: 700
 
 #. Debes seleccionar el afiliado haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
 #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
@@ -79,23 +83,29 @@ Una vez creado el servicio podemos verificar que se visualiza entre los servicio
 En el caso de los servicios EMD y, en general, para todos los servicios, se pueden adjuntar documentos. Esto lo conseguimos realizar si hacemos pulsamos el el círculo verde que, al ponernos sobre él, dice adjuntar documento. Luego de seguir todo estos pasos hemos podido crear un servicio de entrega de medicamentos.      
 
 
-Operador. Crear TLD
+Crear TLD
+---------
 
 A continuación crearemos un servicio tipo traslado TLD. Lo haremos a partir de una atención que ya esté creada sin ningún tipo de servicio asociado por el momento. En el panel de atención nos vamos a editar y veremos que, en el panel que se despliega, esta atención no tiene ningún tipo de servicio asociado. Para continuar, pulsamos el botón circular verde con el signo positivo y escogemos el tipo de servicio que será el TLD. 
 Entre los datos que debemos suministrar para la generación del servicio debemos indicar el motivo de consulta. En este caso el motivo ya lo tiene debido a que se suministró cuando la atención fue creada. También podemos agregar algún comentario que nos parezca pertinente. Vamos a escribir en el motivo de servicio la realización de RX como ejemplo para este ejercicio, e indicamos el origen. Al pulsar sobre la palabra origen se desplegará una ventana en la que debemos suministrar una dirección. En este caso, daremos la dirección donde se irá a buscar a la persona y la asignamos. Sobre el campo destino debemos indicar la dirección donde será llevada esta persona (clínica, hospital, etc.). Al asignar el destino también debemos indicar el tipo de traslado que realizaremos. Por ejemplo, si es un traslado de emergencia, ida y vuelta, UCI, etc. En este caso podemos utilizar un traslado ida vuelta, que implica buscar a la persona para llevarla a realizarse determinados estudios y luego devolverla a su domicilio. Creamos el servicio y verificamos su creación ya que en la pantalla se recarga la información sobre los detalles de este servicio que ha sido añadido a la atención y podemos visualizar todos los pasos que lleva realizar dicho servicio TLD. Sin embargo, también podemos verificar la información en el panel de atención y notaremos que la atención que no tenía ningún tipo de servicio ahora le ha sido agregado uno. Siguiendo estos pasos hemos podido crear el tipo TLD con todas las características correspondientes. 
 
-Operador. Creación de PHD
+Creación de PHD
+---------------
 
 Vamos a crear un servicio de hospitalización domiciliaria PHD. La creación de este servicio es diferente a la de los otros tipos de servicios que se utilizan en Atención-1. Por ello, la atención que se crea puede contener únicamente este servicio. Si el afiliado requiere otro tipo de servicio entonces creamos una nueva atención para él. 
 Creamos la atención con el mismo procedimiento con el que la hemos creado anteriormente y le agregamos el servicio que es PHD. Como en los casos anteriores, los servicios que requieren traslado van a pedir dirección y motivo de servicio. Podemos indicar, por ejemplo, que el motivo de servicio es suministro de tratamiento endovenoso. El destino es la ubicación donde debe dirigirse la unidad o vehículo a dar el servicio, así que podemos introducirla de la misma forma que hemos hecho anteriormente. Es necesario destacar que ya que los servicios PHD no necesariamente se originan dentro de Atención-1, debemos indicar por qué fuente llegó la solicitud de este servicio. Para hacerlo utilizamos el campo origen de solicitud de servicio. Este es un campo obligatorio. Entre todas las opciones que se despliegan vamos a seleccionar la opción de correo electrónico, por lo que la solicitud, entonces, fue realizada a través de correo electrónico. Ahora podemos proceder a programar la fecha o las fechas en las cuales se le va a ofrecer al afiliado la atención médica domiciliaria. Pulsamos el círculo verde con el signo más y podemos seleccionar la primera fecha y hora. Debemos utilizar la denominación am o pm para diferenciar el bloque de la mañana con el de la tarde. Después de agregar la primera fecha, seguimos el mismo procedimiento en caso de necesitar agregar más. Si es un tratamiento de varios días seguidos es importante dejar la programación con toda la información detallada, ya que por esta vía el despachador podrá ver todos los servicios que debe atender próximamente. 
 Una vez que hemos creado el servicio lo podemos ver en las atenciones en la sección de próximas programadas. Ahí podemos verificar que la fecha o las fechas fueron agregadas correctamente. También aparecerá la hora en que se realizó la llamada y el nombre del afiliado. Al momento de aproximarse la hora de la atención, esta pasará a desplegarse en la sección de atención en espera . 
 
-Operador. Crear Servicio Laboratorio
+Crear Servicio Laboratorio
+--------------------------
 
 A continuación vamos a crear un servicio de laboratorio como operador. Primero debemos ingresar el nombre de la persona que está solicitando el servicio y confirmamos las pólizas disponibles. Si entre ellas hay una póliza retail pulsamos sobre el botón verificamos que tiene disponible los servicios de laboratorio. Una vez hecho lo anterior, procedemos a indicar el motivo de la consulta y verificamos el número de contacto. No es obligatorio, pero podemos dejar alguna observación. Si indicamos que la persona tiene dolor abdominal como motivo de consulta, podríamos agregar en observaciones que la persona tiene varios días con dolor de estomacal, por ejemplo. Para continuar creamos la atención y le agregamos un servicio de laboratorio que en este caso está indicado en el botón de LAB-OTR AU Retail. Recordemos que las tres primeras letras que tiene cada cápsula indican el tipo de servicio y el resto contiene información sobre el cliente y el tipo de póliza. 
 Al pulsar el servicio de laboratorio podemos indicar si es un servicio programado o no. En el caso de ser programado debemos indicar la fecha y hora del servicio. De no ser programado significa que debe ser atendido a partir de este momento. En la casilla de  motivo de servicio indicamos una vez más que es dolor abdominal y en la casilla de destino indicamos cuál es la dirección. Podemos seleccionar una de las direcciones disponibles o asignamos una nueva. Por último asignamos los exámenes de laboratorio que deben aplicarse en la persona a la que se le prestará el servicio. Al seleccionar uno o varios exámenes según sea requerido, pulsamos el botón crear. una vez que el servicio que se ha creado, vemos que se despliega en el historial de atenciones como un servicio que está pendiente de ser tomado. Con todos estos pasos hemos logrado crear un servicio de laboratorio. 
 
-Operador. Cancelar Servicio
+.. _cancelar-servicio:
+
+Cancelar Servicio
+-----------------
 
 Para que un usuario operador pueda cancelar un servicio primero debe ingresar a un servicio de cualquier atención. Por ejemplo, podemos ingresar para editar una atención que se trate de un traslado y cuente únicamente con un servicio. Ahí encontraremos el botón para cancelar el servicio. Al pulsarlo se nos desplegará una ventana en la cual es obligatorio indicar el motivo por el cual estamos cancelando dicho servicio. Entre las opciones que nos ofrece el sistema podemos seleccionar carga por error, y esto supone un servicio que fue creado dos veces, se quería crear otro servicio o cualquier otro motivo que haya derivado en un error por parte del operador. Después de confirmar podemos observar que el servicio se ha cancelado de manera exitosa. También podemos ver que en el panel de atenciones esta atención ha pasado al estatus por cerrar , lo que indica que debe ser cerrada por parte del usuario coordinador. Lo podemos confirmar también a través del número de la atención, el nombre de la persona y el color que indica que la atención fue cancelada. 
 
