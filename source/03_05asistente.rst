@@ -27,8 +27,7 @@ fácilmente al panel de atenciones, tripulaciones, afiliados y generación de re
 Y en la parte central, se muestra el panel de atenciones dividido en cuatro secciones:
 
 #. Atenciones en espera.
-#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o 
-servicios AMD/LAB/TLD/EMD programados.
+#. Atenciones próximas programadas: en esta sección se encuentran todos los PHD o servicios AMD/LAB/TLD/EMD programados.
 #. Atenciones en progreso: esta sección muestra los servicios que actualmente están siendo atendidos.
 #. Atenciones por cerrar. 
 
