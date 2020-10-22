@@ -21,5 +21,5 @@ Indices y tablas
 ================
 
 * :ref:`genindex`
-* :ref:`modindex`
+* :ref:`modindex` 
 * :ref:`search`

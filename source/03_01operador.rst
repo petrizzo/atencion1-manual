@@ -10,6 +10,7 @@ contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo el
 desarrollo.
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
+    :width: 700
 
 Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o beneficiarios de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
 
@@ -19,8 +20,10 @@ Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso 
 #. Atenciones por cerrar. 
 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral1.png
+    :width: 700
 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral2.png
+    :width: 700
 
 En la parte superior podemos saber cómo se encuentra o cuál es la condición de cada servicio por medio de un color determinado:
 
@@ -41,6 +44,7 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 #. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
 
 .. image:: ../images/Operador/crear_atención.Operador.png
+    :width: 700
 
 #. Debes seleccionar el afiliado haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
 #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
@@ -95,7 +99,10 @@ Operador. Crear Servicio Laboratorio
 A continuación vamos a crear un servicio de laboratorio como operador. Primero debemos ingresar el nombre de la persona que está solicitando el servicio y confirmamos las pólizas disponibles. Si entre ellas hay una póliza retail pulsamos sobre el botón verificamos que tiene disponible los servicios de laboratorio. Una vez hecho lo anterior, procedemos a indicar el motivo de la consulta y verificamos el número de contacto. No es obligatorio, pero podemos dejar alguna observación. Si indicamos que la persona tiene dolor abdominal como motivo de consulta, podríamos agregar en observaciones que la persona tiene varios días con dolor de estomacal, por ejemplo. Para continuar creamos la atención y le agregamos un servicio de laboratorio que en este caso está indicado en el botón de LAB-OTR AU Retail. Recordemos que las tres primeras letras que tiene cada cápsula indican el tipo de servicio y el resto contiene información sobre el cliente y el tipo de póliza. 
 Al pulsar el servicio de laboratorio podemos indicar si es un servicio programado o no. En el caso de ser programado debemos indicar la fecha y hora del servicio. De no ser programado significa que debe ser atendido a partir de este momento. En la casilla de  motivo de servicio indicamos una vez más que es dolor abdominal y en la casilla de destino indicamos cuál es la dirección. Podemos seleccionar una de las direcciones disponibles o asignamos una nueva. Por último asignamos los exámenes de laboratorio que deben aplicarse en la persona a la que se le prestará el servicio. Al seleccionar uno o varios exámenes según sea requerido, pulsamos el botón crear. una vez que el servicio que se ha creado, vemos que se despliega en el historial de atenciones como un servicio que está pendiente de ser tomado. Con todos estos pasos hemos logrado crear un servicio de laboratorio. 
 
-Operador. Cancelar Servicio
+.. _cancelar-servicio:
+
+Cancelar Servicio
+-----------------
 
 Para que un usuario operador pueda cancelar un servicio primero debe ingresar a un servicio de cualquier atención. Por ejemplo, podemos ingresar para editar una atención que se trate de un traslado y cuente únicamente con un servicio. Ahí encontraremos el botón para cancelar el servicio. Al pulsarlo se nos desplegará una ventana en la cual es obligatorio indicar el motivo por el cual estamos cancelando dicho servicio. Entre las opciones que nos ofrece el sistema podemos seleccionar carga por error, y esto supone un servicio que fue creado dos veces, se quería crear otro servicio o cualquier otro motivo que haya derivado en un error por parte del operador. Después de confirmar podemos observar que el servicio se ha cancelado de manera exitosa. También podemos ver que en el panel de atenciones esta atención ha pasado al estatus por cerrar , lo que indica que debe ser cerrada por parte del usuario coordinador. Lo podemos confirmar también a través del número de la atención, el nombre de la persona y el color que indica que la atención fue cancelada. 
 

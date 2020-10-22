@@ -10,6 +10,7 @@ contendrá un manual,  una guía de Preguntas Frecuentes y enlace a un correo el
 desarrollo.
 
 .. image:: ../images/Operador/PantallaInicialAtencion1.png
+    :width: 700
 
 Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso Operador. Una vez dentro de la plataforma, vemos varios elementos: en la parte superior del lado derecho tenemos el acceso a los datos del perfil del usuario que acaba de ingresar. Del lado superior izquierdo tenemos el menú donde podemos acceder más fácilmente al panel de atenciones. Y en la parte central, se encuentra el panel de atenciones. Una atención es un conjunto de servicios ofrecidos a titulares o beneficiarios de pólizas de seguros. Este panel se encuentra dividido en cuatro secciones: 
 
@@ -19,8 +20,10 @@ Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso 
 #. Atenciones por cerrar. 
 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral1.png
+    :width: 700
 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral2.png
+    :width: 700
 
 En la parte superior podemos saber cómo se encuentra o cuál es la condición de cada servicio por medio de un color determinado:
 
@@ -41,6 +44,7 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 #. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
 
 .. image:: ../images/Operador/crear_atención.Operador.png
+    :width: 700
 
 #. Debes seleccionar el afiliado haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
 #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
