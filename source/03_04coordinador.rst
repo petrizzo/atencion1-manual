@@ -192,7 +192,7 @@ con todos los detalles de la tripulación seleccionada.
 .. image:: ../images/Coordinador/DetallesTripulación.jpg
 
 Podrás imprimir esta información haciendo clic en el ícono de "impresora",
-ubicado en la esquina inferior derecha de la ventana de diálogo.
+ubicado en la esquina inferior izquierda de la ventana de diálogo.
 
 
 Generar Reportes

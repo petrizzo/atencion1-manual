@@ -28,7 +28,7 @@ Para ingresar debes indicar el nombre de usuario y contraseña. Una vez dentro
 de la plataforma, como usuario Despachador, desde la parte superior derecha
 puedes tener acceso a los datos del perfil de usuario y cerrar la sesión. En
 la esquina superior izquierda se despliega el menú de "hamburguesa", desde el
-cual puedes navegar fácilmente a los paneles de **Atenciones** y **Tripulaciones**.
+cual puedes navegar fácilmente a los paneles de **Atenciones**, **Tripulaciones** y **Afiliados**.
 En la parte central se encuentra el panel de atenciones, dividido en cuatro secciones:
 
 #. Atenciones **En espera**: atenciones abiertas sin servicios o con al menos un servicio abierto o retrasado.
@@ -103,7 +103,6 @@ En cuanto a los permisos de actualización, como Despachador puedes:
 * Editar la tripulación y ruta en el panel **Tripulación y Ruta**.
 * Editar los síntomas y diagnósticos en el panel **Diagnósticos**.
 * Editar la información referente a las solicitudes en el panel **Solicitudes**.
-* Editar la nota de despacho, en el panel **Nota de Despacho**. TODO: quitar
 * Adjuntar resultados de laboratorio, en el panel **Resultados**.
 * Cancelar servicios, en el panel del flujo de trabajo.
 * Completar cada paso del flujo de trabajo de un servicio y editar sus fechas y horas, en el panel del flujo de trabajo.
@@ -124,7 +123,7 @@ la dirección de destino. Para ello, te ubicas en el panel **Tripulación y Ruta
 En el campo **Tripulación** aparecerá un listado de las tripulaciones activas para
 el día. Al seleccionar una de ellas, los demás campos automáticamente se llenarán
 y podrás visualizar información relevante acerca de la tripulación: nombre, base,
-unidad y conductor. Si en el campo Tripulación no se despliega un listado y aparece
+unidad y conductor. Si en el campo **Tripulación** no se despliega un listado y aparece
 el mensaje "No hay datos disponibles", debes dirigirte al panel de **Tripulaciones**
 (a través del menú de "hamburguesa" en la parte superior izquierda) para crear al menos una tripulación que estará
 activa para el día en curso. Para más detalles acerca de la creación de una tripulación,
@@ -216,6 +215,9 @@ una descripción (opcional). Al terminar, haz clic en "Adjuntar".
     resultados de los mismos, para que posteriormente el Coordinador pueda cerrar
     el servicio completado.
 
+.. note::
+    Los servicios AMD con estatus Cancelado, Abierto o Retrasado no requieren
+    Diagnóstico ni Resultados.
 
 Atender servicio TLD
 ********************
@@ -239,7 +241,7 @@ Cancelar servicio
 
 La cancelación de un servicio puede ser ejecutada por cualquier
 usuario (a excepción del rol Asistente) y puede ocurrir en cualquier momento
-del desarrollo del mismo, por diversos motivos, tales como: si el lugar en que
+del desarrollo del mismo, por diversos motivos, por ejemplo: si el lugar en que
 se iba a prestar el servicio corresponde a una zona de difícil acceso y el
 afiliado no desea acordar otro punto de encuentro, si no se logra establecer
 contacto con el afiliado, etc.
@@ -271,7 +273,7 @@ con todos los detalles de la tripulación seleccionada.
 .. image:: ../images/Despachador/DetallesTripulación.jpg
 
 Podrás imprimir esta información haciendo clic en el ícono de "impresora",
-ubicado en la esquina inferior derecha de la ventana de diálogo.
+ubicado en la esquina inferior izquierda de la ventana de diálogo.
 
 Si deseas editar una tripulación en particular, haz clic sobre el botón de
 "lápiz", en la fila correspondiente. Al terminar la edición, haz clic en "Guardar".
