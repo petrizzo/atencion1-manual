@@ -108,7 +108,7 @@
 <li class="toctree-l2"><a class="reference internal" href="03_07director.html">Director/a</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="04buenas_prácticas.html">Buenas prácticas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04buenas_pr%C3%A1cticas.html">Buenas prácticas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05permisos.html">Permisos según roles en Atención-1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="06glosario.html">Glosario</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07FAQ.html">Preguntas Frecuentes</a></li>
@@ -209,6 +209,9 @@ dividido en cuatro secciones:</p>
 <li><p>Atenciones <strong>Por cerrar</strong>: atenciones abiertas que contienen al menos un servicio completado o cancelado (por cerrar).</p></li>
 </ol>
 <img alt="_images/PanelAtencionesGeneral.jpg" src="_images/PanelAtencionesGeneral.jpg" />
+<p>Para crear un nuevo servicio asociado a una atención, haces clic sobre el
+botón de «Crear Nuevo Servicio», ubicado en la parte derecha de la fila
+correspondiente.</p>
 <p>Para visualizar los detalles de una atención en particular, haces clic sobre el
 botón de «Abrir», ubicado en la parte derecha de la fila
 correspondiente. Al posicionar el cursor sobre el ícono aparecerá el mensaje
@@ -234,7 +237,7 @@ clic sobre la cabecera del mismo (donde se encuentra el título).</p>
 Coordinador tienes permisos para crear nuevas atenciones, crear nuevos
 servicios, visualizar todos los detalles de una atención y de un servicio e
 imprimir el ticket del servicio, las solicitudes (récipes y recomendaciones) y
-las notas de despacho. En cuanto a los permisos de edición, como Coordinador
+las notas de despacho. En cuanto a los permisos de actualización, como Coordinador
 puedes:</p>
 <ul class="simple">
 <li><p>Editar datos de un afiliado (nombre, apellido, fecha de nacimiento, género,
@@ -291,7 +294,7 @@ correspondiente a detalles de una atención. El ícono de alerta que aparece en
 la cabecera de este panel indica que debes añadir al menos un correo.</p>
 <img alt="_images/EdiciónAfiliadoSinCorreo.jpg" src="_images/EdiciónAfiliadoSinCorreo.jpg" />
 <p>Para agregar un correo electrónico asociado al afiliado, debes escribir el
-correo en el campo Correos electrónicos y presionar <em>Enter</em> para su validación.
+correo en el campo <strong>Correos electrónicos</strong> y presionar <em>Enter</em> para su validación.
 Para editarlo, haz doble clic sobre la píldora que lo contiene. Puedes asociar
 varios correos electrónicos a un afiliado. Al finalizar, haz clic en el botón «Guardar».</p>
 <p>Una vez asociado al menos un correo electrónico al afiliado, podrás notar que
@@ -315,8 +318,11 @@ condiciones para el cierre). Estas condiciones varían según el tipo de servici
 <li><p>Si el servicio PHD no tiene Diagnóstico.</p></li>
 <li><p>Si el servicio LAB no tiene Resultados.</p></li>
 </ol>
-<p>Nota: los servicios con estatus Cancelado, Abierto o Retrasado no requieren
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Los servicios con estatus Cancelado, Abierto o Retrasado no requieren
 Diagnóstico, Nota de Despacho ni Resultados.</p>
+</div>
 <p>Una vez cerrado el servicio, podrás verificar que la atención que lo contiene
 ya no se encuentra en el listado de atenciones Por cerrar (a menos que contenga
 otro servicio completado o cancelado). Si deseas cerrar otro servicio,
