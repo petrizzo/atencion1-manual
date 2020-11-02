@@ -289,7 +289,7 @@ la eliminación de la tripulación, haz clic en **Borrar**.
 .. image:: ../images/Despachador/AvisoBorrarTripulación.jpg
 
 
-Despachador. Crear tripulación
+Despachador. Crear tripulación.
 ------------------------------
 Una de las tareas que debe hacer el Despachador es la Creación de las tripulaciones. Las tripulaciones se crean a través del Menú que se encuentra en la esquina superior izquierda y que nos permite acceder también al Panel de Atenciones. Al hacer clic en el menú de Tripulaciones se observa si ya hay tripulaciones creadas. En el caso que no hayan tripulaciones creadas o que se quiera añadir alguna, se debe hacer clic en el botón verde con el signo más (+) y proceder a ingresar todos los datos solicitados.
 El Nombre de la Tripulación se sugiere que sea un nombre que pueda servir al momento de asignar la tripulación de manera orientativa y que incluya, por ejemplo, el tipo de vehículo que se trate. Sin embargo esto no es limitativo, cualquier nombre se le puede colocar. Vamos a colocarle, por ejemplo, Alfa1 luego indicando la fecha: Alfa1_31_08.
@@ -297,7 +297,7 @@ Luego colocamos la fecha y hora en la cual comienza esa guardia, la fecha en el 
 En lo referente a la Base le indicamos en dónde está ubicada esa tripulación. Luego le asignamos una unidad y le asignamos también el personal que está asociado a esa tripulación y pulsamos en **Cerrar** para validar que, efectivamente, se creó la tripulación.
 Una vez que se ha creado se observa desplegada en la lista de tripulaciones disponibles para ese día. Con esto hemos creado una tripulación
 
-Despachador. Atender AMD
+Despachador. Atender AMD.
 ------------------------
 Vamos ahora con el procedimiento de atención como Despachador de un servicio AMD.
 Seleccionamos el servicio y hacemos clic en el botón de **Atender** y allí se nos despliega el detalle tanto de la atención como del servicio. Se tienen dos (02) secciones:
@@ -306,14 +306,14 @@ Seleccionamos el servicio y hacemos clic en el botón de **Atender** y allí se 
 Como ejemplo, seleccionamos un servicio **En espera** para atender un servicio de AMD. Lo primero que debemos hacer es asignar tripulación. Entonces nos desplazamos en la sección del lado derecho hasta la sección de **Tripulación** donde se nos indica cuál es la dirección y procedemos a asignar la tripulación. En el menú desplegable van a aparecer todas las tripulaciones disponibles en función de las que hayamos creado al inicio del día. Al seleccionarla se carga toda la información relativa tanto a las personas (médicos y paramédicos que están en la unidad) como a la unidad, la base, etc. Hacemos clic en el botón **Guardar** y ya no aparece el indicativo (alerta) de asignar tripulación.
 En el caso de faltar el **Diagnóstico** es importante notificar al Coordinador o al Médico que tomó esta solicitud para que ingrese el diagnóstico. En todo caso, luego de asignar la tripulación podemos marcar el **Paso 1 completado**. Antes de asignar la tripulación no podíamos completar el paso 1 que es el inicio del despacho del servicio. Según se van completando los distintos pasos de este servicio de atención médica, vamos señalando los pasos completados donde se registra en cada uno la hora en la que se tildó como completado. Se indica la Llegada al Destino, Salida del Destino y la Llegada a Base o paso 5 completado y en este momento ya se da por completada la atención del servicio AMD.
 
-Despachador. Atender TLD, EMD o LAB
+Despachador. Atender TLD, EMD o LAB.
 -----------------------------------
 Vamos a atender ahora como Despachador, un servicio TLD. El procedimiento a seguir para la atención del servicio de Traslado es básicamente el mismo que se sigue para la atención de servicios como EMD, TLD y AMD. 
 Entramos en la pestaña del servicio haciendo clic en el botón de **Atender** en la lista de atenciones y una vez dentro del servicio en la sección donde está el detalle del servicio (sección del lado derecho) se asigna la tripulación que es básicamente lo que se requiere para que se habilite el ir completando los pasos. Ya que el botón de **Paso 1 completado** se encuentra sombreado cuando el servicio no cuenta con una tripulación, lo primero que se debe hacer es Asignar la tripulación. Se asigna la tripulación, se verifica el nombre de las personas que integran esa tripulación, se hace clic en el botón **Guardar**. Se verifica que se ha actualizado la información ya que desaparece la señal de alerta que se debe agregar la tripulación y porque, además, ya el botón de **Paso 1 completado** está habilitado. Pulsamos el **Paso 1 completado** y según vamos teniendo información por comunicación directa con la tripulación de que los siguientes pasos se van completando, vamos pulsando en los ítems correspondientes. Por ejemplo, en el caso de un traslado solo de ida, es decir, es un traslado que sale de la base, llega a la casa de la persona, y la traslada a otro lugar (por ejemplo, un Centro Hospitalario) y de allí retorna a la base. Una vez que vamos marcando en cada paso completado, se registra la fecha y hora en la que se culminó cada una de las etapas de ese traslado. Una vez que pulsamos en la etapa número 7 que, en este caso, es la llegada de nuevo a la base vemos que el servicio pasa de estado **En proceso** a **Estado Completado**, es decir, que ya ese servicio ha terminado.
 Básicamente es el mismo procedimiento el que vamos a seguir como Despachador para atender todo servicio que involucra la asignación de una tripulación y su desplazamiento hasta el lugar en el que se encuentra el afiliado o hasta el lugar donde se le va a prestar la atención médica, si es de trasladar a un equipo médico.
 Con esto ya hemos atendido un TLD.
 
-Despachador. Atender PHD
+Despachador. Atender PHD.
 ------------------------
 Como Despachador vamos a hacer ahora la atención de un PHD. Como el PHD es una atención programada se despliega en la sección del Panel de atención que indica **Próximas programadas**. Es importante señalar que allí se ubican las atenciones que se encuentran en un margen próximo de hasta dos horas; esto es así para que el Despachador pueda con ello facilitar la organización de las rutas de las distintas tripulaciones en la atención.
 Como ejemplo, se tiene una atención próxima programada para las 06:00 pm que involucra evidentemente un servicio PHD que es el servicio programado. Sin embargo, en esta sección pudiera aparecer también cualquier otro servicio de los que estén programado. Hacemos clic en el botón de **Atender** y pasamos a la pestaña de detalles de los servicios. Allí observamos que se ha generado automáticamente una pestaña de servicio para cada uno de los servicios involucrados aún cuando sean fechas posteriores.
@@ -321,18 +321,20 @@ Como un servicio de traslado que involucra una tripulación, lo primero que debe
 Cuando se concluyen todos los pasos relativos, en este caso, al PHD el estado del servicio pasa de **En Progreso** a **Completado**. Si regresamos al historial de atenciones observamos que ya no está ese servicio marcado con amarillo que es *Por atender*, sino en color azul que significa que ya está completado.
 Con esto hemos atendido un servicio PHD.
 
-Despachador. Imprimir ticket
+Despachador. Imprimir ticket.
 ----------------------------
 Vamos a ver ahora cómo se hace la impresión de un ticket en el que se incluyen todos los detalles de un servicio. En todo momento vemos que dentro de la pestaña del servicio tenemos habilitado un ícono con la imágen de una impresora que sirve precisamente para imprimir los detalles del servicio.
-Recordemos que en la impresión del ticket del servicio se imprime toda la información que se ha cargado en ese servicio, es decir, si tenemos una tripulación asignada se informa, si tenemos un Diagnóstico se informa. Sin embargo, si algunos de esos campos falta pues no aparecen al momento de la impresión del ticket, con lo cual es importante imprimir el ticket solamente en el momento en el que toda la información relativa a cada uno de los servicios involucrados, en este caso al servicio que se quiere imprimir, esté completamente indicada. 
-Al seleccionar cualquiera de los servicios disponibles y hacer clic en Imprimir ticket del servicio se despliega la información disponible que será la que se refleja en el ticket impreso. Hacemos clic en el botón IMPRIMIR y se genera un archivo en PDF que se pide a través de la instancia y se debe seleccionar la ubicación dentro de la computadora para ser almacenado.
+Recordemos que en la impresión del ticket del servicio se imprime toda la información que se ha cargado en ese servicio. Es decir, si tenemos una tripulación asignada se informa y si tenemos un Diagnóstico también se informa. Sin embargo, si algunos de esos campos falta pues no aparecen al momento de la impresión del ticket, con lo cual es importante imprimir el ticket solamente en el momento en el que toda la información relativa a cada uno de los servicios involucrados, en este caso al servicio que se quiere imprimir, esté completamente indicada. 
+Al seleccionar cualquiera de los servicios disponibles y hacer clic en **Imprimir ticket** del servicio se despliega la información disponible que será la que se refleja en el ticket impreso. Hacemos clic en el botón **Imprimir** y se genera un archivo en PDF que se pide a través de la instancia y se debe seleccionar la ubicación dentro de la computadora para ser almacenado.
 Esa información se almacena en la carpeta que seleccione la persona y ya se ha generado el ticket respectivo en formato PDF.
 
-Despachador. Crear servicio sucesivo programado
+Despachador. Crear servicio sucesivo programado.
+------------------------------------------------
 Vamos a crear como Despachador un servicio sucesivo, el cual se puede crear en cualquier fase de un servicio. No necesariamente supone la cancelación del servicio que lo origina sino que de alguna manera se toma la información a partir de allí.
-Por ejemplo, en el caso de tener un servicio AMD podemos generar un servicio sucesivo haciendo clic en el botón SERVICIO SUCESIVO, allí se indica el tipo de servicio sucesivo que vamos a solicitar, en este caso, pudiera ser un servicio EMD. Luego indicamos el motivo y el destino. El servicio contiene información acerca de qué viene derivado de un servicio AMD y se puede indicar que es un servicio programado, esto es, que no es atendido en ese momento sino que va a ser en una fecha posterior. Allí se indica la fecha y la hora en la que se va a prestar el servicio, pulsamos en el botón CREAR y observamos que se despliega como una EMD en otra pestaña dentro de la misma atención de este afiliado.
+Por ejemplo, en el caso de tener un servicio AMD podemos generar un servicio sucesivo haciendo clic en el botón **Servicio sucesivo**, allí se indica el tipo de servicio sucesivo que vamos a solicitar, en este caso, pudiera ser un servicio EMD. Luego indicamos el motivo y el destino. El servicio contiene información acerca de qué viene derivado de un servicio AMD y se puede indicar que es un servicio programado, esto es, que no es atendido en ese momento sino que va a ser en una fecha posterior. Allí se indica la fecha y la hora en la que se va a prestar el servicio, pulsamos en el botón **Crear** y observamos que se despliega como una EMD en otra pestaña dentro de la misma atención de este afiliado.
 
-Despachador. Cancelar servicio
+Despachador. Cancelar servicio.
+-------------------------------
 Veamos ahora la funcionalidad de Cancelar un servicio desde el usuario Despachador.
-En cualquiera de las pestañas de los servicios, siempre que el servicio no haya sido Completado o Cancelado, puede cancelarse el mismo. Esto lo vemos cuando está activado el botón de CANCELAR SERVICIO en color rojo.
-Seleccionamos el servicio que queremos cancelar y hacemos clic en el botón CANCELAR SERVICIO y se despliega una ventana en la que debemos indicar el Motivo de Cancelación, el cual va a depender de las circunstancias, luego pulsamos en CONFIRMAR y el servicio ha sido cancelado exitosamente.
+En cualquiera de las pestañas de los servicios, siempre que el servicio no haya sido Completado o Cancelado, puede cancelarse el mismo. Esto lo vemos cuando está activado el botón de **Cancelar Servicio** en color rojo.
+Seleccionamos el servicio que queremos cancelar y hacemos clic en el botón **Cancelar Servicio** y se despliega una ventana en la que debemos indicar *el Motivo de Cancelación*, el cual va a depender de las circunstancias, luego pulsamos en **Confirmar** y el servicio ha sido cancelado exitosamente.
