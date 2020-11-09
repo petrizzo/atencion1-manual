@@ -25,8 +25,7 @@ se muestra el panel de atenciones.
 Panel de Atenciones
 -------------------
 
-Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, 
-distribuida en cuatro secciones:
+Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, distribuida en cuatro secciones:
 
 .. image:: ../images/Médico/MedicoPanelAtencionesGeneral.png
 
