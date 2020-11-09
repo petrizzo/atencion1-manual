@@ -3,9 +3,10 @@ Médico/a
 
 El Médico es la persona que tiene las competencias y licencias para realizar la 
 atención médica desde la plataforma de Atención-1. Recuerda que si quieres conocer 
-los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
+los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` 
+que hemos preparado.
 
-Para ingresar a la plataforma como Médico debes escribir en la barra de dirección 
+Para ingresar a la plataforma como Médico, debes escribir en la barra de dirección 
 del navegador: https://atencion1.venedigital.com. Una vez allí ves en la barra 
 inferior información acerca de Atención-1, un enlace con ayuda que contendrá un 
 manual, una guía de Preguntas Frecuentes y enlace a un correo electrónico con el 
@@ -16,15 +17,16 @@ es el encargado de crearte el usuario con el rol de Médico para poder ingresar
 al sistema.
 
 Para ingresar debes indicar el nombre y contraseña del usuario. Una vez en la 
-plataforma, puedes ver en la parte superior derecha el acceso a los datos del 
+plataforma, puedes ver en la parte superior derecha, el acceso a los datos del 
 perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú 
-donde puedes acceder más fácilmente al panel de atenciones. y en la parte central, 
+donde puedes acceder más fácilmente al panel de atenciones. En la parte central, 
 se muestra el panel de atenciones.
 
 Panel de Atenciones
 -------------------
 
-Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, distribuida en cuatro secciones:
+Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, 
+distribuida en cuatro secciones:
 
 .. image:: ../images/Médico/MedicoPanelAtencionesGeneral.png
 
@@ -77,7 +79,7 @@ Mientras se desarrolla la llamada, según los datos que vayas recibiendo del
 afiliado, tienes disponible los paneles para reunir toda la información que 
 necesitas para ejecutar el servicio. En el primer panel, Información de servicio, 
 veras tu nombre en el campo **Atendido por**, ya que automáticamente se registra 
-quien atiende el servicio. En el campo de **Comentarios** puedes agregar 
+quien atiende el servicio. En el campo de **Comentarios** puedes para agregar 
 cualquier información u observaciones del servicio.
 
 .. image:: ../images/Médico/MedicoInformacionServicio.png
@@ -104,7 +106,7 @@ indicación correspondiente tenga el mismo número.
 
 .. image:: ../images/Médico/MedicoRecipesIndicaciones.png
 
-En la columna de la izquierda aparecen los datos de la atención, estructurada en: 
+En la columna izquierda aparecen los datos de la atención, estructurada en: 
 panel de información general de la atención, panel de datos relevantes del 
 afiliado atendido, panel de información general de las pólizas asociadas al 
 afiliado, panel del historial de atenciones y el panel de documentos adjuntos 
@@ -126,7 +128,7 @@ el servicio OMT prestado.
 .. image:: ../images/Médico/MedicoAfiliadoAtencion.png
 
 Los paneles de **Pólizas** e **Historial de atenciones** son un recurso informativo, 
-mientras que el último panel **Documentos adjuntos** tiene como finalidad incluir 
+mientras que el último panel, **Documentos adjuntos** tiene como finalidad incluir 
 los documentos que Venemergencia necesita para procesar la solicitud de ciertos 
 servicios, como PHD y EMD. 
 
@@ -183,7 +185,14 @@ recién creado para ser ejecutado a la brevedad.
 Atender un servicio EMD
 -----------------------
 
+Los servicios EMD que se encuentren en estado Abierto, debes atenderlos para hacer 
+revisión de los documentos agregados previamente por el usuario que creó el servicio 
+que se encuentran en la sección de Documentos Adjuntos en los paneles de atenciones.
 
+Una vez que hayas hecho la revisión de la información contenida en los documentos, procedes 
+a transcribir o aportar los diagnósticos en la sección de Diagnósticos en los paneles del servicio.
+
+Luego puedes agregar los medicamentos a despachar en el panel de Nota de despacho, esta parte es opcional.
 
 Completar Servicio
 ------------------
@@ -202,7 +211,7 @@ Cancelar Servicio
 
 En caso de error de creación de servicio o por cualquier circunstancia que no pueda 
 llevarse a cabo el servicio OMT, el servicio puede cancelarse al hacer clic en el 
-botón rojo **Cancelar Servicio**. 
+botón rojo Cancelar Servicio. 
 
 .. image:: ../images/Médico/MedicoSucesivo.png
 
