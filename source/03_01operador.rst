@@ -41,35 +41,22 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 
 #. Hacemos clic en el círculo de color verde con un signo "+" en su interior.
 #. A continuación en el recuadro que contiene el símbolo de la lupa, introducimos la cédula o el nombre de la persona que solicita ser atendida. Atención-1 permite realizar búsquedas con número de cédula o nombre, parcial o completo, de la persona afiliada.
-<<<<<<< HEAD
+
 #. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. El sistema está configurado para realizar una búsqueda simultánea en su base de datos y en la información del *Validador*. En caso de no estar registrado un afiliado/a, el sistema permitirá ingresar los datos de una nueva persona afiliada a través de la opción :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender. 
 
     **IMPORTANTE: Atencion1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
-=======
-#. Al pulsar Enter o hacer clic sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
->>>>>>> 09f34c8045f4547d5b9526465355a2340093d63f
 
 .. image:: ../images/Operador/crear_atención.Operador.png
     :width: 700
 
-<<<<<<< HEAD
 #. Debes seleccionar el afiliado al que se le prestará el servicio haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
-=======
-#. Debes seleccionar el afiliado haciendo clic en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
->>>>>>> 09f34c8045f4547d5b9526465355a2340093d63f
 #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
 
     **IMPORTANTE: El número telefónico y el motivo de la consulta son indispensables para poder crear la atención mientras que el campo de observaciones es opcional.**
 
-<<<<<<< HEAD
 #. Una vez creada la atención ya tenemos disponible la creación de servicios a esta atención. Todos los servicios disponibles que se muestran son aquellos que ofrece el conjunto de planes y póliza(s) del afiliado. Para crear un servicio OMT, debemos hacer click sobre el óvalo correspondiente para crear el tipo de servicio deseado, a fin de que se despliegue una ventana en la que **opcionalmente** podemos añadir algunos datos adicionales que serán de utilidad cuando el médico atienda dicho servicio: indicar si el afiliado se encuentra o no en su residencia y en compañía de alguien. 
 #. Una vez agregada esta información se hace click en el botón **Crear Servicio**, y luego de visualizar el mensaje de "Atención creada existosamente", se visualiza el servicio listado en el panel de atenciones en espera.
 #. Desde el panel de atenciones, podemos comprobar detalles de la atención y del(los) servicio(s) asociado(s), haciendo click en el icono de atender servicio.
-=======
-#. Una vez creada la atención ya tenemos disponible la creación de servicios a esta atención. Todos los servicios disponibles que se muestran son aquellos que ofrece el conjunto de planes y póliza(s) del afiliado. Para crear un servicio OMT, debemos hacer clic sobre el servicio OMT a fin de que se despliegue una ventana en la que **opcionalmente** podemos añadir algunos datos adicionales que serán de utilidad cuando el médico atienda dicho servicio: indicar si el afiliado se encuentra o no en su residencia y en compañía de alguien. 
-#. Habiendo agregado esta información se hace clic en el botón Crear Servicio, el cual pasa a estar listado en el panel de atenciones en espera.
-#. Desde el panel de atenciones, podemos comprobar detalles de la atención y del(los) servicio(s) asociado(s), haciendo clic en el icono de atender servicio.
->>>>>>> 09f34c8045f4547d5b9526465355a2340093d63f
 
 .. _crear-AMD:
 
@@ -118,22 +105,10 @@ Para crear una atención de tipo EMD  (entrega de medicamentos, insumos médicos
 #. Debe agregarse el origen del servicio, señalando de dónde se genera la orden para su creación: un médico particular, por correo electrónico, por SMS, Whatsapp, faltante en AMD, OMV, AMD, OMT o si se trata de una :ref:`retirada-equipo`.
 #. Una vez creado el servicio podemos agregar cuáles son los medicamentos si contamos con esa información y proceder a editar aspectos de la atención. Esta acción también puede ser realizada por el usuario despachador. 
 
-<<<<<<< HEAD
 Agregar medicamentos, insumos o equipos a un servicio EMD
 *********************************************************
 
 Para agregar medicamentos, insumos o equipos a un servicio EMD se procede como sigue:
-=======
-#. Buscar el botón verde circular con un signo más (+) que se muestra en pantalla en la parte superior derecha. Al hacer clic en dicho botón desde el panel de atenciones, se despliega en pantalla una ventana para introducir los datos del afiliado a fin de crear una atención. 
-#. Para buscar un afiliado, introducimos las primeras letras del nombre o su número de cédula, hasta verificar que aparezcan los datos que se están buscando.
-#. Al pulsar Enter o hacer clic sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. En caso de no existir un afiliado/a con esos datos, el sistema permitirá ingresar los datos de una nueva persona afiliada :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender.
-#. Verificar en la información de la persona si su póliza incluye el tipo de servicio que está solicitando. Adicionalmente, se agregará un motivo de consulta que ayudará a aportar más detalles a la atención que se está creando. **IMPORTANTE: El número telefónico y el motivo de la consulta son indispensables para poder crear la atención mientras que el campo de observaciones es opcional.**
-#. Una vez creada la atención, se selecciona entre los servicios el de **AMD**, esta acción desplegará un modal o ventana emergente, donde se deben incluir datos adicionales del servicio. 
-#. En esa ventana emergente debe indicarse si el servicio es programado o no, seleccionando la casilla **Programado**, así como confirmar el motivo de la consulta, también debe indicarse si el afiliado desea recibir un correo electrónico con el resumen del servicio solicitado una vez éste haya concluido. En caso de no tener un correo electrónico o de hacer un cambio del mismo, más adelante explicaremos cómo editar la información del afiliado. 
-#. En los detalles del servicio AMD, podemos indicar en el motivo del servicio que es un dolor fuerte en el abdomen. Al pulsar sobre destino, se desplegará una ventana para asignar la dirección. En la ventana podemos asignar una dirección que actualmente se encuentra registrada en el sistema o agregar una nueva de ser necesario. Después de seleccionar y verificar la dirección pulsamos el botón asignar. Por último debemos indicar si el servicio va a requerir o no pruebas de laboratorio. De ser necesarias las pruebas lo que debemos hacer es seleccionar la casilla correspondiente. Ya podemos crear el servicio y verificar que la solicitud se encuentra en el listado superior de los servicios en espera. En esta pantalla podemos verificar el número del servicio, nombre del afiliado, fecha y hora en la que se registró el servicio, la compañía aseguradora y la ubicación donde se prestará el servicio.
-
-En esa misma pantalla podemos editar la información relacionada a la atención de ser necesario para agregar una dirección de correo electrónico. Nos ubicamos al lado derecho donde se encuentre, en un lápiz, la opción para editar. Una vez que hacemos clic para editar, aparecerá en pantalla a mano izquierda información del afiliado y en ella se encuentra la casilla de correo electrónico. En ella verificamos con el afiliado su email para descartar, mantener o agregar un nuevo correo. Para agregar un nuevo correo debemos escribirlo y luego pulsar la tecla enter para luego poder guardar la información. Luego de registrar el correo electrónico podemos verificar el resto de la información que aparece en pantalla. Recordemos que este último paso se trata únicamente de hacer alguna edición de un dato específico con respecto a la información que forma parte de la atención y no de tomar la atención. Regresamos de nuevo al listado de atenciones y verificamos que la atención se encuentra en espera. En este momentos los usuarios de tipo médico ya pueden visualizar la atención en el sistema para proceder a tomarla y modificarla. 
->>>>>>> 09f34c8045f4547d5b9526465355a2340093d63f
 
 #. Hacer click en editar la atención
 #. Ubicar hacia el final de la sección derecha de esa pantalla, en donde dice *Nota de despacho*. 
@@ -148,16 +123,8 @@ En esa misma pantalla podemos editar la información relacionada a la atención 
 
 .. _retirada-equipo:
 
-<<<<<<< HEAD
 Retirada de equipos médicos
 ---------------------------
-=======
-Vamos a crear una atención de tipo EMD  (entrega de medicamentos o entrega de equipos). Para hacerlo, procedemos a hacer la búsqueda del afiliado a través de las primeras letras de su nombre o número de cédula. Luego verificamos que la persona tenga disponible estos servicios, la seleccionamos y de igual forma verificamos el número de contacto con el que se encuentra registrada. Con respecto al motivo de la consulta, sin importar que esto se trate de una entrega, siempre debemos llenar esta casilla para poder crear la atención. Podemos llenar esta casilla con motivo de entrega de medicamentos, por ejemplo. Luego, hacemos clic en crear y una vez creada la atención vamos a proceder a agregar a esta atención un servicio EMD-AmisPlus-Seguros Caracas.
-El servicio de entrega de medicamentos puede ser un servicio programado o un servicio programado para ejecutar en ese momento. Para el detalle de servicio EMD es preciso verificar el motivo del servicio. Podemos de igual manera escribir en la casilla entrega de medicamentos solicitados. Para el destino, de igual forma que para los servicios AMD, nos va a pedir que incorporemos la dirección. En este no utilizaremos una dirección ya creada sino que vamos a crear una nueva. Para hacerlo, llenamos las casillas con la información pertinente y al terminar hacemos clic en el botón asignar. 
-Lo siguiente que debemos hacer para la creación de los servicios de entrega de medicamento es indicar cuál es el origen del servicio. Entre los orígenes, es decir, de dónde tomamos la orden para la creación de este servicio tenemos: un médico particular, por correo electrónico, por SMS, Whatsapp, faltante en AMD, OMV, AMD, OMT o por retirada de equipo médico. Este último veremos cómo se elabora en otra sección. Para continuar seleccionamos un médico particular y procedemos a crear el servicio. 
-Una vez creado el servicio podemos verificar que se visualiza entre los servicios en espera disponibles desde el panel de Atenciones. También podemos agregar cuáles son los medicamentos si contamos con esa información y hacer la edición de la atención. Esta acción también puede ser realizada por el despachador. En editar la atención, que está indicado con un lápiz a mano derecha, hacemos clic. Luego desplegamos la ventana hacia abajo y al final veremos que dice Nota de despacho. Pulsamos sobre el texto para luego escribir sobre las observaciones. Estas observaciones pueden ser el lugar donde van a ser entregados los medicamentos, la manera en que estos medicamentos deben ser entregados o alguna indicación que sea requerida en el recipe. Es muy importante incluir el campo de observaciones para que de esta manera podamos generar el proceso de la nota de despacho. Una vez realizadas las observaciones, localizamos cuáles son los medicamentos/insumos/equipos que vamos a asociar al servicio y hacemos clic en el círculo verde con el signo positivo. Escribimos el medicamento y en el sistema seleccionamos el que se corresponda con el tratamiento indicando. Podemos observar que los medicamentos indican si es un inventario agudo o un inventario crítico. Después de seleccionar el medicamento debemos indicar la cantidad. Es sumamente importante resaltar que en la cantidad se debe indicar el número de pastillas o tabletas, no de cajas ni de blister. Luego de indicar la cantidad de tabletas o pastillas procedemos a pulsar el botón de agregar y podemos verificar que la información sea la correcta con respecto a las unidades y, de ser necesario, podemos seguir agregando otros medicamento realizando el mismo procedimiento. Una vez que completamos todos los medicamentos que la persona requiere pulsamos el botón de guardar. De ser necesario, también podríamos hacer una impresión de la nota de despacho. Lo que debemos hacer es pulsar en la parte inferior, a la misma altura del botón de guardar, el ícono de la impresora. Ahora bien, para que este servicio comience a ser atendido, debemos agregar el diagnóstico y asignar una tripulación.
-En el caso de los servicios EMD y, en general, para todos los servicios, se pueden adjuntar documentos. Esto lo conseguimos realizar si hacemos pulsamos el el círculo verde que, al ponernos sobre él, dice adjuntar documento. Luego de seguir todo estos pasos hemos podido crear un servicio de entrega de medicamentos.      
->>>>>>> 09f34c8045f4547d5b9526465355a2340093d63f
 
 .. _crear-TLD:
 
