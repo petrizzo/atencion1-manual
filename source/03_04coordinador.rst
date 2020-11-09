@@ -148,6 +148,10 @@ correo electrónico de resumen si el servicio efectivamente ha sido completado.
 
 .. image:: ../images/Coordinador/DiálogoCerrarServicioConCorreo.jpg
 
+Desarrollar: 
+
+El Coordinador puede editar flujos de trabajo...
+
 Detalles sobre el cierre de un servicio
 ***************************************
 

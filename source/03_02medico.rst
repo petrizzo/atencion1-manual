@@ -161,7 +161,7 @@ obligatorias sea afirmativa, se genera el aviso: **Evaluación urgente. AMD o Tr
 
 A partir de esta sugerencia, según el grado de complejidad, puedes generar el 
 servicio adicional al afiliado que creas conveniente mediante la creación de un 
-**Servicio Sucesivo**.
+**Servicio Sucesivo**. 
 
 Crear Servicio Sucesivo
 -----------------------
@@ -182,6 +182,18 @@ de llenar o no (según la emergencia), para luego hacer clic en el botón **Crea
 Una vez realizados los pasos anteriores, se mostrará la pestaña abierta del servicio 
 recién creado para ser ejecutado a la brevedad.
 
+Atender un servicio EMD
+-----------------------
+
+Los servicios EMD que se encuentren en estado Abierto, debes atenderlos para hacer 
+revisión de los documentos agregados previamente por el usuario que creó el servicio 
+que se encuentran en la sección de Documentos Adjuntos en los paneles de atenciones.
+
+Una vez que hayas hecho la revisión de la información contenida en los documentos, procedes 
+a transcribir o aportar los diagnósticos en la sección de Diagnósticos en los paneles del servicio.
+
+Luego puedes agregar los medicamentos a despachar en el panel de Nota de despacho, esta parte es opcional.
+
 Completar Servicio
 ------------------
 Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y **Solicitudes**) 
@@ -191,6 +203,8 @@ de culminación de llamada. Al completar este paso, el estatus del servicio camb
 Completado (azul).
 
 .. image:: ../images/Médico/MedicoCompletado.png
+
+.. _cancelarServicio:
 
 Cancelar Servicio
 -----------------
