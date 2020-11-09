@@ -111,6 +111,9 @@ En cuanto a los permisos de actualización, como Despachador puedes:
     Es importante destacar que como Despachador, podrás actualizar y atender los servicios de tipo AMD, TLD, EMD, PHD y LAB.
     Para un servicio OMT, solamente tienes acceso a la edición de los comentarios, en el panel **Información de Servicio**.
 
+Desarrollar:
+El Despachador puede crear nuevas atenciones...
+
 Atender servicio AMD
 ********************
 

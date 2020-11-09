@@ -161,7 +161,7 @@ obligatorias sea afirmativa, se genera el aviso: **Evaluación urgente. AMD o Tr
 
 A partir de esta sugerencia, según el grado de complejidad, puedes generar el 
 servicio adicional al afiliado que creas conveniente mediante la creación de un 
-**Servicio Sucesivo**.
+**Servicio Sucesivo**. 
 
 Crear Servicio Sucesivo
 -----------------------
@@ -182,6 +182,11 @@ de llenar o no (según la emergencia), para luego hacer clic en el botón **Crea
 Una vez realizados los pasos anteriores, se mostrará la pestaña abierta del servicio 
 recién creado para ser ejecutado a la brevedad.
 
+Atender un servicio EMD
+-----------------------
+
+
+
 Completar Servicio
 ------------------
 Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y **Solicitudes**) 
@@ -191,6 +196,8 @@ de culminación de llamada. Al completar este paso, el estatus del servicio camb
 Completado (azul).
 
 .. image:: ../images/Médico/MedicoCompletado.png
+
+.. _cancelarServicio:
 
 Cancelar Servicio
 -----------------
