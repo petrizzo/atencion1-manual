@@ -35,6 +35,10 @@ dividido en cuatro secciones:
 
 .. image:: ../images/Coordinador/PanelAtencionesGeneral.jpg
 
+Para crear un nuevo servicio asociado a una atención, haces clic sobre el
+botón de "Crear Nuevo Servicio", ubicado en la parte derecha de la fila
+correspondiente.
+
 Para visualizar los detalles de una atención en particular, haces clic sobre el
 botón de "Abrir", ubicado en la parte derecha de la fila
 correspondiente. Al posicionar el cursor sobre el ícono aparecerá el mensaje
@@ -65,7 +69,7 @@ En lo referente a la gestión de atenciones y servicios, como usuario
 Coordinador tienes permisos para crear nuevas atenciones, crear nuevos
 servicios, visualizar todos los detalles de una atención y de un servicio e
 imprimir el ticket del servicio, las solicitudes (récipes y recomendaciones) y
-las notas de despacho. En cuanto a los permisos de edición, como Coordinador
+las notas de despacho. En cuanto a los permisos de actualización, como Coordinador
 puedes:
 
 * Editar datos de un afiliado (nombre, apellido, fecha de nacimiento, género,
@@ -133,7 +137,7 @@ la cabecera de este panel indica que debes añadir al menos un correo.
 .. image:: ../images/Coordinador/EdiciónAfiliadoSinCorreo.jpg
 
 Para agregar un correo electrónico asociado al afiliado, debes escribir el
-correo en el campo Correos electrónicos y presionar *Enter* para su validación.
+correo en el campo **Correos electrónicos** y presionar *Enter* para su validación.
 Para editarlo, haz doble clic sobre la píldora que lo contiene. Puedes asociar
 varios correos electrónicos a un afiliado. Al finalizar, haz clic en el botón "Guardar".
 
@@ -143,6 +147,10 @@ cambiará el mensaje de la ventana de diálogo. Recuerda que solamente se enviar
 correo electrónico de resumen si el servicio efectivamente ha sido completado.
 
 .. image:: ../images/Coordinador/DiálogoCerrarServicioConCorreo.jpg
+
+Desarrollar: 
+
+El Coordinador puede editar flujos de trabajo...
 
 Detalles sobre el cierre de un servicio
 ***************************************
@@ -162,8 +170,9 @@ Un servicio no puede ser cerrado si se cumple lo siguiente:
 6) Si el servicio PHD no tiene Diagnóstico.
 7) Si el servicio LAB no tiene Resultados.
 
-Nota: los servicios con estatus Cancelado, Abierto o Retrasado no requieren
-Diagnóstico, Nota de Despacho ni Resultados.
+.. note::
+    Los servicios con estatus Cancelado, Abierto o Retrasado no requieren
+    Diagnóstico, Nota de Despacho ni Resultados.
 
 Una vez cerrado el servicio, podrás verificar que la atención que lo contiene
 ya no se encuentra en el listado de atenciones Por cerrar (a menos que contenga
@@ -187,7 +196,7 @@ con todos los detalles de la tripulación seleccionada.
 .. image:: ../images/Coordinador/DetallesTripulación.jpg
 
 Podrás imprimir esta información haciendo clic en el ícono de "impresora",
-ubicado en la esquina inferior derecha de la ventana de diálogo.
+ubicado en la esquina inferior izquierda de la ventana de diálogo.
 
 
 Generar Reportes
