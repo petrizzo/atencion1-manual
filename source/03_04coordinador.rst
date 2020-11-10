@@ -16,8 +16,8 @@ rol de Coordinador.
 Para acceder a la plataforma, debes escribir en la barra de dirección del
 navegador: https://atencion1.venedigital.com. Una vez allí podrás visualizar en
 la barra inferior un conjunto de enlaces, a través de los cuales podrás obtener
-información acerca de Atención-1, tener acceso a un manual de ayuda y a una
-guía de Preguntas Frecuentes, contactar al equipo de desarrollo vía correo
+información acerca de Atención-1, tener acceso a un manual de ayuda,
+guía de Preguntas Frecuentes y video tutoriales, contactar al equipo de desarrollo vía correo
 electrónico y reportar fallos/sugerencias.
 
 Para ingresar debes indicar el nombre de usuario y contraseña. Una vez dentro
@@ -83,6 +83,11 @@ puedes:
 * Editar la nota de despacho, en el panel **Nota de Despacho**.
 * Adjuntar resultados de laboratorio, en el panel **Resultados**.
 * Cancelar y cerrar servicios, en el panel del flujo de trabajo.
+* Editar las fechas y horas de ejecución de cada paso de los servicios, en el panel del flujo de trabajo.
+
+
+Cancelar y cerrar un servicio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Una de las funciones más importantes que ejecuta el rol de Coordinador en
 Atención-1 es cerrar un servicio. Es importante destacar las diferencias entre
@@ -119,7 +124,12 @@ activado indica que la causa es imputable).
 
 .. image:: ../images/Coordinador/DiálogoCerrarServicioCancelado.jpg
 
-En caso de que el servicio haya sido completado y se haya confirmado
+Si el servicio es de tipo TLD y seleccionas como motivo de cierre **Completado**,
+debes indicar si ejecutó cobertura o no (en caso afirmativo el *switch* debe estar activado).
+
+.. image:: ../images/Coordinador/DiálogoCerrarServicioTLDCompletado.jpg
+
+En caso de que un servicio AMD, TLD, EMD, PHD o LAB haya sido completado y se haya confirmado
 el envío de correo de resumen en el momento de creación del mismo, en la
 ventana de diálogo también se presentará una alerta informando si el correo de
 resumen será enviado al afiliado o si debes asignar un correo
@@ -128,6 +138,11 @@ electrónico para el envío antes de cerrar el servicio. Si haces clic en el bot
 exitosamente pero el correo no será enviado.
 
 .. image:: ../images/Coordinador/DiálogoCerrarServicioSinCorreo.jpg
+
+.. note::
+    Para los servicios AMD, TLD, EMD, PHD y LAB, el correo de resumen de servicio
+    se envía en el momento de cierre, mientras que para los servicios OMT, se envía
+    en el momento de completación.
 
 Recuerda que como Coordinador podrás agregar o editar el correo electrónico de
 un afiliado en el panel **Afiliado** de la sección lateral izquierda
@@ -147,10 +162,6 @@ cambiará el mensaje de la ventana de diálogo. Recuerda que solamente se enviar
 correo electrónico de resumen si el servicio efectivamente ha sido completado.
 
 .. image:: ../images/Coordinador/DiálogoCerrarServicioConCorreo.jpg
-
-Desarrollar: 
-
-El Coordinador puede editar flujos de trabajo...
 
 Detalles sobre el cierre de un servicio
 ***************************************
@@ -174,11 +185,30 @@ Un servicio no puede ser cerrado si se cumple lo siguiente:
     Los servicios con estatus Cancelado, Abierto o Retrasado no requieren
     Diagnóstico, Nota de Despacho ni Resultados.
 
+.. warning::
+    Recuerda que como Coordinador tienes permisos para editar la nota de
+    despacho y adjuntar resultados de laboratorio. Si no puedes cerrar un
+    servicio por falta de un diagnóstico, debes comunicarte con un usuario
+    con permisología para la edición del panel **Diagnósticos** (ver la
+    sección :ref:`permisos`).
+
 Una vez cerrado el servicio, podrás verificar que la atención que lo contiene
 ya no se encuentra en el listado de atenciones Por cerrar (a menos que contenga
 otro servicio completado o cancelado). Si deseas cerrar otro servicio,
 simplemente debes repetir el procedimiento.
 
+
+
+Editar las fechas y horas asociadas al flujo de trabajo de un servicio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Como Coordinador, podrás editar las fechas y horas asignadas para
+cada paso del flujo de trabajo. Al hacer clic en el botón de "edición" (con
+ícono de "lápiz"), en la esquina superior derecha del área donde se visualiza el flujo de trabajo,
+se presentará una ventana de diálogo donde tendrás la posibilidad de asignar
+nuevas fechas y horas y de editar aquellas asignadas previamente.
+
+.. image:: ../images/Coordinador/DiálogoEditarFechasYHoras.jpg
 
 Consultar Tripulaciones
 -----------------------
