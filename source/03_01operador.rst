@@ -41,13 +41,12 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 
 #. Hacemos clic en el círculo de color verde con un signo "+" en su interior.
 #. A continuación en el recuadro que contiene el símbolo de la lupa, introducimos la cédula o el nombre de la persona que solicita ser atendida. Atención-1 permite realizar búsquedas con número de cédula o nombre, parcial o completo, de la persona afiliada.
-
 #. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. El sistema está configurado para realizar una búsqueda simultánea en su base de datos y en la información del *Validador*. En caso de no estar registrado un afiliado/a, el sistema permitirá ingresar los datos de una nueva persona afiliada a través de la opción :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender. 
 
-    **IMPORTANTE: Atencion1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
-
-.. image:: ../images/Operador/crear_atención.Operador.png
+.. image:: ../images/Operador/Crear_afiliado_nuevo/DatosPolizaTitularValidador.png
     :width: 700
+
+    **IMPORTANTE: Atencion1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
 
 #. Debes seleccionar el afiliado al que se le prestará el servicio haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
 #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
@@ -67,29 +66,15 @@ Los Operadores pueden crear cualquier servicio dentro de una atención, siempre 
 
 #. Una vez creada la atención, se selecciona entre los servicios el de **AMD**. Esto también puede realizarse generando un servicio sucesivo  desde un servicio completado o en curso (haciendo click en el botón "sucesivo", o desde el detalle de la atención, haciendo click en el botón de color verde con el signo "+". Esta acción desplegará un modal o ventana emergente, donde se deben incluir datos adicionales del servicio:
 
-    #. Puede indicarse si el servicio es programado o no, seleccionando la casilla **Programado**, así como confirmar el motivo de la consulta, también debe indicarse si el afiliado desea recibir un correo electrónico con el resumen del servicio solicitado una vez éste haya concluido. En caso de no tener un correo electrónico o de hacer un cambio del mismo, más adelante explicaremos cómo editar la información del afiliado. 
-    #. En los detalles del servicio AMD, indicamos el motivo del servicio. 
-    #. Al pulsar sobre **destino**, se desplegará una ventana para asignar la dirección del servicio. Allí se asignará una dirección entre las que se encuentran registradas en el sistema para ese usuario, o se agregará una nueva de ser necesario. Después de seleccionar y verificar la dirección pulsamos el botón asignar. 
-    #. Por último debemos indicar si el servicio va a requerir o no pruebas de laboratorio. De ser necesarias las pruebas lo que debemos hacer es seleccionar la casilla correspondiente y, a continuación, indicar cuáles pruebas de laboratorio requerirá. 
-    #. Haciendo click en "Crear", se generará el servicio, lo cual podemos verificar desde el listado de atenciones en espera. 
+.. image:: ../images/Operador/DetallesAMDOperador.png
+    :width: 700
+
+#. Puede indicarse si el servicio es programado o no, seleccionando la casilla **Programado**, así como confirmar el motivo de la consulta, también debe indicarse si el afiliado desea recibir un correo electrónico con el resumen del servicio solicitado una vez éste haya concluido. En caso de no tener un correo electrónico o de hacer un cambio del mismo, más adelante explicaremos cómo editar la información del afiliado. 
+#. En los detalles del servicio AMD, indicamos el motivo del servicio. 
+#. Al pulsar sobre **destino**, se desplegará una ventana para asignar la dirección del servicio. Allí se asignará una dirección entre las que se encuentran registradas en el sistema para ese usuario, o se agregará una nueva de ser necesario. Después de seleccionar y verificar la dirección pulsamos el botón asignar. En la creación de servicios AMD es necesario agregar una dirección. *El campo parroquia puede seleccionarse como "Parroquia Desconocida" en caso de que no haya posibilidad de obtener esta información al momento de la creación del servicio*.
+#. Por último debemos indicar si el servicio va a requerir o no pruebas de laboratorio. De ser necesarias las pruebas lo que debemos hacer es seleccionar la casilla correspondiente y, a continuación, indicar cuáles pruebas de laboratorio requerirá. 
+#. Haciendo click en "Crear", se generará el servicio, lo cual podemos verificar desde el listado de atenciones en espera. 
 #. Allí veremos el número del servicio, nombre del afiliado, fecha y hora en la que se registró el servicio, la compañía aseguradora y la ubicación donde se prestará el servicio.
-
-.. _editar-datos-afiliado:
-
-Editar datos de una persona afiliada
-------------------------------------
-
-Desde la pantalla de detalle de una atención puede editarse información relacionada con la atención: agregar una dirección de correo electrónico o teléfono, pero también pueden editarse algunos datos de la persona que solicita el servicio como su nombre, apellido y sexo, corrigiendo situaciones en las que haya algún error de tipeo al crear la atención.
-**IMPORTANTE: La cédula es el identificador principal de la póliza, por ello su valor no puede ser editado**
-
-¿Cómo editar información de la atención o de usuario?
-*****************************************************
-
-Los datos que pueden editarse disponen de un lápiz junto a ellos, habilitando la opción para editar al hacer click sobre el ícono respectivo. Una vez que hacemos click para editar, aparecerá en pantalla a mano izquierda información del afiliado y en ella se encuentra la casilla de correo electrónico. En ella verificamos con el afiliado su email para descartar, mantener o agregar uno nuevo. 
-
-Para agregar un nuevo correo, debe hacerse pulsar la tecla enter del teclado para validar la información escrita, y hacer click en el botón guardar para almacenarla. 
-
-El mismo procedimiento se debe ser con cada uno de los datos de la persona afiliada que se editen desde el detalle de la atención
 
 .. _crear-EMD:
 
@@ -154,6 +139,9 @@ Cancelar Servicio
 
 Para que un usuario operador pueda cancelar un servicio primero debe ingresar a un servicio de cualquier atención. Por ejemplo, podemos ingresar para editar una atención que se trate de un traslado y cuente únicamente con un servicio. Ahí encontraremos el botón para cancelar el servicio. Al pulsarlo se nos desplegará una ventana en la cual es obligatorio indicar el motivo por el cual estamos cancelando dicho servicio. Entre las opciones que nos ofrece el sistema podemos seleccionar carga por error, y esto supone un servicio que fue creado dos veces, se quería crear otro servicio o cualquier otro motivo que haya derivado en un error por parte del operador. Después de confirmar podemos observar que el servicio se ha cancelado de manera exitosa. También podemos ver que en el panel de atenciones esta atención ha pasado al estatus por cerrar , lo que indica que debe ser cerrada por parte del usuario coordinador. Lo podemos confirmar también a través del número de la atención, el nombre de la persona y el color que indica que la atención fue cancelada. 
 
+Operaciones con afiliados
+*************************
+
 .. _crear-afiliado:
 
 Crear Afiliado Nuevo
@@ -180,3 +168,20 @@ Operador agrega afiliados que no provienen del validador y que no están registr
 
 Vamos a realizar un ejercicio en el que agregamos un afiliado a una póliza que ya existe en Atención-1 pero este afiliado todavía no se encuentra en Atención-1 ni en el Validador. Hacemos la búsqueda por número de cédula para que nos arroje información con respecto al validador cuando hagamos clic en agregar afiliado titular. Al hacerlo podremos ver no solamente que el número no está en el validador sino que además vemos que el afiliado que deseamos agregar no es el Titular, es un afiliado que está vinculado a otra póliza. En ese caso, debemos hacer clic en cancelar y buscamos al Titular de la póliza. Ingresamos el número de cédula del Titular y vamos a hacer el mismo procedimiento que en agregar un afiliado de Atención-1 como vinculado en una póliza de un afiliado titular, pero lo haremos de la siguiente manera: hacemos clic en la información de la póliza, se nos despliega la información y hacemos clic en vincular afiliado. Luego, procedemos a introducir manualmente la información en la base de datos de Atención-1, ya que ni en ella ni el Validador se encuentra todavía la información del afiliado. Lo primero que debemos especificar es si la persona que estamos agregando tiene o no cédula. Primero hagamos el ejemplo con alguien que tenga cédula, por lo que especificamos su número y escogemos el vínculo de hijo. Completamos toda la información necesaria sobre la persona como la fecha de nacimiento, sexo y número de teléfono para luego pulsar enter, y cuando valide el número de teléfono se active el botón de guardar. Luego de guardar veremos que el afiliado fue creado exitosamente por el mensaje que se nos muestra en la parte superior de la pantalla y también porque vemos la información reflejada en la ficha de la póliza.
 Ahora, hagamos el mismo ejercicio con una persona que tengamos que vincular pero no tiene cédula. Para hacerlo seguimos los mismos pasos, pero quitamos la verificación de posee cédula y vemos que en el campo del número de cédula aparece el número de cédula del Titular y al lado un numeral (#) seguido de un número 3, por ejemplo, que indica que dentro de esa póliza ya hay dos personas que se encuentran afiliadas. En la casilla vínculo asignamos hijo y completamos la información relacionada al nuevo afiliado como nombre, fecha de nacimiento, sexo, entre otros. Una vez más, luego de ingresar el número de teléfono se nos activará el botón de guardar. Al guardar la información vemos que se incluye la cédula del titular con el numeral (#) 3 a los datos de la persona que acabamos de agregar a esta póliza. Si ahora hacemos la búsqueda con el número de cédula del titular de esta póliza nos van a aparecer dos personas, el titular de la póliza y el afiliado que se registró con su mismo número de cédula (hijo), ya que el menor de edad no cuenta con cédula de identidad.  Si hacemos clic sobre el nuevo afiliado podemos comprobar que están todos los datos que acabamos de agregar. Siguiendo estos pasos hemos agregado dos afiliados que no se encontraban en el Validador a una póliza de un Titular que ya se encontraba en el Validador.
+
+.. _editar-datos-afiliado:
+
+Editar datos de una persona afiliada
+------------------------------------
+
+Desde la pantalla de detalle de una atención puede editarse información relacionada con la atención: agregar una dirección de correo electrónico o teléfono, pero también pueden editarse algunos datos de la persona que solicita el servicio como su nombre, apellido y sexo, corrigiendo situaciones en las que haya algún error de tipeo al crear la atención.
+**IMPORTANTE: La cédula es el identificador principal de la póliza, por ello su valor no puede ser editado**
+
+¿Cómo editar información de la atención o de usuario?
+*****************************************************
+
+Los datos que pueden editarse disponen de un lápiz junto a ellos, habilitando la opción para editar al hacer click sobre el ícono respectivo. Una vez que hacemos click para editar, aparecerá en pantalla a mano izquierda información del afiliado y en ella se encuentra la casilla de correo electrónico. En ella verificamos con el afiliado su email para descartar, mantener o agregar uno nuevo. 
+
+Para agregar un nuevo correo, debe hacerse pulsar la tecla enter del teclado para validar la información escrita, y hacer click en el botón guardar para almacenarla. 
+
+El mismo procedimiento se debe ser con cada uno de los datos de la persona afiliada que se editen desde el detalle de la atención
