@@ -62,6 +62,7 @@ Todos los paneles (de atención o de servicios) se abren y se cierran al hacer
 clic sobre el borde superior de cada compartimiento, donde se encuentra el 
 título del pánel.
 
+
 Generar Ticket de Servicio
 --------------------------
 
@@ -77,6 +78,7 @@ Atenciones, item dentro del menú de "hamburguesa" dispuesto en el rincón super
 izquierdo ya descrito. En dicho menú se tienen los siguientes items:
 
 .. image:: ../images/Asistente/AsistenteMenuItems.png
+
 
 Generar Ticket de Tripulación
 -----------------------------
@@ -95,6 +97,9 @@ tripulación conformada.
 
 Esta información la puedes imprimir haciendo clic en el ícono de impresora en 
 la esquina inferior derecha del diálogo.
+
+
+.. _generarReportes:
 
 Generar Reportes
 ----------------
@@ -116,6 +121,9 @@ facilidad cualquier dato.
 y otro botón para generar un archivo .xlsx con los datos.
 
 .. image:: ../images/Asistente/AsistenteGenerarReportes.png
+
+
+.. _visualizarAfiliados:
 
 Visualizar Afiliados
 --------------------

@@ -1,6 +1,8 @@
 Médico/a
 ========
 
+
+
 El Médico es la persona que tiene las competencias y licencias para realizar la 
 atención médica desde la plataforma de Atención-1. Recuerda que si quieres conocer 
 los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` 
@@ -22,6 +24,7 @@ perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú
 donde puedes acceder más fácilmente al panel de atenciones. En la parte central, 
 se muestra el panel de atenciones.
 
+
 Panel de Atenciones
 -------------------
 
@@ -39,6 +42,7 @@ Otros elementos que podemos conseguir en el panel de atenciones son los estatus
 de atenciones que se nos indican a través de la leyenda en la parte superior de 
 la ventana. Cada color indica un estatus en particular del servicio dentro de 
 la atención.
+
 
 Atender un servicio OMT
 -----------------------
@@ -136,6 +140,7 @@ servicios, como PHD y EMD.
 
 .. image:: ../images/Médico/MedicoPanelInfoDoc.png
 
+
 Signos de alarma
 ----------------
 
@@ -163,6 +168,7 @@ A partir de esta sugerencia, según el grado de complejidad, puedes generar el
 servicio adicional al afiliado que creas conveniente mediante la creación de un 
 **Servicio Sucesivo**. 
 
+
 Crear Servicio Sucesivo
 -----------------------
 Primeramente, debes hacer clic en el botón **Servicio Sucesivo** de color verde que 
@@ -182,6 +188,7 @@ de llenar o no (según la emergencia), para luego hacer clic en el botón **Crea
 Una vez realizados los pasos anteriores, se mostrará la pestaña abierta del servicio 
 recién creado para ser ejecutado a la brevedad.
 
+
 Completar Servicio
 ------------------
 Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y **Solicitudes**) 
@@ -200,11 +207,14 @@ Los servicios EMD o PHD que se encuentren en estado Abierto, debes atenderlos pa
 revisión de los documentos agregados previamente por el usuario que creó el servicio 
 que se encuentran en la sección de Documentos Adjuntos en los paneles de atenciones.
 
+.. image:: ../images/Médico/MedicoAtenderEMDoPHD.png
+
 Una vez que hayas hecho la revisión de la información contenida en los documentos, procedes 
 a transcribir o aportar los diagnósticos en la sección de Diagnósticos en los paneles del servicio.
 
 Luego puedes agregar los medicamentos a despachar en el panel de Nota de despacho, esta parte es opcional
 en el caso de los servicios EMD.
+
 
 .. _cancelarServicio:
 
