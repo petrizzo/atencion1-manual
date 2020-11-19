@@ -1,5 +1,6 @@
+##########
 Director/a
-==========
+##########
 
 El Director es la persona que tiene la posibilidad de generar, monitorear y 
 controlar los procesos en la plataforma de Atención-1. 
@@ -62,23 +63,31 @@ Todos los paneles (de atención o de servicios) se abren y se cierran al hacer
 clic sobre el borde superior de cada compartimiento, donde se encuentra el 
 título del pánel.
 
-Como Director podrás editar todos los campos editables en los paneles de servicios 
-y los de atenciones.
+Como Director podrás editar todos los campos que el sistema permite modificar/agregar 
+en los paneles de servicios y los de atenciones. Este rol integra todos los permisos 
+que tienen los demás roles.
 
+******************
+Crear una atención
+******************
+:ref:`crear-atencion`
 
+*************************
+Operaciones con afiliados
+*************************
+:ref:`operaciones-afiliados`
+
+***********************
 Gestionar Tripulaciones
------------------------
-
+***********************
 :ref:`gestionar_tripulaciones`
 
-
+****************
 Generar Reportes
-----------------
-
+****************
 :ref:`generarReportes`
 
-
+********************
 Visualizar Afiliados
---------------------
-
+********************
 :ref:`visualizarAfiliados`

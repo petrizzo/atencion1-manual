@@ -71,19 +71,19 @@ información contenida en los paneles.
 
 
 Gestionar Tripulaciones
------------------------
+***********************
 
 :ref:`gestionar_tripulaciones`
 
 
 Generar Reportes
-----------------
+****************
 
 :ref:`generarReportes`
 
 
 Visualizar Afiliados
---------------------
+********************
 
 :ref:`visualizarAfiliados`
 

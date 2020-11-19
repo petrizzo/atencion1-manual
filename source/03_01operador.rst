@@ -147,11 +147,11 @@ Cancelar Servicio
 
 Para que un usuario operador pueda cancelar un servicio primero debe ingresar a un servicio de cualquier atención. Por ejemplo, podemos ingresar para editar una atención que se trate de un traslado y cuente únicamente con un servicio. Ahí encontraremos el botón para **cancelar el servicio**. Al pulsarlo se nos desplegará una ventana en la cual es obligatorio indicar el **motivo** por el cual estamos cancelando dicho servicio. Entre las opciones que nos ofrece el sistema podemos seleccionar **carga por error**, y esto supone un servicio que fue creado dos veces, se quería crear otro servicio o cualquier otro motivo que haya derivado en un error por parte del operador. Después de confirmar podemos observar que el servicio se ha cancelado de manera exitosa. También podemos ver que en el panel de atenciones esta atención ha pasado al estatus por cerrar, lo que indica que debe ser cerrada por parte del usuario coordinador. Lo podemos confirmar también a través del número de la atención, el nombre de la persona y el color que indica que la atención fue cancelada. 
 
+.. _operaciones-afiliados:
+
 *************************
 Operaciones con afiliados
 *************************
-
-.. _crear-afiliado:
 
 Crear Afiliado Nuevo
 ====================
