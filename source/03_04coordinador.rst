@@ -79,7 +79,7 @@ puedes:
   detalles de una atención.
 * Editar los comentarios y el motivo de servicio, en el panel **Información de
   Servicio**.
-* Editar la ruta en el panel **Tripulación y Ruta**.
+* Editar la tripulación y ruta en el panel **Tripulación y Ruta**.
 * Editar la nota de despacho, en el panel **Nota de Despacho**.
 * Adjuntar resultados de laboratorio, en el panel **Resultados**.
 * Cancelar y cerrar servicios, en el panel del flujo de trabajo.
