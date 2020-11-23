@@ -1,16 +1,15 @@
+########
 Médico/a
-========
-
+########
 
 
 El Médico es la persona que tiene las competencias y licencias para realizar la 
 atención médica desde la plataforma de Atención-1. Recuerda que si quieres conocer 
-los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` 
-que hemos preparado.
+los conceptos utilizados en la plataforma Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
 Para ingresar a la plataforma como Médico, debes escribir en la barra de dirección 
 del navegador: https://atencion1.venedigital.com. Una vez allí ves en la barra 
-inferior información acerca de Atención-1, un enlace con ayuda que contendrá un 
+inferior información acerca de Atención-1 un enlace con ayuda que contendrá un 
 manual, una guía de Preguntas Frecuentes y enlace a un correo electrónico con el 
 que se podrá contactar al equipo de desarrollo.
 
@@ -26,7 +25,7 @@ se muestra el panel de atenciones.
 
 
 Panel de Atenciones
--------------------
+*******************
 
 Al ingresar al sistema, la primera pantalla que ves es el Panel de Atenciones, 
 distribuida en cuatro secciones:
@@ -45,17 +44,17 @@ la atención.
 
 
 Atender un servicio OMT
------------------------
+***********************
 
 Como usuario con rol de Médico, debes atender aquellas atenciones que tengan 
-servicio de OMT creado. Por lo que, primeramente, debes acceder a revisar el 
-panel de atenciones En espera y ubicar en el listado aquella atención cuya 
-columna de Servicios tenga en color amarillo un servicio OMT (el color amarillo 
+servicio de **OMT** creado. Por lo que, primeramente, debes acceder a revisar el 
+panel de atenciones **En espera** y ubicar en el listado aquella atención cuya 
+columna de **Servicios** tenga en color amarillo un servicio OMT (el color amarillo 
 indica que el servicio tiene status abierto, es decir, no atendido).
 
 Para poder atender la atención con el servicio OMT creado debes hacer clic en 
 el extremo derecho de la fila correspondiente y hacer clic en el ícono que muestra 
-el mensaje Atender.
+el mensaje **Atender**.
 
 .. image:: ../images/Médico/MedicoAtenderAtencionOMT.png
 
@@ -69,9 +68,7 @@ En la columna derecha puedes ver los datos de **servicios**, donde aparecen en
 pestañas los servicios asociados a la atención con los acrónimos de sus nombres, 
 que en este caso la pestaña a ubicar es OMT. 
 Al momento de tomar la llamada del afiliado, inicias el servicio marcando 
-en el botón **Paso 1 Completado**, que registra la fecha y hora del inicio de la llamada. 
-Esta acción va a producir el cambio de estado del servicio, pasando de En espera
-(amarillo) a En progreso (verde).
+en el botón **Paso 1 Completado**, que registra la fecha y hora del inicio de la llamada. Esta acción va a producir el cambio de estado del servicio, pasando de **En espera** (amarillo) a **En progreso** (verde).
 
 .. image:: ../images/Médico/MedicoInicioOMT.png
 
@@ -132,7 +129,7 @@ el servicio OMT prestado.
 .. image:: ../images/Médico/MedicoAfiliadoAtencion.png
 
 Los paneles de **Pólizas** e **Historial de atenciones** son un recurso informativo, 
-mientras que el último panel, **Documentos adjuntos** tiene como finalidad incluir 
+mientras que el último panel, **Documentos adjuntos**, tiene como finalidad incluir 
 los documentos que Venemergencia necesita para procesar la solicitud de ciertos 
 servicios, como PHD y EMD. 
 
@@ -142,7 +139,7 @@ servicios, como PHD y EMD.
 
 
 Signos de alarma
-----------------
+================
 
 Al momento de agregar el diagnóstico o conjunto de diagnósticos del afiliado, 
 si el o los términos tienen un asterisco (*), automáticamente se despliega un campo 
@@ -157,8 +154,7 @@ de triaje, recomendaciones generales y signos de alarma.
 
 .. image:: ../images/Médico/MedicoRecomendaciones.png
 
-Las preguntas son cerradas (de respuestas sin ambigüedades, si o no) que debes 
-realizarle al afiliado. Las respuestas son afirmativas si se hace clic sobre la 
+Las preguntas son cerradas (de respuestas sin ambigüedades, **si** o **no**) que debes realizarle al afiliado. Las respuestas son afirmativas si se hace clic sobre la 
 caja de selección que contiene la pregunta. En caso de que alguna de las preguntas 
 obligatorias sea afirmativa, se genera el aviso: **Evaluación urgente. AMD o Traslado**. 
 
@@ -170,7 +166,8 @@ servicio adicional al afiliado que creas conveniente mediante la creación de un
 
 
 Crear Servicio Sucesivo
------------------------
+***********************
+
 Primeramente, debes hacer clic en el botón **Servicio Sucesivo** de color verde que 
 se encuentra justo debajo de la pestaña del servicio donde te encuentras.
 
@@ -190,44 +187,35 @@ recién creado para ser ejecutado a la brevedad.
 
 
 Completar Servicio
-------------------
-Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y **Solicitudes**) 
-contengan la información necesario y que la llamada se haya llevado a cabo, se completa 
-el servicio OMT haciendo clic en el botón **Paso 2 Completado** para registrar la hora y fecha 
-de culminación de llamada. Al completar este paso, el estatus del servicio cambia a 
-Completado (azul).
+==================
+
+Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y **Solicitudes**) contengan la información necesaria y que la llamada se haya llevado a cabo, se completa el servicio OMT haciendo clic en el botón **Paso 2 Completado** para registrar la hora y fecha de culminación de llamada. Al completar este paso, el estatus del servicio cambia a **Completado** (azul).
 
 .. image:: ../images/Médico/MedicoCompletado.png
 
 
 Atender un servicio EMD o PHD
------------------------------
+*****************************
 
-Los servicios EMD o PHD que se encuentren en estado Abierto, debes atenderlos para hacer 
-revisión de los documentos agregados previamente por el usuario que creó el servicio 
-que se encuentran en la sección de Documentos Adjuntos en los paneles de atenciones.
+Los servicios EMD o PHD que se encuentren en estado **Abierto**, debes atenderlos para hacer revisión de los documentos agregados previamente por el usuario que creó el servicio que se encuentran en la sección de **Documentos Adjuntos** en los paneles de atenciones.
 
 .. image:: ../images/Médico/MedicoAtenderEMDoPHD.png
 
-Una vez que hayas hecho la revisión de la información contenida en los documentos, procedes 
-a transcribir o aportar los diagnósticos en la sección de Diagnósticos en los paneles del servicio.
-
-Luego puedes agregar los medicamentos a despachar en el panel de Nota de despacho, esta parte es opcional
-en el caso de los servicios EMD.
+Una vez que hayas hecho la revisión de la información contenida en los documentos, procedes a transcribir o aportar los diagnósticos en la sección de **Diagnósticos** en los paneles del servicio. Luego puedes agregar los medicamentos a despachar en el panel de Nota de despacho, esta parte es opcional en el caso de los servicios EMD.
 
 
 .. _cancelarServicio:
 
 Cancelar Servicio
------------------
+=================
 
 En caso de error de creación de servicio o por cualquier circunstancia que no pueda 
 llevarse a cabo el servicio OMT, el servicio puede cancelarse al hacer clic en el 
-botón rojo Cancelar Servicio. 
+botón rojo **Cancelar Servicio**. 
 
 .. image:: ../images/Médico/MedicoSucesivo.png
 
 Esta acción despliega un diálogo que muestra un campo de selección múltiple llamado 
-Motivo de cancelación, una ves elijas el motivo, haces clic en Confirmar.
+**Motivo de cancelación**, una ves elijas el motivo, haces clic en **Confirmar**.
 
 .. image:: ../images/Médico/MedicoMotivoCancelacion.png
