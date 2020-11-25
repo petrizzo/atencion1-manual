@@ -62,8 +62,9 @@ Todos los paneles (de atención o de servicios) se abren y se cierran al hacer
 clic sobre el borde superior de cada compartimiento, donde se encuentra el 
 título del pánel.
 
+
 Generar Ticket de Servicio
---------------------------
+**************************
 
 Como usuario con rol de Asistente, en esta pantalla podrás visualizar todos 
 los datos y detalles de una atención y su contenido en servicios. Mientras que 
@@ -78,8 +79,9 @@ izquierdo ya descrito. En dicho menú se tienen los siguientes items:
 
 .. image:: ../images/Asistente/AsistenteMenuItems.png
 
+
 Generar Ticket de Tripulación
------------------------------
+*****************************
 
 Al hacer clic en el menú al item **Tripulaciones** puedes visualizar el listado 
 de tripulaciones activas. Dispones de un campo de búsquedas en la parte superior 
@@ -96,8 +98,11 @@ tripulación conformada.
 Esta información la puedes imprimir haciendo clic en el ícono de impresora en 
 la esquina inferior derecha del diálogo.
 
+
+.. _generarReportes:
+
 Generar Reportes
-----------------
+****************
 
 En el item **Reportes** del menú se muestra la bandeja de generación de reportes 
 para atenciones y servicios. En los campos de búsqueda se puede filtrar por fecha 
@@ -117,8 +122,11 @@ y otro botón para generar un archivo .xlsx con los datos.
 
 .. image:: ../images/Asistente/AsistenteGenerarReportes.png
 
+
+.. _visualizarAfiliados:
+
 Visualizar Afiliados
---------------------
+********************
 
 Finalmente, el item **Afiliados** del menú permite hacer búsquedas por cédula, 
 nombre y/o apellido de afiliados. Cuándo realizas una búsqueda, se muestran los 
