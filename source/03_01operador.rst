@@ -23,7 +23,7 @@ Para ingresar debemos indicar el nombre y contraseña del usuario, en este caso 
 .. image:: ../images/Operador/OperadorPanelAtencionesGeneral2.png
     :width: 700
 
-visualizando los círculos de color ubicados en la parte superior del panel de atenciones, podemos saber cómo se encuentra o cuál es el estatus de cada servicio por medio de un color determinado:
+Visualizando los círculos de color ubicados en la parte superior del panel de atenciones, podemos saber cómo se encuentra o cuál es el estatus de cada servicio por medio de un color determinado:
 
 #. El color amarillo indica un **servicio abierto**.
 #. El color verde es un **servicio en proceso**.
@@ -43,13 +43,13 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 #. A continuación en el recuadro que contiene el símbolo de la lupa, introducimos la cédula o el nombre de la persona que solicita ser atendida. Atención-1 permite realizar búsquedas con número de cédula o nombre, parcial o completo, de la persona afiliada.
 #. Al pulsar Enter o hacer click sobre la lupa, obtendremos los resultados de la búsqueda en la base de datos del sistema. El sistema está configurado para realizar una búsqueda simultánea en su base de datos y en la información del *Validador*. En caso de no estar registrado un afiliado/a, el sistema permitirá ingresar los datos de una nueva persona afiliada a través de la opción :ref:`crear-afiliado`. En caso contrario, deberá seleccionarse de la lista desplegada, cuál es el afiliado o la afiliada a atender. 
 
-.. image:: ../images/Operador/Crear_afiliado_nuevo/DatosPolizaTitularValidador.png
-    :width: 700
+.. image:: ../images/Operador/DatosPolizaTitularValidador.png
+   :width: 700
 
-    **IMPORTANTE: Atencion1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
+**IMPORTANTE: Atencion1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
 
-#. Debes seleccionar el afiliado al que se le prestará el servicio haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
-#. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
+ #. Debes seleccionar el afiliado al que se le prestará el servicio haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
+ #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
 
     **IMPORTANTE: El número telefónico y el motivo de la consulta son indispensables para poder crear la atención mientras que el campo de observaciones es opcional.**
 
@@ -78,8 +78,8 @@ Los Operadores pueden crear cualquier servicio dentro de una atención, siempre 
 
 .. _crear-EMD:
 
-Crear EMD
----------
+Crear unb servicio EMD
+**********************
 
 Para crear una atención de tipo EMD  (entrega de medicamentos, insumos médicos o entrega de equipos) procedemos primero a :ref:`crear-atencion`. Este servicio se utiliza para atender entrega de medicamentos e insumos médicos y también para programar préstamos y recogidas de equipos médicos. Al crear un servicio EMD debemos considerar varios aspectos:
 
