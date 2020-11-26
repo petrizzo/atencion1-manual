@@ -1,7 +1,6 @@
+#########
 Asistente
-=========
-
-
+#########
 
 El Asistente es la persona que apoya a la gerencia en su gestión para obtener
 cualquier información concerniente a las atenciones, servicios, afiliados y/o
@@ -62,7 +61,7 @@ Todos los paneles (de atención o de servicios) se abren y se cierran al hacer
 clic sobre el borde superior de cada compartimiento, donde se encuentra el 
 título del pánel.
 
-
+**************************
 Generar Ticket de Servicio
 **************************
 
@@ -79,7 +78,7 @@ izquierdo ya descrito. En dicho menú se tienen los siguientes items:
 
 .. image:: ../images/Asistente/AsistenteMenuItems.png
 
-
+*****************************
 Generar Ticket de Tripulación
 *****************************
 
@@ -101,6 +100,7 @@ la esquina inferior derecha del diálogo.
 
 .. _generarReportes:
 
+****************
 Generar Reportes
 ****************
 
@@ -125,6 +125,7 @@ y otro botón para generar un archivo .xlsx con los datos.
 
 .. _visualizarAfiliados:
 
+********************
 Visualizar Afiliados
 ********************
 
