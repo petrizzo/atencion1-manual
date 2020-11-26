@@ -23,7 +23,7 @@ perfil del usuario que acabas de ingresar. Del lado superior izquierdo el menú
 donde puedes acceder más fácilmente al panel de atenciones. En la parte central, 
 se muestra el panel de atenciones.
 
-
+*******************
 Panel de Atenciones
 *******************
 
@@ -42,7 +42,7 @@ de atenciones que se nos indican a través de la leyenda en la parte superior de
 la ventana. Cada color indica un estatus en particular del servicio dentro de 
 la atención.
 
-
+***********************
 Atender un servicio OMT
 ***********************
 
@@ -164,7 +164,7 @@ A partir de esta sugerencia, según el grado de complejidad, puedes generar el
 servicio adicional al afiliado que creas conveniente mediante la creación de un 
 **Servicio Sucesivo**. 
 
-
+***********************
 Crear Servicio Sucesivo
 ***********************
 
@@ -193,7 +193,7 @@ Una vez que todos los paneles (**Información de servicio**, **Diagnósticos** y
 
 .. image:: ../images/Médico/MedicoCompletado.png
 
-
+*****************************
 Atender un servicio EMD o PHD
 *****************************
 

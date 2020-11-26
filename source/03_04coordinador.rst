@@ -60,6 +60,7 @@ servicio.
 Todos los paneles (de atenciones y servicios) se expanden y se reducen al hacer
 clic sobre la cabecera del mismo (donde se encuentra el título).
 
+********************************
 Gestionar Atenciones y Servicios
 ********************************
 
@@ -84,6 +85,7 @@ puedes:
 * Editar las fechas y horas de ejecución de cada paso de los servicios, en el panel del flujo de trabajo.
 
 
+*****************************
 Cancelar y cerrar un servicio
 *****************************
 
@@ -161,6 +163,7 @@ correo electrónico de resumen si el servicio efectivamente ha sido completado.
 
 .. image:: ../images/Coordinador/DiálogoCerrarServicioConCorreo.jpg
 
+***************************************
 Detalles sobre el cierre de un servicio
 ***************************************
 
@@ -196,7 +199,7 @@ otro servicio completado o cancelado). Si deseas cerrar otro servicio,
 simplemente debes repetir el procedimiento.
 
 
-
+**********************************************************************
 Editar las fechas y horas asociadas al flujo de trabajo de un servicio
 **********************************************************************
 
@@ -208,6 +211,7 @@ de asignar nuevas fechas y horas y de editar aquellas asignadas previamente.
 
 .. image:: ../images/Coordinador/DiálogoEditarFechasYHoras.jpg
 
+***********************
 Consultar Tripulaciones
 ***********************
 
@@ -226,7 +230,7 @@ con todos los detalles de la tripulación seleccionada.
 Podrás imprimir esta información haciendo clic en el ícono de "impresora",
 ubicado en la esquina inferior izquierda de la ventana de diálogo.
 
-
+****************
 Generar Reportes
 ****************
 
@@ -246,6 +250,7 @@ El botón "Generar" te permitirá obtener un archivo .xlsx con los datos.
 .. image:: ../images/Coordinador/GenerarReporte.jpg
 
 
+*******************
 Consultar Afiliados
 *******************
 

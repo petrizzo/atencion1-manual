@@ -67,15 +67,8 @@ botón de **Abrir**, ubicado en la parte derecha de la fila correspondiente. Al 
 
 .. image:: ../images/Despachador/DetallesAtención.jpg
 
-<<<<<<< HEAD
-En esta página podrás visualizar dos secciones. La sección lateral izquierda contiene cinco paneles con los datos importantes de la atención: el panel de información general de la atención, el panel de datos relevantes del afiliado atendido, el panel de
-información general de las pólizas asociadas al afiliado, el panel del historial
-de atenciones del afiliado y el panel de documentos adjuntos solicitados para
-los procesos propios de cada servicio de la atención. La sección lateral
-=======
 En esta página podrás visualizar dos secciones. La sección lateral izquierda contiene cinco paneles con los datos importantes de la atención: el panel de información general de la atención, el panel de datos relevantes del afiliado atendido, el panel de información general de las pólizas asociadas al afiliado, el panel del historial
 de atenciones del afiliado y el panel de documentos adjuntos solicitados para los procesos propios de cada servicio de la atención. La sección lateral
->>>>>>> f1b264a4c5560bc4057f854a51ba723c875ef8ed
 derecha presenta la información referente a los servicios contenidos en la
 atención. Los servicios se muestran, con los acrónimos de sus nombres, en
 pestañas. Al hacer clic sobre cada pestaña se despliega la información del
@@ -85,6 +78,7 @@ servicio.
 Todos los paneles (de atenciones y servicios) se expanden y se reducen al hacer
 clic sobre la cabecera del mismo (donde se encuentra el título).
 
+********************************
 Gestionar Atenciones y Servicios
 ********************************
 
@@ -116,6 +110,7 @@ En cuanto a los permisos de actualización, como Despachador puedes:
 Desarrollar:
 El Despachador puede crear nuevas atenciones...
 
+********************
 Atender servicio AMD
 ********************
 
@@ -212,18 +207,23 @@ una descripción (opcional). Al terminar, haz clic en **Adjuntar**.
     Los servicios AMD con estatus **Cancelado**, **Abierto** o **Retrasado** no requieren
     Diagnóstico ni Resultados.
 
+********************
 Atender servicio TLD
 ********************
 
+********************
 Atender servicio EMD
 ********************
 
+********************
 Atender servicio PHD
 ********************
 
+********************
 Atender servicio LAB
 ********************
 
+**************
 Crear servicio
 **************
 
@@ -290,6 +290,7 @@ la eliminación de la tripulación, haz clic en **Borrar**.
 .. image:: ../images/Despachador/AvisoBorrarTripulación.jpg
 
 
+*******************************
 Despachador. Crear tripulación.
 *******************************
 
@@ -299,6 +300,7 @@ Luego colocamos la fecha y hora en la cual comienza esa guardia, la fecha en el 
 En lo referente a la Base le indicamos en dónde está ubicada esa tripulación. Luego le asignamos una unidad y le asignamos también el personal que está asociado a esa tripulación y pulsamos en **Cerrar** para validar que, efectivamente, se creó la tripulación.
 Una vez que se ha creado se observa desplegada en la lista de tripulaciones disponibles para ese día. Con esto hemos creado una tripulación
 
+*************************
 Despachador. Atender AMD.
 *************************
 
@@ -309,6 +311,7 @@ Seleccionamos el servicio y hacemos clic en el botón de **Atender** y allí se 
 Como ejemplo, seleccionamos un servicio **En espera** para atender un servicio de AMD. Lo primero que debemos hacer es asignar tripulación. Entonces nos desplazamos en la sección del lado derecho hasta la sección de **Tripulación** donde se nos indica cuál es la dirección y procedemos a asignar la tripulación. En el menú desplegable van a aparecer todas las tripulaciones disponibles en función de las que hayamos creado al inicio del día. Al seleccionarla se carga toda la información relativa tanto a las personas (médicos y paramédicos que están en la unidad) como a la unidad, la base, etc. Hacemos clic en el botón **Guardar** y ya no aparece el indicativo (alerta) de asignar tripulación.
 En el caso de faltar el **Diagnóstico** es importante notificar al Coordinador o al Médico que tomó esta solicitud para que ingrese el diagnóstico. En todo caso, luego de asignar la tripulación podemos marcar el **Paso 1 completado**. Antes de asignar la tripulación no podíamos completar el paso 1 que es el inicio del despacho del servicio. Según se van completando los distintos pasos de este servicio de atención médica, vamos señalando los pasos completados donde se registra en cada uno la hora en la que se tildó como completado. Se indica la **Llegada al Destino**, **Salida del Destino** y la **Llegada a Base** o paso 5 completado y en este momento ya se da por completada la atención del servicio AMD.
 
+************************************
 Despachador. Atender TLD, EMD o LAB.
 ************************************
 
@@ -317,6 +320,7 @@ Entramos en la pestaña del servicio haciendo clic en el botón de **Atender** e
 Básicamente es el mismo procedimiento el que vamos a seguir como Despachador para atender todo servicio que involucra la asignación de una tripulación y su desplazamiento hasta el lugar en el que se encuentra el afiliado o hasta el lugar donde se le va a prestar la atención médica, si es de trasladar a un equipo médico.
 Con esto ya hemos atendido un TLD.
 
+*************************
 Despachador. Atender PHD.
 *************************
 
@@ -326,6 +330,7 @@ Como un servicio de traslado que involucra una tripulación, lo primero que debe
 Cuando se concluyen todos los pasos relativos, en este caso, al PHD el estado del servicio pasa de **En Progreso** a **Completado**. Si regresamos al historial de atenciones observamos que ya no está ese servicio marcado con amarillo que es *Por atender*, sino en color azul que significa que ya está completado.
 Con esto hemos atendido un servicio PHD.
 
+*****************************
 Despachador. Imprimir ticket.
 *****************************
 
@@ -333,6 +338,7 @@ Vamos a ver ahora cómo se hace la impresión de un ticket en el que se incluyen
 Recordemos que en la impresión del ticket del servicio se imprime toda la información que se ha cargado en ese servicio. Es decir, si tenemos una tripulación asignada se informa y si tenemos un **Diagnóstico** también se informa. Sin embargo, si algunos de esos campos falta pues no aparecen al momento de la impresión del ticket, con lo cual es importante imprimir el ticket solamente en el momento en el que toda la información relativa a cada uno de los servicios involucrados, en este caso al servicio que se quiere imprimir, esté completamente indicada. 
 Al seleccionar cualquiera de los servicios disponibles y hacer clic en **Imprimir ticket** del servicio se despliega la información disponible que será la que se refleja en el ticket impreso. Hacemos clic en el botón **Imprimir** y se genera un archivo en PDF que se pide a través de la instancia y se debe seleccionar la ubicación dentro de la computadora para ser almacenado. Esa información se almacena en la carpeta que seleccione la persona y ya se ha generado el ticket respectivo en formato PDF.
 
+************************************************
 Despachador. Crear servicio sucesivo programado.
 ************************************************
 
