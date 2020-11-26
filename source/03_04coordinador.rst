@@ -1,7 +1,6 @@
+#############
 Coordinador/a
-=============
-
-
+#############
 
 El Coordinador es la persona responsable de la verificación del cumplimiento de
 las actividades operativas en la prestación de los servicios. Tiene permisos de
@@ -17,8 +16,7 @@ Para acceder a la plataforma, debes escribir en la barra de dirección del
 navegador: https://atencion1.venedigital.com. Una vez allí podrás visualizar en
 la barra inferior un conjunto de enlaces, a través de los cuales podrás obtener
 información acerca de Atención-1, tener acceso a un manual de ayuda,
-guía de Preguntas Frecuentes y video tutoriales, contactar al equipo de desarrollo vía correo
-electrónico y reportar fallos/sugerencias.
+guía de Preguntas Frecuentes y video tutoriales, contactar al equipo de desarrollo vía correo electrónico y reportar fallos/sugerencias.
 
 Para ingresar debes indicar el nombre de usuario y contraseña. Una vez dentro
 de la plataforma, como usuario Coordinador, desde la parte superior derecha
@@ -36,14 +34,14 @@ dividido en cuatro secciones:
 .. image:: ../images/Coordinador/PanelAtencionesGeneral.jpg
 
 Para crear un nuevo servicio asociado a una atención, haces clic sobre el
-botón de "Crear Nuevo Servicio", ubicado en la parte derecha de la fila
+botón de **Crear Nuevo Servicio**, ubicado en la parte derecha de la fila
 correspondiente.
 
 Para visualizar los detalles de una atención en particular, haces clic sobre el
-botón de "Abrir", ubicado en la parte derecha de la fila
-correspondiente. Al posicionar el cursor sobre el ícono aparecerá el mensaje
-"Revisar" o "Cerrar", según la sección en que se encuentre. Serás
-redireccionado a la página de detalles de la atención seleccionada.
+botón de **Abrir**, ubicado en la parte derecha de la fila correspondiente. 
+Al posicionar el cursor sobre el ícono aparecerá el mensaje **Revisar** o **Cerrar**, 
+según la sección en que se encuentre. Serás redireccionado a la página de detalles 
+de la atención seleccionada.
 
 .. image:: ../images/Coordinador/DetallesAtención.jpg
 
@@ -63,7 +61,7 @@ Todos los paneles (de atenciones y servicios) se expanden y se reducen al hacer
 clic sobre la cabecera del mismo (donde se encuentra el título).
 
 Gestionar Atenciones y Servicios
---------------------------------
+********************************
 
 En lo referente a la gestión de atenciones y servicios, como usuario
 Coordinador tienes permisos para crear nuevas atenciones, crear nuevos
@@ -87,7 +85,7 @@ puedes:
 
 
 Cancelar y cerrar un servicio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************
 
 Una de las funciones más importantes que ejecuta el rol de Coordinador en
 Atención-1 es cerrar un servicio. Es importante destacar las diferencias entre
@@ -154,7 +152,7 @@ la cabecera de este panel indica que debes añadir al menos un correo.
 Para agregar un correo electrónico asociado al afiliado, debes escribir el
 correo en el campo **Correos electrónicos** y presionar *Enter* para su validación.
 Para editarlo, haz doble clic sobre la píldora que lo contiene. Puedes asociar
-varios correos electrónicos a un afiliado. Al finalizar, haz clic en el botón "Guardar".
+varios correos electrónicos a un afiliado. Al finalizar, haz clic en el botón **Guardar**.
 
 Una vez asociado al menos un correo electrónico al afiliado, podrás notar que
 el ícono de alerta en la cabecera del panel **Afiliado** desaparecerá y que
@@ -166,7 +164,7 @@ correo electrónico de resumen si el servicio efectivamente ha sido completado.
 Detalles sobre el cierre de un servicio
 ***************************************
 
-El botón "Cerrar Servicio" estará habilitado si el servicio tiene estatus Abierto
+El botón **Cerrar Servicio** estará habilitado si el servicio tiene estatus Abierto
 o Retrasado (ya que pudo haber sido ingresado por error) o si el servicio ha
 sido previamente completado o cancelado (siempre y cuando cumpla con todas las
 condiciones para el cierre). Estas condiciones varían según el tipo de servicio.
@@ -200,18 +198,18 @@ simplemente debes repetir el procedimiento.
 
 
 Editar las fechas y horas asociadas al flujo de trabajo de un servicio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**********************************************************************
 
 Como Coordinador, podrás editar las fechas y horas asignadas para
 cada paso del flujo de trabajo. Al hacer clic en el botón de "edición" (con
-ícono de "lápiz"), en la esquina superior derecha del área donde se visualiza el flujo de trabajo,
-se presentará una ventana de diálogo donde tendrás la posibilidad de asignar
-nuevas fechas y horas y de editar aquellas asignadas previamente.
+ícono de "lápiz"), en la esquina superior derecha del área donde se visualiza el
+flujo de trabajo, se presentará una ventana de diálogo donde tendrás la posibilidad
+de asignar nuevas fechas y horas y de editar aquellas asignadas previamente.
 
 .. image:: ../images/Coordinador/DiálogoEditarFechasYHoras.jpg
 
 Consultar Tripulaciones
------------------------
+***********************
 
 Si haces clic en el item **Tripulaciones** del menú lateral izquierdo, podrás
 visualizar el listado de tripulaciones activas (del día). Dispones de un campo
@@ -230,12 +228,12 @@ ubicado en la esquina inferior izquierda de la ventana de diálogo.
 
 
 Generar Reportes
-----------------
+****************
 
 Si haces clic en el item **Reportes** del menú lateral izquierdo, tendrás acceso
-al panel de generación de reportes para atenciones y servicios. Para generar un reporte
-debes establecer un rango de fecha de creación de las atenciones/servicios. También podrás
-filtrar cada reporte por **Cliente** (opcional).
+al panel de generación de reportes para atenciones y servicios. Para generar un
+reporte debes establecer un rango de fecha de creación de las atenciones/servicios.
+También podrás filtrar cada reporte por **Cliente** (opcional).
 
 .. image:: ../images/Coordinador/FiltrosReporte.jpg
  
@@ -249,7 +247,7 @@ El botón "Generar" te permitirá obtener un archivo .xlsx con los datos.
 
 
 Consultar Afiliados
----------------------
+*******************
 
 Si haces clic en el item **Afiliados** del menú lateral izquierdo, podrás
 consultar información de los afiliados, haciendo búsquedas por cédula, nombre
