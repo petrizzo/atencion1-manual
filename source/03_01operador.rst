@@ -48,17 +48,10 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 .. image:: ../images/Operador/DatosPolizaTitularValidador.png
    :width: 700
 
-<<<<<<< HEAD
-**IMPORTANTE: Atencion1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
-
- #. Debes seleccionar el afiliado al que se le prestará el servicio haciendo click en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
- #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de Crear atención, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
-=======
     **IMPORTANTE: Atencion-1 contempla dos tipos de afiliados: Titular y Afiliado vinculado. Cada titular cuenta con, al menos, una póliza y los Afiliados vinculados pueden o no tener cédula de identidad. Sólo puede haber un títular por póliza. La póliza es la especificación del conjunto de servicios sanitarios incluidos en el plan de cada Afiliado títular junto con su grupo de afiliados vinculados.**
 
 #. Debes seleccionar el afiliado al que se le prestará el servicio haciendo clic en el círculo que se encuentra junto a su nombre. A continuación, para efectos de verificación, se despliega información sobre los servicios disponibles en función de sus pólizas contratadas.
 #. El sistema espera que se introduzca un motivo de la consulta y un teléfono de contacto antes de habilitar el botón de **Crear atención**, que es de color verde y está ubicado en la parte inferior derecha de esa pantalla.
->>>>>>> f1b264a4c5560bc4057f854a51ba723c875ef8ed
 
     **IMPORTANTE: El número telefónico y el motivo de la consulta son indispensables para poder crear la atención mientras que el campo de observaciones es opcional.**
 
