@@ -200,4 +200,4 @@ Los datos que pueden editarse disponen de un lápiz junto a ellos, habilitando l
 
 Para agregar un nuevo correo, debe hacerse pulsar la tecla enter del teclado para validar la información escrita, y hacer clic en el botón **guardar** para almacenarla. 
 
-El mismo procedimiento se debe ser con cada uno de los datos de la persona afiliada que se editen desde el detalle de la atención
+El mismo procedimiento se debe ser con cada uno de los datos de la persona afiliada que se editen desde el detalle de la atención.

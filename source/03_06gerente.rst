@@ -1,13 +1,12 @@
+#######
 Gerente
-=======
-
+#######
 
 
 El Gerente es la persona que tiene la responsabilidad de monitorear y 
 controlar los procesos de atención médica desde la plataforma de Atención-1. 
 Recuerda que si quieres conocer los conceptos utilizados en la plataforma 
-Atención-1, puedes revisar este :ref:`glosario` 
-que hemos preparado.
+Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
 Para ingresar a la plataforma como Gerente, debes escribir en la barra de dirección 
 del navegador: https://atencion1.venedigital.com. Una vez allí ves en la barra 
@@ -69,19 +68,19 @@ donde se agregan los medicamentos, insumos y/o equipos que se van a entregar en 
 Para el resto de los servicios, solo tienes la posibilidad de visualizar la 
 información contenida en los paneles.
 
-
+***********************
 Gestionar Tripulaciones
 ***********************
 
 :ref:`gestionar_tripulaciones`
 
-
+****************
 Generar Reportes
 ****************
 
 :ref:`generarReportes`
 
-
+********************
 Visualizar Afiliados
 ********************
 

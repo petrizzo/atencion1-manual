@@ -5,8 +5,7 @@ Director/a
 El Director es la persona que tiene la posibilidad de generar, monitorear y 
 controlar los procesos en la plataforma de Atención-1. 
 Recuerda que si quieres conocer los conceptos utilizados en la plataforma 
-Atención-1, puedes revisar este :ref:`glosario` 
-que hemos preparado.
+Atención-1, puedes revisar este :ref:`glosario` que hemos preparado.
 
 Para ingresar a la plataforma como Director, debes escribir en la barra de dirección 
 del navegador: https://atencion1.venedigital.com. Una vez allí ves en la barra 
@@ -34,7 +33,7 @@ Y en la parte central, se muestra el panel de atenciones dividido en cuatro secc
 
 Para visualizar la información del listado de **Atenciones**, en el extremo 
 derecho del listado de atenciones haces clic sobre el ícono en la linea contentiva 
-de la atención a revisar, el cursor sobre el ícono despliega el mensaje Revisar.
+de la atención a revisar, el cursor sobre el ícono despliega el mensaje **Revisar**.
 
 Una vez seleccionada la atención, aparecen dos secciones en columnas de páneles:
 
@@ -46,7 +45,7 @@ del afiliado atendido, panel de información general de las pólizas asociadas a
 afiliado, panel del historial de atenciones y el panel de documentos adjuntos 
 solicitados para los procesos propios de cada servicio de la atención. Con el 
 rol de Director puedes editar información de los campos editables en el panel 
-de Información de Atención y Afiliado.
+de **Información de Atención y Afiliado**.
 
 La sección del lado derecho muestra la información referente a los servicios 
 contenidos en la atención. Cada servicio se muestra, con los acrónimos de sus 
