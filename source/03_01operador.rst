@@ -59,6 +59,14 @@ Al atender una llamada, lo primero que debemos hacer es proceder a crear una **a
 #. Una vez agregada esta información se hace clic en el botón **Crear Servicio**, y luego de visualizar el mensaje de "Atención creada existosamente", se visualiza el servicio listado en el panel de atenciones en espera.
 #. Desde el panel de atenciones, podemos comprobar detalles de la atención y del(los) servicio(s) asociado(s), haciendo clic en el icono de atender servicio.
 
+.. _crear-OMT:
+
+*********************
+Crear un servicio OMT
+*********************
+
+TODO: desarrollar
+
 .. _crear-AMD:
 
 *********************
@@ -125,6 +133,8 @@ Crear TLD
 A continuación crearemos un servicio tipo traslado TLD. Lo haremos a partir de una atención que ya esté creada sin ningún tipo de servicio asociado por el momento. En el panel de atención nos vamos a editar y veremos que, en el panel que se despliega, esta atención no tiene ningún tipo de servicio asociado. Para continuar, pulsamos el botón circular verde con el signo positivo y escogemos el tipo de servicio que será el TLD. 
 Entre los datos que debemos suministrar para la generación del servicio debemos indicar el motivo de consulta. En este caso el motivo ya lo tiene debido a que se suministró cuando la atención fue creada. También podemos agregar algún comentario que nos parezca pertinente. Vamos a escribir en **el motivo de servicio** la realización de RX como ejemplo para este ejercicio, e indicamos el origen. Al pulsar sobre la palabra **origen** se desplegará una ventana en la que debemos suministrar una dirección. En este caso, daremos la dirección donde se irá a buscar a la persona y la asignamos. Sobre el campo **destino** debemos indicar la dirección donde será llevada esta persona (clínica, hospital, etc.). Al asignar el destino también debemos indicar el tipo de traslado que realizaremos. Por ejemplo, si es un traslado de emergencia, ida y vuelta, UCI, etc. En este caso podemos utilizar un traslado ida vuelta, que implica buscar a la persona para llevarla a realizarse determinados estudios y luego devolverla a su domicilio. Creamos el servicio y verificamos su creación ya que en la pantalla se recarga la información sobre los detalles de este servicio que ha sido añadido a la atención y podemos visualizar todos los pasos que lleva realizar dicho servicio TLD. Sin embargo, también podemos verificar la información en el panel de atención y notaremos que la atención que no tenía ningún tipo de servicio ahora le ha sido agregado uno. Siguiendo estos pasos hemos podido crear el tipo TLD con todas las características correspondientes. 
 
+.. _crear-PHD:
+
 ***************
 Creación de PHD
 ***************
@@ -132,6 +142,8 @@ Creación de PHD
 Vamos a crear un servicio de hospitalización domiciliaria PHD. La creación de este servicio es diferente al de los otros tipos de servicios que se utilizan en Atención-1. Por ello, la atención que se crea puede contener únicamente este servicio. Si el afiliado requiere otro tipo de servicio, entonces creamos una nueva atención para él. 
 Creamos la atención con el mismo procedimiento con el que la hemos creado anteriormente y le agregamos el servicio que es PHD. Como en los casos anteriores, los servicios que requieren traslado van a pedir dirección y motivo de servicio. Podemos indicar, por ejemplo, que el **motivo de servicio** es suministro de tratamiento endovenoso. El destino es la ubicación donde debe dirigirse la unidad o vehículo a dar el servicio, así que podemos introducirla de la misma forma que hemos hecho anteriormente. Es necesario destacar que ya que los servicios PHD no necesariamente se originan dentro de Atención-1, debemos indicar por qué fuente llegó la solicitud de este servicio. Para hacerlo utilizamos el campo **origen de solicitud de servicio**. Este es un campo obligatorio. Entre todas las opciones que se despliegan vamos a seleccionar la opción de **correo electrónico**, por lo que la solicitud, entonces, fue realizada a través de correo electrónico. Ahora podemos proceder a programar la fecha o las fechas en las cuales se le va a ofrecer al afiliado la atención médica domiciliaria. Pulsamos el círculo verde con el signo más "+" y podemos seleccionar la primera fecha y hora. Debemos utilizar la denominación am o pm para diferenciar el bloque de la mañana con el de la tarde. Después de agregar la primera fecha, seguimos el mismo procedimiento en caso de necesitar agregar más. Si es un tratamiento de varios días seguidos es importante dejar la programación con toda la información detallada, ya que por esta vía el despachador podrá ver todos los servicios que debe atender próximamente. 
 Una vez que hemos creado el servicio lo podemos ver en las atenciones en la sección de próximas programadas. Ahí podemos verificar que la fecha o las fechas fueron agregadas correctamente. También aparecerá la hora en que se realizó la llamada y el nombre del afiliado. Al momento de aproximarse la hora de la atención, esta pasará a desplegarse en la sección de atención en espera . 
+
+.. _crear-LAB:
 
 **************************
 Crear Servicio Laboratorio
