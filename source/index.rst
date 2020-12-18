@@ -8,8 +8,8 @@ Manual de Usuarios Atención-1
    :caption: Contenidos:
 
    01descripcion_software
-   02funciones
-   03roles
+   02interfaz_de_usuario
+   03interfaz_administrativa
    04buenas_prácticas
    05permisos
    06glosario
