@@ -11,10 +11,10 @@ Si quieres conocer otros conceptos de la plataforma Atención-1, te sugerimos re
    :maxdepth: 2
    :caption: Tipos de funciones que los usuarios de Atención-1 pueden realizar:
 
-   02_01acciones_con_afiliados.rst
-   02_02acciones_con_atenciones_servicios.rst
-   02_03acciones_con_impresion_documentos.rst
-   02_03solucion_a_problemas_comunes.rst
+   02_01acciones_con_afiliados
+   02_02acciones_con_atenciones_servicios
+   02_03acciones_con_impresion_documentos
+   02_03solucion_a_problemas_comunes
    
 
    - Agregar afiliados, afiliados vinculados, menores de edad, afiliados titulares pagados por terceros

@@ -10,7 +10,7 @@ Manual de Usuarios Atención-1
    01descripcion_software
    02interfaz_de_usuario
    03interfaz_administrativa
-   04buenas_prácticas
+   04buenas_practicas
    05permisos
    06glosario
    07FAQ
